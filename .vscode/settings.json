@@ -1,0 +1,6 @@
+{
+    "Lua.workspace.library": [
+        "dependency\\DCS-Scripting-Library-Updated"
+    ],
+    "Lua.codeLens.enable": true
+}
