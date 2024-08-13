@@ -4,14 +4,14 @@ local base = _G
 
 BASE_SCRIPT_PATH = 'C:/Users/deissh/Saved Games/DCS.openbeta/Scripts/dynamic-mission/'
 
-local _cache = {}
+G_cache = {}
 
 --- Load file from BASE_SCRIPT_PATH\
 --- Example: require( 'src/somefile.lua' )
 --- @param file string
 function require( file )
-	if not _cache[file] == nil then
-		return _cache[file]
+	if not G_cache[file] == nil then
+		return G_cache[file]
 	end
 
 	local path = BASE_SCRIPT_PATH .. file
@@ -23,7 +23,7 @@ function require( file )
 		env.info( "Script: " .. path .. " dynamically loaded." )
 		local value = f()
 
-		_cache[file] = value
+		G_cache[file] = value
 
 		return value
 	end
@@ -31,5 +31,3 @@ end
 
 
 require( 'src/main.lua' )
-
-MESSAGE:New( "DYNAMIC SCRIPT LOADED", 5, "DEBUG" ):ToAll()
