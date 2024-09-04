@@ -22,7 +22,7 @@
     "vscord.status.showElapsedTime": false,
     "vscord.status.details.idle.enabled": false,
     "vscord.status.details.text.notInFile": "In workspace",
-    "vscord.behaviour.prioritizeLanguagesOverExtensions": false,
+    "vscord.behaviour.prioritizeLanguagesOverExtensions": true,
     "Lua.diagnostics.globals": [
         "CTLD"
     ]
