@@ -1,0 +1,14 @@
+name = "Tarinkot"
+priority = 50
+airspace = false
+links = {
+	ground = {},
+	air    = {},
+    sea    = {},
+}
+limits = {
+    ["shorad"] = {
+        ["min"] = 1,
+        ["max"] = 2,
+    },
+}

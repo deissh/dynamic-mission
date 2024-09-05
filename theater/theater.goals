@@ -1,7 +1,11 @@
+time = 0 
+
 blue = {
 	flag = 45,
 	tickets = 100,
-	difficulty = "normal",
+	player_cost = 1,
+	modifier_reward = 1,
+	modifier_loss = 1,
 }
 
 neutral = {
@@ -12,7 +16,5 @@ neutral = {
 red = {
 	flag = 60,
 	tickets = 100,
-	player_cost = 1,
-	modifier_reward = 1,
-	modifier_loss = 1,
+	difficulty = "normal",
 }

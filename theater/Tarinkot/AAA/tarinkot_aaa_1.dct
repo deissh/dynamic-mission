@@ -1,0 +1,12 @@
+objtype = "shorad"
+coalition = "RED"
+intel = 4
+cost = 3
+spawnalways = true
+desc = [[test mission
+
+Primary objective: Destroy at least half the AAA.
+
+Threats: Low altitude AAA.
+
+Recommended pilots: 2]]

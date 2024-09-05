@@ -1,0 +1,133 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 18,
+					["static"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["heading"] = 0,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -44889.818355463,
+											["speed"] = 0,
+											["x"] = -153420.6770612,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 2,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Fortifications",
+										["shape_name"] = "H-tyre_B",
+										["type"] = "Black_Tyre",
+										["unitId"] = 2,
+										["rate"] = 3,
+										["y"] = -44889.818355463,
+										["x"] = -153420.6770612,
+										["name"] = "Primary Destroyed Bridge 2-1",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -44889.818355463,
+								["x"] = -153420.6770612,
+								["name"] = "Primary Destroyed Bridge 2",
+								["dead"] = false,
+							}, -- end of [1]
+							[2] = 
+							{
+								["hiddenOnMFD"] = true,
+								["heading"] = 0,
+								["hiddenOnPlanner"] = true,
+								["groupId"] = 1,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Fortifications",
+										["shape_name"] = "H-tyre_B",
+										["type"] = "Black_Tyre",
+										["unitId"] = 1,
+										["rate"] = 3,
+										["y"] = -44662.063151543,
+										["x"] = -153063.63585743,
+										["name"] = "Primary Destroyed Bridge 1-1",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -44662.063151543,
+								["x"] = -153063.63585743,
+								["name"] = "Primary Destroyed Bridge 1",
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -44662.063151543,
+											["speed"] = 0,
+											["x"] = -153063.63585743,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["dead"] = false,
+							}, -- end of [2]
+						}, -- end of ["group"]
+					}, -- end of ["static"]
+					["name"] = "Abkhazia",
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "TEST NAME",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Afghanistan",
+	["desc"] = "Test Mission Description",
+} -- end of staticTemplate

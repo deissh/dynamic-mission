@@ -1,12 +1,11 @@
 objtype = "airbase"
-name = "Krymsk"
-coalition = 1
+name = "Camp Bastion"
+coalition = 2
 subordinates = {
-	"KrymskAirbaseDefense",
-	"30TAB",
-	"42TAB",
+	"58th",
+	"1-17 CAV",
 }
-desc = "Krymsk"
+desc = "Camp Bastion Air Base"
 recoverytype = "land"
 takeofftype = "runway"
 cost = 20

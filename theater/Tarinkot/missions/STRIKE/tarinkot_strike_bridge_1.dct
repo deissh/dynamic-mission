@@ -1,0 +1,4 @@
+objtype = "FACILITY"
+intel = 4
+cost = 10
+spawnalways = true

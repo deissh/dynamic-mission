@@ -1,0 +1,7 @@
+name = "Camp Bastion"
+priority = 10
+links = {
+	ground = { "Tarinkot" },
+	air    = { "Tarinkot" },
+    sea    = {},
+}
