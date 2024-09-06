@@ -1,9 +1,8 @@
 name = "Kandahar"
-priority = 10
+priority = 50
 airspace = true
 links = {
 	ground = { "Tarinkot" },
 	air    = { "Tarinkot" },
     sea    = {},
 }
-limits = {}

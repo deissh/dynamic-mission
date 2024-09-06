@@ -1,7 +1,7 @@
 objtype = "FACILITY"
 intel = 4
 cost = 10
-spawnalways = true
+ondemand = true
 
 desc = [[%LOCATIONMETHOD%
 Destroy the Bridge #1 and Bridge #2.

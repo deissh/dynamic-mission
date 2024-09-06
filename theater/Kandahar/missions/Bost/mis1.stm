@@ -2,1056 +2,22 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
-		["blue"] = 
-		{
-			["name"] = "blue",
-			["country"] = 
-			{
-				[21] = 
-				{
-					["id"] = 2,
-					["vehicle"] = 
-					{
-						["group"] = 
-						{
-							[1] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = false,
-								["taskSelected"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -29399.780953537,
-												["x"] = -269748.86432857,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -170296.1001086,
-												["x"] = -267013.76182567,
-											}, -- end of [2]
-										}, -- end of [1]
-										[2] = 
-										{
-											[1] = 
-											{
-												["y"] = -170296.1001086,
-												["x"] = -267013.76182567,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -170147.05856751,
-												["x"] = -267037.72541377,
-											}, -- end of [2]
-										}, -- end of [2]
-										[3] = 
-										{
-											[1] = 
-											{
-												["y"] = -170147.05856751,
-												["x"] = -267037.72541377,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -170147.05856751,
-												["x"] = -267037.72541377,
-											}, -- end of [2]
-										}, -- end of [3]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1016,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -29399.780953537,
-											["x"] = -269748.86432857,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "EmbarkToTransport",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["y"] = -29399.780953537,
-																["x"] = -269748.86432857,
-																["zoneRadius"] = 200,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-										[2] = 
-										{
-											["alt"] = 776,
-											["type"] = "Turning Point",
-											["ETA"] = 36237.307830229,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -170296.1001086,
-											["x"] = -267013.76182567,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [2]
-										[3] = 
-										{
-											["alt"] = 776,
-											["type"] = "Turning Point",
-											["ETA"] = 36276.125019736,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -170147.05856751,
-											["x"] = -267037.72541377,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Cone",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [3]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 3,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 8,
-										["y"] = -29399.780953537,
-										["x"] = -269748.86432857,
-										["name"] = "Bravo-1",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 9,
-										["y"] = -29401.415595649,
-										["x"] = -269752.13361279,
-										["name"] = "Bravo-2",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 14,
-										["y"] = -29404.451359571,
-										["x"] = -269750.84925113,
-										["name"] = "Bravo-3",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 10,
-										["y"] = -29406.354099336,
-										["x"] = -269753.34174478,
-										["name"] = "Bravo-4",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 13,
-										["y"] = -29405.319860688,
-										["x"] = -269754.99652662,
-										["name"] = "Bravo-5",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
-									[6] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 15,
-										["y"] = -29407.634672945,
-										["x"] = -269757.07851107,
-										["name"] = "Bravo-6",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [6]
-									[7] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 7,
-										["y"] = -29410.965976315,
-										["x"] = -269757.38135683,
-										["name"] = "Bravo-7",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [7]
-									[8] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 11,
-										["y"] = -29413.994433924,
-										["x"] = -269760.10696868,
-										["name"] = "Bravo-8",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [8]
-									[9] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 12,
-										["y"] = -29415.205816967,
-										["x"] = -269763.43827205,
-										["name"] = "Bravo-9",
-										["heading"] = 4.7317987069041,
-										["playerCanDrive"] = false,
-									}, -- end of [9]
-								}, -- end of ["units"]
-								["y"] = -29399.780953537,
-								["x"] = -269748.86432857,
-								["name"] = "Bravo",
-								["start_time"] = 0,
-							}, -- end of [1]
-							[2] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["taskSelected"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -29424.071521564,
-												["x"] = -269713.27022889,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -170440.04308701,
-												["x"] = -268119.41740293,
-											}, -- end of [2]
-										}, -- end of [1]
-										[2] = 
-										{
-											[1] = 
-											{
-												["y"] = -170440.04308701,
-												["x"] = -268119.41740293,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -170355.47141763,
-												["x"] = -268234.27487283,
-											}, -- end of [2]
-										}, -- end of [2]
-										[3] = 
-										{
-											[1] = 
-											{
-												["y"] = -170355.47141763,
-												["x"] = -268234.27487283,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -170355.47141763,
-												["x"] = -268234.27487283,
-											}, -- end of [2]
-										}, -- end of [3]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1016,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -29424.071521564,
-											["x"] = -269713.27022889,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "EmbarkToTransport",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["y"] = -29424.071521564,
-																["x"] = -269713.27022889,
-																["zoneRadius"] = 200,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-										[2] = 
-										{
-											["alt"] = 776,
-											["type"] = "Turning Point",
-											["ETA"] = 36263.565938703,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -170440.04308701,
-											["x"] = -268119.41740293,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [2]
-										[3] = 
-										{
-											["alt"] = 776,
-											["type"] = "Turning Point",
-											["ETA"] = 36356.785817808,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -170355.47141763,
-											["x"] = -268234.27487283,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Cone",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [3]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 4,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 17,
-										["y"] = -29424.071521564,
-										["x"] = -269713.27022889,
-										["name"] = "Alpha-1",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 18,
-										["y"] = -29424.960719394,
-										["x"] = -269719.05001479,
-										["name"] = "Alpha-2",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 23,
-										["y"] = -29427.618458884,
-										["x"] = -269716.95479758,
-										["name"] = "Alpha-3",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 19,
-										["y"] = -29428.528903899,
-										["x"] = -269721.50702265,
-										["name"] = "Alpha-4",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 22,
-										["y"] = -29432.308190317,
-										["x"] = -269720.38371554,
-										["name"] = "Alpha-5",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
-									[6] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 24,
-										["y"] = -29434.74175154,
-										["x"] = -269723.56606483,
-										["name"] = "Alpha-6",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [6]
-									[7] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 16,
-										["y"] = -29438.766487408,
-										["x"] = -269726.74841412,
-										["name"] = "Alpha-7",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [7]
-									[8] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 20,
-										["y"] = -29431.829267079,
-										["x"] = -269725.03499709,
-										["name"] = "Alpha-8",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [8]
-									[9] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 21,
-										["y"] = -29435.615553893,
-										["x"] = -269729.62427469,
-										["name"] = "Alpha-9",
-										["heading"] = 4.7236911395804,
-										["playerCanDrive"] = false,
-									}, -- end of [9]
-								}, -- end of ["units"]
-								["y"] = -29424.071521564,
-								["x"] = -269713.27022889,
-								["name"] = "Alpha",
-								["start_time"] = 0,
-							}, -- end of [2]
-							[3] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["taskSelected"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -29374.528382816,
-												["x"] = -269787.34443633,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -171777.15716153,
-												["x"] = -265468.94282819,
-											}, -- end of [2]
-										}, -- end of [1]
-										[2] = 
-										{
-											[1] = 
-											{
-												["y"] = -171777.15716153,
-												["x"] = -265468.94282819,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -171756.3952832,
-												["x"] = -265480.812816,
-											}, -- end of [2]
-										}, -- end of [2]
-										[3] = 
-										{
-											[1] = 
-											{
-												["y"] = -171756.3952832,
-												["x"] = -265480.812816,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -171756.3952832,
-												["x"] = -265480.812816,
-											}, -- end of [2]
-										}, -- end of [3]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1016,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -29374.528382816,
-											["x"] = -269787.34443633,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "EmbarkToTransport",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["y"] = -29374.528382816,
-																["x"] = -269787.34443633,
-																["zoneRadius"] = 200,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-										[2] = 
-										{
-											["alt"] = 776,
-											["type"] = "Turning Point",
-											["ETA"] = 36634.652262339,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -171777.15716153,
-											["x"] = -265468.94282819,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [2]
-										[3] = 
-										{
-											["alt"] = 777,
-											["type"] = "Turning Point",
-											["ETA"] = 36640.801968049,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -171756.3952832,
-											["x"] = -265480.812816,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Cone",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [3]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 5,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 26,
-										["y"] = -29374.528382816,
-										["x"] = -269787.34443633,
-										["name"] = "Charlee-1",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 27,
-										["y"] = -29380.888143795,
-										["x"] = -269790.07004818,
-										["name"] = "Charlee-2",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 32,
-										["y"] = -29377.253994664,
-										["x"] = -269793.09850579,
-										["name"] = "Charlee-3",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 28,
-										["y"] = -29383.008064121,
-										["x"] = -269796.42980916,
-										["name"] = "Charlee-4",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 31,
-										["y"] = -29388.459287818,
-										["x"] = -269795.21842611,
-										["name"] = "Charlee-5",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
-									[6] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 33,
-										["y"] = -29385.73367597,
-										["x"] = -269800.36680405,
-										["name"] = "Charlee-6",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [6]
-									[7] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 25,
-										["y"] = -29389.670670861,
-										["x"] = -269800.36680405,
-										["name"] = "Charlee-7",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [7]
-									[8] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 29,
-										["y"] = -29394.652062157,
-										["x"] = -269799.98023498,
-										["name"] = "Charlee-8",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [8]
-									[9] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 30,
-										["y"] = -29390.838201839,
-										["x"] = -269800.33742801,
-										["name"] = "Charlee-9",
-										["heading"] = 4.7427049837288,
-										["playerCanDrive"] = false,
-									}, -- end of [9]
-								}, -- end of ["units"]
-								["y"] = -29374.528382816,
-								["x"] = -269787.34443633,
-								["name"] = "Charlee",
-								["start_time"] = 0,
-							}, -- end of [3]
-							[4] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["taskSelected"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -29345.908802666,
-												["x"] = -269831.35605959,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -172208.23362363,
-												["x"] = -265493.44233982,
-											}, -- end of [2]
-										}, -- end of [1]
-										[2] = 
-										{
-											[1] = 
-											{
-												["y"] = -172208.23362363,
-												["x"] = -265493.44233982,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -172193.11379626,
-												["x"] = -265525.65149155,
-											}, -- end of [2]
-										}, -- end of [2]
-										[3] = 
-										{
-											[1] = 
-											{
-												["y"] = -172193.11379626,
-												["x"] = -265525.65149155,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -172193.11379626,
-												["x"] = -265525.65149155,
-											}, -- end of [2]
-										}, -- end of [3]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1016,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -29345.908802666,
-											["x"] = -269831.35605959,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "EmbarkToTransport",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["y"] = -29345.908802666,
-																["x"] = -269831.35605959,
-																["zoneRadius"] = 200,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-										[2] = 
-										{
-											["alt"] = 772,
-											["type"] = "Turning Point",
-											["ETA"] = 36730.273461789,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -172208.23362363,
-											["x"] = -265493.44233982,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [2]
-										[3] = 
-										{
-											["alt"] = 771,
-											["type"] = "Turning Point",
-											["ETA"] = 36762.107124705,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -172193.11379626,
-											["x"] = -265525.65149155,
-											["ETA_locked"] = false,
-											["speed"] = 3.8888888888889,
-											["action"] = "Cone",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [3]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 6,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 35,
-										["y"] = -29345.908802666,
-										["x"] = -269831.35605959,
-										["name"] = "Delta-1",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 36,
-										["y"] = -29350.214334059,
-										["x"] = -269833.6960223,
-										["name"] = "Delta-2",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 41,
-										["y"] = -29350.214334059,
-										["x"] = -269840.15431939,
-										["name"] = "Delta-3",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 37,
-										["y"] = -29356.111040099,
-										["x"] = -269837.06556861,
-										["name"] = "Delta-4",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 40,
-										["y"] = -29355.175055013,
-										["x"] = -269841.46469851,
-										["name"] = "Delta-5",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
-									[6] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 42,
-										["y"] = -29358.731798338,
-										["x"] = -269840.34151641,
-										["name"] = "Delta-6",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [6]
-									[7] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 34,
-										["y"] = -29360.135775967,
-										["x"] = -269845.86382841,
-										["name"] = "Delta-7",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [7]
-									[8] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 38,
-										["y"] = -29363.692519292,
-										["x"] = -269844.36625228,
-										["name"] = "Delta-8",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [8]
-									[9] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 39,
-										["y"] = -29364.909299903,
-										["x"] = -269847.64220008,
-										["name"] = "Delta-9",
-										["heading"] = 4.7427439482927,
-										["playerCanDrive"] = false,
-									}, -- end of [9]
-								}, -- end of ["units"]
-								["y"] = -29345.908802666,
-								["x"] = -269831.35605959,
-								["name"] = "Delta",
-								["start_time"] = 0,
-							}, -- end of [4]
-						}, -- end of ["group"]
-					}, -- end of ["vehicle"]
-					["name"] = "USA",
-				}, -- end of [21]
-			}, -- end of ["country"]
-		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			["name"] = "neutrals",
 			["country"] = {},
 		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
 		["red"] = 
 		{
 			["name"] = "red",
 			["country"] = 
 			{
-				[5] = 
+				[1] = 
 				{
 					["id"] = 0,
 					["vehicle"] = 
@@ -1059,212 +25,6 @@ staticTemplate =
 						["group"] = 
 						{
 							[1] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
-								["taskSelected"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -73223.825135452,
-												["x"] = -279918.17682322,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -68060.082349486,
-												["x"] = -292093.22821714,
-											}, -- end of [2]
-										}, -- end of [1]
-										[2] = 
-										{
-											[1] = 
-											{
-												["y"] = -68060.082349486,
-												["x"] = -292093.22821714,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -82109.346688555,
-												["x"] = -291293.67658809,
-											}, -- end of [2]
-										}, -- end of [2]
-										[3] = 
-										{
-											[1] = 
-											{
-												["y"] = -82109.346688555,
-												["x"] = -291293.67658809,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -73301.761319704,
-												["x"] = -280032.26438858,
-											}, -- end of [2]
-										}, -- end of [3]
-										[4] = 
-										{
-											[1] = 
-											{
-												["y"] = -73301.761319704,
-												["x"] = -280032.26438858,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -73301.761319704,
-												["x"] = -280032.26438858,
-											}, -- end of [2]
-										}, -- end of [4]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 916,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -73223.825135452,
-											["x"] = -279918.17682322,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-										[2] = 
-										{
-											["alt"] = 1081,
-											["type"] = "Turning Point",
-											["ETA"] = 952.18772590588,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -68060.082349486,
-											["x"] = -292093.22821714,
-											["ETA_locked"] = false,
-											["speed"] = 13.888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [2]
-										[3] = 
-										{
-											["alt"] = 1084,
-											["type"] = "Turning Point",
-											["ETA"] = 1965.3715398595,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -82109.346688555,
-											["x"] = -291293.67658809,
-											["ETA_locked"] = false,
-											["speed"] = 13.888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [3]
-										[4] = 
-										{
-											["alt"] = 922,
-											["type"] = "Turning Point",
-											["ETA"] = 2994.7272263446,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -73301.761319704,
-											["x"] = -280032.26438858,
-											["ETA_locked"] = false,
-											["speed"] = 13.888888888889,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["enabled"] = true,
-															["auto"] = false,
-															["id"] = "GoToWaypoint",
-															["number"] = 1,
-															["params"] = 
-															{
-																["nWaypointIndx"] = 2,
-																["fromWaypointIndex"] = 3,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [4]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 7,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "HL_DSHK",
-										["unitId"] = 43,
-										["y"] = -73223.825135452,
-										["x"] = -279918.17682322,
-										["name"] = "Threat-1",
-										["heading"] = 2.7404634341153,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "HL_DSHK",
-										["unitId"] = 44,
-										["y"] = -73217.644795564,
-										["x"] = -279899.15569289,
-										["name"] = "Threat-2",
-										["heading"] = 2.7404634341153,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-								}, -- end of ["units"]
-								["y"] = -73223.825135452,
-								["x"] = -279918.17682322,
-								["name"] = "Threat",
-								["start_time"] = 0,
-							}, -- end of [1]
-							[2] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -1811,7 +571,7 @@ staticTemplate =
 										}, -- end of [2]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 8,
+								["groupId"] = 6,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1820,11 +580,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "BTR-80",
-										["unitId"] = 45,
+										["unitId"] = 39,
 										["y"] = -169319.96970323,
 										["x"] = -262890.09815738,
 										["name"] = "SECONDARY DESTROYED Hostile North 1-1",
-										["heading"] = -2.3845364685283,
+										["heading"] = 4.6328571632755,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -1832,11 +592,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "BTR-80",
-										["unitId"] = 46,
+										["unitId"] = 40,
 										["y"] = -169290.0876911,
 										["x"] = -262887.45308085,
 										["name"] = "SECONDARY DESTROYED Hostile North 1-2",
-										["heading"] = -2.3845364685283,
+										["heading"] = 4.6241017367469,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -1844,11 +604,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "BTR-80",
-										["unitId"] = 47,
+										["unitId"] = 41,
 										["y"] = -169260.2048288,
 										["x"] = -262884.80459006,
 										["name"] = "SECONDARY DESTROYED Hostile North 1-3",
-										["heading"] = -2.3845364685283,
+										["heading"] = 4.6239908700618,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 								}, -- end of ["units"]
@@ -1856,8 +616,8 @@ staticTemplate =
 								["x"] = -262890.09815738,
 								["name"] = "SECONDARY DESTROYED Hostile North 1",
 								["start_time"] = 0,
-							}, -- end of [2]
-							[3] = 
+							}, -- end of [1]
+							[2] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -2539,7 +1299,7 @@ staticTemplate =
 										}, -- end of [3]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 9,
+								["groupId"] = 7,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2548,11 +1308,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "tt_DSHK",
-										["unitId"] = 48,
+										["unitId"] = 42,
 										["y"] = -169332.49198117,
 										["x"] = -262800.86980573,
 										["name"] = "PRIMARY INCAPACITATED Hostile North 2-1",
-										["heading"] = -2.7771334199187,
+										["heading"] = 4.6304874032304,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -2560,11 +1320,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "tt_DSHK",
-										["unitId"] = 49,
+										["unitId"] = 43,
 										["y"] = -169302.61464851,
 										["x"] = -262798.17082486,
 										["name"] = "PRIMARY INCAPACITATED Hostile North 2-2",
-										["heading"] = -2.7771334199187,
+										["heading"] = 4.6222981086487,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -2572,11 +1332,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "tt_DSHK",
-										["unitId"] = 50,
+										["unitId"] = 44,
 										["y"] = -169272.73632023,
 										["x"] = -262795.47165914,
 										["name"] = "PRIMARY INCAPACITATED Hostile North 2-3",
-										["heading"] = -2.7771334199187,
+										["heading"] = 4.6222949578048,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 								}, -- end of ["units"]
@@ -2584,8 +1344,8 @@ staticTemplate =
 								["x"] = -262800.86980573,
 								["name"] = "PRIMARY INCAPACITATED Hostile North 2",
 								["start_time"] = 0,
-							}, -- end of [3]
-							[4] = 
+							}, -- end of [2]
+							[3] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -2623,7 +1383,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 10,
+								["groupId"] = 8,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2632,7 +1392,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "BMP-1",
-										["unitId"] = 51,
+										["unitId"] = 45,
 										["y"] = -172213.25274989,
 										["x"] = -265483.29063772,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-5-1",
@@ -2644,8 +1404,8 @@ staticTemplate =
 								["x"] = -265483.29063772,
 								["name"] = "PRIMARY INCAPACITATED Hostile East-5",
 								["start_time"] = 0,
-							}, -- end of [4]
-							[5] = 
+							}, -- end of [3]
+							[4] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -2683,7 +1443,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 11,
+								["groupId"] = 9,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2692,7 +1452,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "BTR-80",
-										["unitId"] = 52,
+										["unitId"] = 46,
 										["y"] = -171795.2736361,
 										["x"] = -265469.77572581,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-6-1",
@@ -2704,8 +1464,8 @@ staticTemplate =
 								["x"] = -265469.77572581,
 								["name"] = "PRIMARY INCAPACITATED Hostile East-6",
 								["start_time"] = 0,
-							}, -- end of [5]
-							[6] = 
+							}, -- end of [4]
+							[5] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -2743,7 +1503,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 12,
+								["groupId"] = 10,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2752,7 +1512,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "tt_KORD",
-										["unitId"] = 53,
+										["unitId"] = 47,
 										["y"] = -170902.05892372,
 										["x"] = -265372.70912408,
 										["name"] = "Hostile East-9-1",
@@ -2764,8 +1524,8 @@ staticTemplate =
 								["x"] = -265372.70912408,
 								["name"] = "Hostile East-9",
 								["start_time"] = 0,
-							}, -- end of [6]
-							[7] = 
+							}, -- end of [5]
+							[6] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -2803,7 +1563,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 13,
+								["groupId"] = 11,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2812,7 +1572,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "generator_5i57",
-										["unitId"] = 54,
+										["unitId"] = 48,
 										["y"] = -171748.95614606,
 										["x"] = -265908.28245519,
 										["name"] = "SECONDARY DESTROYED Airfield Defense-2-1",
@@ -2824,7 +1584,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "generator_5i57",
-										["unitId"] = 55,
+										["unitId"] = 49,
 										["y"] = -169310.99224077,
 										["x"] = -262841.88692718,
 										["name"] = "SECONDARY DESTROYED Airfield Defense-2-2",
@@ -2836,7 +1596,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "generator_5i57",
-										["unitId"] = 57,
+										["unitId"] = 51,
 										["y"] = -172424.60958709,
 										["x"] = -262629.05062317,
 										["name"] = "SECONDARY DESTROYED Airfield Defense-2-3",
@@ -2848,7 +1608,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "generator_5i57",
-										["unitId"] = 56,
+										["unitId"] = 50,
 										["y"] = -173186.91545946,
 										["x"] = -266375.07568002,
 										["name"] = "SECONDARY DESTROYED Airfield Defense-2-4",
@@ -2860,8 +1620,8 @@ staticTemplate =
 								["x"] = -265908.28245519,
 								["name"] = "SECONDARY DESTROYED Airfield Defense-2",
 								["start_time"] = 0,
-							}, -- end of [7]
-							[8] = 
+							}, -- end of [6]
+							[7] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -2914,7 +1674,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 14,
+								["groupId"] = 12,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2923,7 +1683,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 60,
+										["unitId"] = 54,
 										["y"] = -169328.53642152,
 										["x"] = -262836.62367296,
 										["name"] = "SECONDARY DESTROYED Hostile East-10-1",
@@ -2935,7 +1695,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 58,
+										["unitId"] = 52,
 										["y"] = -169344.8561805,
 										["x"] = -262848.18505119,
 										["name"] = "SECONDARY DESTROYED Hostile East-10-2",
@@ -2947,7 +1707,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 59,
+										["unitId"] = 53,
 										["y"] = -169337.35417753,
 										["x"] = -262851.97310009,
 										["name"] = "SECONDARY DESTROYED Hostile East-10-3",
@@ -2959,7 +1719,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 61,
+										["unitId"] = 55,
 										["y"] = -169344.50927958,
 										["x"] = -262838.81872628,
 										["name"] = "SECONDARY DESTROYED Hostile East-10-4",
@@ -2971,7 +1731,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 62,
+										["unitId"] = 56,
 										["y"] = -169330.60478404,
 										["x"] = -262850.12245994,
 										["name"] = "SECONDARY DESTROYED Hostile East-10-5",
@@ -2983,8 +1743,8 @@ staticTemplate =
 								["x"] = -262836.62367296,
 								["name"] = "SECONDARY DESTROYED Hostile East-10",
 								["start_time"] = 0,
-							}, -- end of [8]
-							[9] = 
+							}, -- end of [7]
+							[8] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -3037,7 +1797,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 15,
+								["groupId"] = 13,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3046,7 +1806,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 65,
+										["unitId"] = 59,
 										["y"] = -169283.79876059,
 										["x"] = -262840.13250911,
 										["name"] = "SECONDARY DESTROYED Hostile East-11-1",
@@ -3058,7 +1818,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 63,
+										["unitId"] = 57,
 										["y"] = -169294.6151971,
 										["x"] = -262851.56119674,
 										["name"] = "SECONDARY DESTROYED Hostile East-11-2",
@@ -3070,7 +1830,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 64,
+										["unitId"] = 58,
 										["y"] = -169292.6165166,
 										["x"] = -262855.48193624,
 										["name"] = "SECONDARY DESTROYED Hostile East-11-3",
@@ -3082,7 +1842,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 66,
+										["unitId"] = 60,
 										["y"] = -169296.45195047,
 										["x"] = -262843.19376472,
 										["name"] = "SECONDARY DESTROYED Hostile East-11-4",
@@ -3094,7 +1854,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 67,
+										["unitId"] = 61,
 										["y"] = -169284.20692801,
 										["x"] = -262849.52035966,
 										["name"] = "SECONDARY DESTROYED Hostile East-11-5",
@@ -3106,8 +1866,8 @@ staticTemplate =
 								["x"] = -262840.13250911,
 								["name"] = "SECONDARY DESTROYED Hostile East-11",
 								["start_time"] = 0,
-							}, -- end of [9]
-							[10] = 
+							}, -- end of [8]
+							[9] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -3160,7 +1920,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 16,
+								["groupId"] = 14,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3169,7 +1929,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 70,
+										["unitId"] = 64,
 										["y"] = -173179.56226998,
 										["x"] = -266368.61004457,
 										["name"] = "SECONDARY DESTROYED Hostile East-12-1",
@@ -3181,7 +1941,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 68,
+										["unitId"] = 62,
 										["y"] = -173195.88202896,
 										["x"] = -266380.1714228,
 										["name"] = "SECONDARY DESTROYED Hostile East-12-2",
@@ -3193,7 +1953,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 69,
+										["unitId"] = 63,
 										["y"] = -173188.38002599,
 										["x"] = -266383.9594717,
 										["name"] = "SECONDARY DESTROYED Hostile East-12-3",
@@ -3205,7 +1965,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 71,
+										["unitId"] = 65,
 										["y"] = -173195.53512804,
 										["x"] = -266370.80509789,
 										["name"] = "SECONDARY DESTROYED Hostile East-12-4",
@@ -3217,7 +1977,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 72,
+										["unitId"] = 66,
 										["y"] = -173181.6306325,
 										["x"] = -266382.10883155,
 										["name"] = "SECONDARY DESTROYED Hostile East-12-5",
@@ -3229,8 +1989,8 @@ staticTemplate =
 								["x"] = -266368.61004457,
 								["name"] = "SECONDARY DESTROYED Hostile East-12",
 								["start_time"] = 0,
-							}, -- end of [10]
-							[11] = 
+							}, -- end of [9]
+							[10] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -3426,7 +2186,7 @@ staticTemplate =
 										}, -- end of [2]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 17,
+								["groupId"] = 15,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3435,11 +2195,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 74,
+										["unitId"] = 68,
 										["y"] = -173367.10810673,
 										["x"] = -265528.22976301,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-1",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.3580971032007,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -3447,11 +2207,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 75,
+										["unitId"] = 69,
 										["y"] = -173341.41743747,
 										["x"] = -265511.11841533,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-2",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1248113339637,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -3459,11 +2219,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 81,
+										["unitId"] = 75,
 										["y"] = -173316.59408841,
 										["x"] = -265494.27399696,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-3",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1161897580903,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -3471,11 +2231,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 76,
+										["unitId"] = 70,
 										["y"] = -173291.76982001,
 										["x"] = -265477.42894729,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-4",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1161895522677,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -3483,11 +2243,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 79,
+										["unitId"] = 73,
 										["y"] = -173266.94676715,
 										["x"] = -265460.58211075,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-5",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.116117514961,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 									[6] = 
@@ -3495,11 +2255,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 82,
+										["unitId"] = 76,
 										["y"] = -173242.20473552,
 										["x"] = -265443.61754973,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-6",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1113538109352,
 										["playerCanDrive"] = false,
 									}, -- end of [6]
 									[7] = 
@@ -3507,11 +2267,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 73,
+										["unitId"] = 67,
 										["y"] = -173217.49855842,
 										["x"] = -265426.59991347,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-7",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1092188217963,
 										["playerCanDrive"] = false,
 									}, -- end of [7]
 									[8] = 
@@ -3519,11 +2279,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 77,
+										["unitId"] = 71,
 										["y"] = -173192.79610637,
 										["x"] = -265409.57672879,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-8",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1089960747503,
 										["playerCanDrive"] = false,
 									}, -- end of [8]
 									[9] = 
@@ -3531,11 +2291,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 78,
+										["unitId"] = 72,
 										["y"] = -173168.09370297,
 										["x"] = -265392.55347216,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-9",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1089931797277,
 										["playerCanDrive"] = false,
 									}, -- end of [9]
 									[10] = 
@@ -3543,11 +2303,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 80,
+										["unitId"] = 74,
 										["y"] = -173143.39129649,
 										["x"] = -265375.53021999,
 										["name"] = "PRIMARY INCAPACITATED Hostile West 2-10",
-										["heading"] = 1.5296957198029,
+										["heading"] = 4.1089933603994,
 										["playerCanDrive"] = false,
 									}, -- end of [10]
 								}, -- end of ["units"]
@@ -3555,8 +2315,8 @@ staticTemplate =
 								["x"] = -265528.22976301,
 								["name"] = "PRIMARY INCAPACITATED Hostile West 2",
 								["start_time"] = 0,
-							}, -- end of [11]
-							[12] = 
+							}, -- end of [10]
+							[11] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -4442,7 +3202,7 @@ staticTemplate =
 										}, -- end of [3]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 18,
+								["groupId"] = 16,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4451,11 +3211,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 84,
+										["unitId"] = 78,
 										["y"] = -168612.48597757,
 										["x"] = -269085.68023954,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-1",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.6665118961451,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -4463,11 +3223,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 85,
+										["unitId"] = 79,
 										["y"] = -168631.04695917,
 										["x"] = -269109.24576742,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-2",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.66715431399774,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -4475,11 +3235,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 91,
+										["unitId"] = 85,
 										["y"] = -168652.46161165,
 										["x"] = -269123.67621487,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-3",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.97783121500383,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -4487,11 +3247,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 86,
+										["unitId"] = 80,
 										["y"] = -168678.86607011,
 										["x"] = -269127.5667775,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-4",
-										["heading"] = -0.54676498437134,
+										["heading"] = 1.4245040474091,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -4499,11 +3259,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 89,
+										["unitId"] = 83,
 										["y"] = -168701.03970513,
 										["x"] = -269139.56039193,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-5",
-										["heading"] = -0.54676498437134,
+										["heading"] = 1.0749701702517,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 									[6] = 
@@ -4511,11 +3271,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 92,
+										["unitId"] = 86,
 										["y"] = -168719.52414274,
 										["x"] = -269160.80922895,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-6",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.71593618323327,
 										["playerCanDrive"] = false,
 									}, -- end of [6]
 									[7] = 
@@ -4523,11 +3283,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 83,
+										["unitId"] = 77,
 										["y"] = -168741.12622219,
 										["x"] = -269180.97636146,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-7",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.81973883585522,
 										["playerCanDrive"] = false,
 									}, -- end of [7]
 									[8] = 
@@ -4535,11 +3295,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 87,
+										["unitId"] = 81,
 										["y"] = -168765.66883962,
 										["x"] = -269196.67497657,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-8",
-										["heading"] = -0.54676498437134,
+										["heading"] = 1.0017335003174,
 										["playerCanDrive"] = false,
 									}, -- end of [8]
 									[9] = 
@@ -4547,11 +3307,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 88,
+										["unitId"] = 82,
 										["y"] = -168790.04144499,
 										["x"] = -269213.58585253,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-9",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.96421137419522,
 										["playerCanDrive"] = false,
 									}, -- end of [9]
 									[10] = 
@@ -4559,11 +3319,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 90,
+										["unitId"] = 84,
 										["y"] = -168803.69246656,
 										["x"] = -269236.19069676,
 										["name"] = "PRIMARY INCAPACITATED Hostile South 2-10",
-										["heading"] = -0.54676498437134,
+										["heading"] = 0.54328079215016,
 										["playerCanDrive"] = false,
 									}, -- end of [10]
 								}, -- end of ["units"]
@@ -4571,8 +3331,8 @@ staticTemplate =
 								["x"] = -269085.68023954,
 								["name"] = "PRIMARY INCAPACITATED Hostile South 2",
 								["start_time"] = 0,
-							}, -- end of [12]
-							[13] = 
+							}, -- end of [11]
+							[12] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -4938,7 +3698,7 @@ staticTemplate =
 										}, -- end of [3]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 19,
+								["groupId"] = 17,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4947,11 +3707,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 94,
+										["unitId"] = 88,
 										["y"] = -170852.24680672,
 										["x"] = -269891.2163782,
 										["name"] = "PRIMARY INCAPACITATED g1-1",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.4526272830237,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -4959,11 +3719,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 95,
+										["unitId"] = 89,
 										["y"] = -170881.10868044,
 										["x"] = -269897.99671842,
 										["name"] = "PRIMARY INCAPACITATED g1-2",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.3400566069388,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -4971,11 +3731,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 101,
+										["unitId"] = 95,
 										["y"] = -170909.54956842,
 										["x"] = -269907.08107431,
 										["name"] = "PRIMARY INCAPACITATED g1-3",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.2616270151816,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -4983,11 +3743,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 96,
+										["unitId"] = 90,
 										["y"] = -170937.63077532,
 										["x"] = -269917.4458087,
 										["name"] = "PRIMARY INCAPACITATED g1-4",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.2172094905105,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -4995,11 +3755,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 99,
+										["unitId"] = 93,
 										["y"] = -170965.74048897,
 										["x"] = -269927.96305491,
 										["name"] = "PRIMARY INCAPACITATED g1-5",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.2127711685399,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 									[6] = 
@@ -5007,11 +3767,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 102,
+										["unitId"] = 96,
 										["y"] = -170994.63947942,
 										["x"] = -269933.69888076,
 										["name"] = "PRIMARY INCAPACITATED g1-6",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.3748642556247,
 										["playerCanDrive"] = false,
 									}, -- end of [6]
 									[7] = 
@@ -5019,11 +3779,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 93,
+										["unitId"] = 87,
 										["y"] = -171024.23606721,
 										["x"] = -269938.62571128,
 										["name"] = "PRIMARY INCAPACITATED g1-7",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.4058427366649,
 										["playerCanDrive"] = false,
 									}, -- end of [7]
 									[8] = 
@@ -5031,11 +3791,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 97,
+										["unitId"] = 91,
 										["y"] = -171050.63445683,
 										["x"] = -269948.14605043,
 										["name"] = "PRIMARY INCAPACITATED g1-8",
-										["heading"] = 0.011804626169186,
+										["heading"] = 1.2246734878294,
 										["playerCanDrive"] = false,
 									}, -- end of [8]
 									[9] = 
@@ -5043,11 +3803,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 98,
+										["unitId"] = 92,
 										["y"] = -171062.58604836,
 										["x"] = -269940.91797769,
 										["name"] = "PRIMARY INCAPACITATED g1-9",
-										["heading"] = 0.011804626169186,
+										["heading"] = 2.1147224615147,
 										["playerCanDrive"] = false,
 									}, -- end of [9]
 									[10] = 
@@ -5055,11 +3815,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 100,
+										["unitId"] = 94,
 										["y"] = -171076.30139034,
 										["x"] = -269918.18167141,
 										["name"] = "PRIMARY INCAPACITATED g1-10",
-										["heading"] = 0.011804626169186,
+										["heading"] = 2.5987976694299,
 										["playerCanDrive"] = false,
 									}, -- end of [10]
 								}, -- end of ["units"]
@@ -5067,8 +3827,8 @@ staticTemplate =
 								["x"] = -269891.2163782,
 								["name"] = "PRIMARY INCAPACITATED g1",
 								["start_time"] = 0,
-							}, -- end of [13]
-							[14] = 
+							}, -- end of [12]
+							[13] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -5180,7 +3940,7 @@ staticTemplate =
 										}, -- end of [2]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 20,
+								["groupId"] = 18,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5189,11 +3949,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 105,
+										["unitId"] = 99,
 										["y"] = -170880.95592956,
 										["x"] = -265356.59599772,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-8-1",
-										["heading"] = -1.701660412812,
+										["heading"] = 4.5815248943676,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -5201,11 +3961,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 103,
+										["unitId"] = 97,
 										["y"] = -170891.86538094,
 										["x"] = -265366.89936847,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-8-2",
-										["heading"] = -1.701660412812,
+										["heading"] = 4.5815248943676,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -5213,11 +3973,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 104,
+										["unitId"] = 98,
 										["y"] = -170889.64308529,
 										["x"] = -265362.05072342,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-8-3",
-										["heading"] = -1.701660412812,
+										["heading"] = 4.5815248943676,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -5225,11 +3985,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 106,
+										["unitId"] = 100,
 										["y"] = -170896.92878762,
 										["x"] = -265358.79105104,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-8-4",
-										["heading"] = -1.701660412812,
+										["heading"] = 4.5815248943676,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -5237,11 +3997,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 107,
+										["unitId"] = 101,
 										["y"] = -170881.56201019,
 										["x"] = -265362.05072342,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-8-5",
-										["heading"] = -1.701660412812,
+										["heading"] = 4.5815248943676,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 								}, -- end of ["units"]
@@ -5249,8 +4009,8 @@ staticTemplate =
 								["x"] = -265356.59599772,
 								["name"] = "PRIMARY INCAPACITATED Hostile East-8",
 								["start_time"] = 0,
-							}, -- end of [14]
-							[15] = 
+							}, -- end of [13]
+							[14] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -5362,7 +4122,7 @@ staticTemplate =
 										}, -- end of [2]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 21,
+								["groupId"] = 19,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5371,11 +4131,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 110,
+										["unitId"] = 104,
 										["y"] = -170919.59918648,
 										["x"] = -265375.20014632,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-7-1",
-										["heading"] = -1.6960555440952,
+										["heading"] = 4.5871297630844,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -5383,11 +4143,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 108,
+										["unitId"] = 102,
 										["y"] = -170930.50863786,
 										["x"] = -265385.50351707,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-7-2",
-										["heading"] = -1.6960555440952,
+										["heading"] = 4.5871297630844,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -5395,11 +4155,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 109,
+										["unitId"] = 103,
 										["y"] = -170928.28634221,
 										["x"] = -265380.65487202,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-7-3",
-										["heading"] = -1.6960555440952,
+										["heading"] = 4.5871297630844,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -5407,11 +4167,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 111,
+										["unitId"] = 105,
 										["y"] = -170935.57204454,
 										["x"] = -265377.39519964,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-7-4",
-										["heading"] = -1.6960555440952,
+										["heading"] = 4.5871297630844,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -5419,11 +4179,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 112,
+										["unitId"] = 106,
 										["y"] = -170920.20526711,
 										["x"] = -265380.65487202,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-7-5",
-										["heading"] = -1.6960555440952,
+										["heading"] = 4.5871297630844,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 								}, -- end of ["units"]
@@ -5431,8 +4191,8 @@ staticTemplate =
 								["x"] = -265375.20014632,
 								["name"] = "PRIMARY INCAPACITATED Hostile East-7",
 								["start_time"] = 0,
-							}, -- end of [15]
-							[16] = 
+							}, -- end of [14]
+							[15] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -5485,7 +4245,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 22,
+								["groupId"] = 20,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5494,7 +4254,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 115,
+										["unitId"] = 109,
 										["y"] = -172191.44537768,
 										["x"] = -265501.381221,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-4-1",
@@ -5506,7 +4266,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 113,
+										["unitId"] = 107,
 										["y"] = -172202.35482906,
 										["x"] = -265511.68459175,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-4-2",
@@ -5518,7 +4278,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 114,
+										["unitId"] = 108,
 										["y"] = -172200.13253341,
 										["x"] = -265506.8359467,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-4-3",
@@ -5530,7 +4290,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 116,
+										["unitId"] = 110,
 										["y"] = -172207.41823574,
 										["x"] = -265503.57627432,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-4-4",
@@ -5542,7 +4302,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 117,
+										["unitId"] = 111,
 										["y"] = -172192.05145831,
 										["x"] = -265506.8359467,
 										["name"] = "PRIMARY INCAPACITATED Hostile East-4-5",
@@ -5554,8 +4314,8 @@ staticTemplate =
 								["x"] = -265501.381221,
 								["name"] = "PRIMARY INCAPACITATED Hostile East-4",
 								["start_time"] = 0,
-							}, -- end of [16]
-							[17] = 
+							}, -- end of [15]
+							[16] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -5608,7 +4368,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 23,
+								["groupId"] = 21,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5617,7 +4377,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 120,
+										["unitId"] = 114,
 										["y"] = -171723.1585871,
 										["x"] = -265913.14458793,
 										["name"] = "SECONDARY DESTROYED Hostile East-3-1",
@@ -5629,7 +4389,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 118,
+										["unitId"] = 112,
 										["y"] = -171739.47834608,
 										["x"] = -265924.70596616,
 										["name"] = "SECONDARY DESTROYED Hostile East-3-2",
@@ -5641,7 +4401,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 119,
+										["unitId"] = 113,
 										["y"] = -171731.97634311,
 										["x"] = -265928.49401506,
 										["name"] = "SECONDARY DESTROYED Hostile East-3-3",
@@ -5653,7 +4413,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 121,
+										["unitId"] = 115,
 										["y"] = -171739.13144516,
 										["x"] = -265915.33964125,
 										["name"] = "SECONDARY DESTROYED Hostile East-3-4",
@@ -5665,7 +4425,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 122,
+										["unitId"] = 116,
 										["y"] = -171725.22694962,
 										["x"] = -265926.64337491,
 										["name"] = "SECONDARY DESTROYED Hostile East-3-5",
@@ -5677,8 +4437,8 @@ staticTemplate =
 								["x"] = -265913.14458793,
 								["name"] = "SECONDARY DESTROYED Hostile East-3",
 								["start_time"] = 0,
-							}, -- end of [17]
-							[18] = 
+							}, -- end of [16]
+							[17] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -5731,7 +4491,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 24,
+								["groupId"] = 22,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5740,7 +4500,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 125,
+										["unitId"] = 119,
 										["y"] = -171756.72824019,
 										["x"] = -265892.2956981,
 										["name"] = "SECONDARY DESTROYED Hostile East-2-1",
@@ -5752,7 +4512,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 123,
+										["unitId"] = 117,
 										["y"] = -171773.04799917,
 										["x"] = -265903.85707633,
 										["name"] = "SECONDARY DESTROYED Hostile East-2-2",
@@ -5764,7 +4524,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 124,
+										["unitId"] = 118,
 										["y"] = -171765.5459962,
 										["x"] = -265907.64512523,
 										["name"] = "SECONDARY DESTROYED Hostile East-2-3",
@@ -5776,7 +4536,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 126,
+										["unitId"] = 120,
 										["y"] = -171772.70109825,
 										["x"] = -265894.49075142,
 										["name"] = "SECONDARY DESTROYED Hostile East-2-4",
@@ -5788,7 +4548,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 127,
+										["unitId"] = 121,
 										["y"] = -171758.79660271,
 										["x"] = -265905.79448508,
 										["name"] = "SECONDARY DESTROYED Hostile East-2-5",
@@ -5800,8 +4560,8 @@ staticTemplate =
 								["x"] = -265892.2956981,
 								["name"] = "SECONDARY DESTROYED Hostile East-2",
 								["start_time"] = 0,
-							}, -- end of [18]
-							[19] = 
+							}, -- end of [17]
+							[18] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -5854,7 +4614,7 @@ staticTemplate =
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 25,
+								["groupId"] = 23,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5863,7 +4623,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 130,
+										["unitId"] = 124,
 										["y"] = -177335.19932981,
 										["x"] = -265788.26820683,
 										["name"] = "Hostile East-13-1",
@@ -5875,7 +4635,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 128,
+										["unitId"] = 122,
 										["y"] = -177351.51908879,
 										["x"] = -265799.82958506,
 										["name"] = "Hostile East-13-2",
@@ -5887,7 +4647,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 129,
+										["unitId"] = 123,
 										["y"] = -177344.01708582,
 										["x"] = -265803.61763396,
 										["name"] = "Hostile East-13-3",
@@ -5899,7 +4659,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 131,
+										["unitId"] = 125,
 										["y"] = -177351.17218787,
 										["x"] = -265790.46326015,
 										["name"] = "Hostile East-13-4",
@@ -5911,7 +4671,7 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Paratrooper AKS-74",
-										["unitId"] = 132,
+										["unitId"] = 126,
 										["y"] = -177337.26769233,
 										["x"] = -265801.76699381,
 										["name"] = "Hostile East-13-5",
@@ -5923,11 +4683,11 @@ staticTemplate =
 								["x"] = -265788.26820683,
 								["name"] = "Hostile East-13",
 								["start_time"] = 0,
-							}, -- end of [19]
+							}, -- end of [18]
 						}, -- end of ["group"]
 					}, -- end of ["vehicle"]
 					["name"] = "Russia",
-				}, -- end of [5]
+				}, -- end of [1]
 			}, -- end of ["country"]
 		}, -- end of ["red"]
 	}, -- end of ["coalition"]
