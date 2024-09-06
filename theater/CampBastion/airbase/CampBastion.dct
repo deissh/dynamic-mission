@@ -5,6 +5,9 @@ subordinates = {
 	"58th",
 	"1-17 CAV",
 }
+players = {
+	"Aerial-1-1",
+}
 desc = "Camp Bastion Air Base"
 recoverytype = "land"
 takeofftype = "runway"

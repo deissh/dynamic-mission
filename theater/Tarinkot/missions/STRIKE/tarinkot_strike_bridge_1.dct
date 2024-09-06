@@ -2,3 +2,12 @@ objtype = "FACILITY"
 intel = 4
 cost = 10
 spawnalways = true
+
+desc = [[%LOCATIONMETHOD%
+Destroy the Bridge #1 and Bridge #2.
+
+Threats: unknown
+
+Recommended ordnance: 2x Mk-84
+
+Recommended pilots: 2]]
