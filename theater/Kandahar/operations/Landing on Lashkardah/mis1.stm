@@ -1,0 +1,5949 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = 
+			{
+				[21] = 
+				{
+					["id"] = 2,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = false,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -29399.780953537,
+												["x"] = -269748.86432857,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170296.1001086,
+												["x"] = -267013.76182567,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -170296.1001086,
+												["x"] = -267013.76182567,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170147.05856751,
+												["x"] = -267037.72541377,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -170147.05856751,
+												["x"] = -267037.72541377,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170147.05856751,
+												["x"] = -267037.72541377,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1016,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -29399.780953537,
+											["x"] = -269748.86432857,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "EmbarkToTransport",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["y"] = -29399.780953537,
+																["x"] = -269748.86432857,
+																["zoneRadius"] = 200,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 36237.307830229,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170296.1001086,
+											["x"] = -267013.76182567,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 36276.125019736,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170147.05856751,
+											["x"] = -267037.72541377,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Cone",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 3,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 8,
+										["y"] = -29399.780953537,
+										["x"] = -269748.86432857,
+										["name"] = "Bravo-1",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 9,
+										["y"] = -29401.415595649,
+										["x"] = -269752.13361279,
+										["name"] = "Bravo-2",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 14,
+										["y"] = -29404.451359571,
+										["x"] = -269750.84925113,
+										["name"] = "Bravo-3",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 10,
+										["y"] = -29406.354099336,
+										["x"] = -269753.34174478,
+										["name"] = "Bravo-4",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 13,
+										["y"] = -29405.319860688,
+										["x"] = -269754.99652662,
+										["name"] = "Bravo-5",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 15,
+										["y"] = -29407.634672945,
+										["x"] = -269757.07851107,
+										["name"] = "Bravo-6",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 7,
+										["y"] = -29410.965976315,
+										["x"] = -269757.38135683,
+										["name"] = "Bravo-7",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 11,
+										["y"] = -29413.994433924,
+										["x"] = -269760.10696868,
+										["name"] = "Bravo-8",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 12,
+										["y"] = -29415.205816967,
+										["x"] = -269763.43827205,
+										["name"] = "Bravo-9",
+										["heading"] = 4.7317987069041,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+								}, -- end of ["units"]
+								["y"] = -29399.780953537,
+								["x"] = -269748.86432857,
+								["name"] = "Bravo",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -29424.071521564,
+												["x"] = -269713.27022889,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170440.04308701,
+												["x"] = -268119.41740293,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -170440.04308701,
+												["x"] = -268119.41740293,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170355.47141763,
+												["x"] = -268234.27487283,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -170355.47141763,
+												["x"] = -268234.27487283,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170355.47141763,
+												["x"] = -268234.27487283,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1016,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -29424.071521564,
+											["x"] = -269713.27022889,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "EmbarkToTransport",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["y"] = -29424.071521564,
+																["x"] = -269713.27022889,
+																["zoneRadius"] = 200,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 36263.565938703,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170440.04308701,
+											["x"] = -268119.41740293,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 36356.785817808,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170355.47141763,
+											["x"] = -268234.27487283,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Cone",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 4,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 17,
+										["y"] = -29424.071521564,
+										["x"] = -269713.27022889,
+										["name"] = "Alpha-1",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 18,
+										["y"] = -29424.960719394,
+										["x"] = -269719.05001479,
+										["name"] = "Alpha-2",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 23,
+										["y"] = -29427.618458884,
+										["x"] = -269716.95479758,
+										["name"] = "Alpha-3",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 19,
+										["y"] = -29428.528903899,
+										["x"] = -269721.50702265,
+										["name"] = "Alpha-4",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 22,
+										["y"] = -29432.308190317,
+										["x"] = -269720.38371554,
+										["name"] = "Alpha-5",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 24,
+										["y"] = -29434.74175154,
+										["x"] = -269723.56606483,
+										["name"] = "Alpha-6",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 16,
+										["y"] = -29438.766487408,
+										["x"] = -269726.74841412,
+										["name"] = "Alpha-7",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 20,
+										["y"] = -29431.829267079,
+										["x"] = -269725.03499709,
+										["name"] = "Alpha-8",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 21,
+										["y"] = -29435.615553893,
+										["x"] = -269729.62427469,
+										["name"] = "Alpha-9",
+										["heading"] = 4.7236911395804,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+								}, -- end of ["units"]
+								["y"] = -29424.071521564,
+								["x"] = -269713.27022889,
+								["name"] = "Alpha",
+								["start_time"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -29374.528382816,
+												["x"] = -269787.34443633,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171777.15716153,
+												["x"] = -265468.94282819,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -171777.15716153,
+												["x"] = -265468.94282819,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171756.3952832,
+												["x"] = -265480.812816,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -171756.3952832,
+												["x"] = -265480.812816,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171756.3952832,
+												["x"] = -265480.812816,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1016,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -29374.528382816,
+											["x"] = -269787.34443633,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "EmbarkToTransport",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["y"] = -29374.528382816,
+																["x"] = -269787.34443633,
+																["zoneRadius"] = 200,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 36634.652262339,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171777.15716153,
+											["x"] = -265468.94282819,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 36640.801968049,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171756.3952832,
+											["x"] = -265480.812816,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Cone",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 5,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 26,
+										["y"] = -29374.528382816,
+										["x"] = -269787.34443633,
+										["name"] = "Charlee-1",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 27,
+										["y"] = -29380.888143795,
+										["x"] = -269790.07004818,
+										["name"] = "Charlee-2",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 32,
+										["y"] = -29377.253994664,
+										["x"] = -269793.09850579,
+										["name"] = "Charlee-3",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 28,
+										["y"] = -29383.008064121,
+										["x"] = -269796.42980916,
+										["name"] = "Charlee-4",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 31,
+										["y"] = -29388.459287818,
+										["x"] = -269795.21842611,
+										["name"] = "Charlee-5",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 33,
+										["y"] = -29385.73367597,
+										["x"] = -269800.36680405,
+										["name"] = "Charlee-6",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 25,
+										["y"] = -29389.670670861,
+										["x"] = -269800.36680405,
+										["name"] = "Charlee-7",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 29,
+										["y"] = -29394.652062157,
+										["x"] = -269799.98023498,
+										["name"] = "Charlee-8",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 30,
+										["y"] = -29390.838201839,
+										["x"] = -269800.33742801,
+										["name"] = "Charlee-9",
+										["heading"] = 4.7427049837288,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+								}, -- end of ["units"]
+								["y"] = -29374.528382816,
+								["x"] = -269787.34443633,
+								["name"] = "Charlee",
+								["start_time"] = 0,
+							}, -- end of [3]
+							[4] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -29345.908802666,
+												["x"] = -269831.35605959,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -172208.23362363,
+												["x"] = -265493.44233982,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -172208.23362363,
+												["x"] = -265493.44233982,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -172193.11379626,
+												["x"] = -265525.65149155,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -172193.11379626,
+												["x"] = -265525.65149155,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -172193.11379626,
+												["x"] = -265525.65149155,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1016,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -29345.908802666,
+											["x"] = -269831.35605959,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "EmbarkToTransport",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["y"] = -29345.908802666,
+																["x"] = -269831.35605959,
+																["zoneRadius"] = 200,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 772,
+											["type"] = "Turning Point",
+											["ETA"] = 36730.273461789,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -172208.23362363,
+											["x"] = -265493.44233982,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 771,
+											["type"] = "Turning Point",
+											["ETA"] = 36762.107124705,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -172193.11379626,
+											["x"] = -265525.65149155,
+											["ETA_locked"] = false,
+											["speed"] = 3.8888888888889,
+											["action"] = "Cone",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 35,
+										["y"] = -29345.908802666,
+										["x"] = -269831.35605959,
+										["name"] = "Delta-1",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 36,
+										["y"] = -29350.214334059,
+										["x"] = -269833.6960223,
+										["name"] = "Delta-2",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 41,
+										["y"] = -29350.214334059,
+										["x"] = -269840.15431939,
+										["name"] = "Delta-3",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 37,
+										["y"] = -29356.111040099,
+										["x"] = -269837.06556861,
+										["name"] = "Delta-4",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 40,
+										["y"] = -29355.175055013,
+										["x"] = -269841.46469851,
+										["name"] = "Delta-5",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 42,
+										["y"] = -29358.731798338,
+										["x"] = -269840.34151641,
+										["name"] = "Delta-6",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 34,
+										["y"] = -29360.135775967,
+										["x"] = -269845.86382841,
+										["name"] = "Delta-7",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 38,
+										["y"] = -29363.692519292,
+										["x"] = -269844.36625228,
+										["name"] = "Delta-8",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 39,
+										["y"] = -29364.909299903,
+										["x"] = -269847.64220008,
+										["name"] = "Delta-9",
+										["heading"] = 4.7427439482927,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+								}, -- end of ["units"]
+								["y"] = -29345.908802666,
+								["x"] = -269831.35605959,
+								["name"] = "Delta",
+								["start_time"] = 0,
+							}, -- end of [4]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "USA",
+				}, -- end of [21]
+			}, -- end of ["country"]
+		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[5] = 
+				{
+					["id"] = 0,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -73223.825135452,
+												["x"] = -279918.17682322,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -68060.082349486,
+												["x"] = -292093.22821714,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -68060.082349486,
+												["x"] = -292093.22821714,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -82109.346688555,
+												["x"] = -291293.67658809,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -82109.346688555,
+												["x"] = -291293.67658809,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -73301.761319704,
+												["x"] = -280032.26438858,
+											}, -- end of [2]
+										}, -- end of [3]
+										[4] = 
+										{
+											[1] = 
+											{
+												["y"] = -73301.761319704,
+												["x"] = -280032.26438858,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -73301.761319704,
+												["x"] = -280032.26438858,
+											}, -- end of [2]
+										}, -- end of [4]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 916,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -73223.825135452,
+											["x"] = -279918.17682322,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 1081,
+											["type"] = "Turning Point",
+											["ETA"] = 952.18772590588,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -68060.082349486,
+											["x"] = -292093.22821714,
+											["ETA_locked"] = false,
+											["speed"] = 13.888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 1084,
+											["type"] = "Turning Point",
+											["ETA"] = 1965.3715398595,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -82109.346688555,
+											["x"] = -291293.67658809,
+											["ETA_locked"] = false,
+											["speed"] = 13.888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+										[4] = 
+										{
+											["alt"] = 922,
+											["type"] = "Turning Point",
+											["ETA"] = 2994.7272263446,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -73301.761319704,
+											["x"] = -280032.26438858,
+											["ETA_locked"] = false,
+											["speed"] = 13.888888888889,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["enabled"] = true,
+															["auto"] = false,
+															["id"] = "GoToWaypoint",
+															["number"] = 1,
+															["params"] = 
+															{
+																["nWaypointIndx"] = 2,
+																["fromWaypointIndex"] = 3,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [4]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 7,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "HL_DSHK",
+										["unitId"] = 43,
+										["y"] = -73223.825135452,
+										["x"] = -279918.17682322,
+										["name"] = "Threat-1",
+										["heading"] = 2.7404634341153,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "HL_DSHK",
+										["unitId"] = 44,
+										["y"] = -73217.644795564,
+										["x"] = -279899.15569289,
+										["name"] = "Threat-2",
+										["heading"] = 2.7404634341153,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+								}, -- end of ["units"]
+								["y"] = -73223.825135452,
+								["x"] = -279918.17682322,
+								["name"] = "Threat",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -169320.12426883,
+												["x"] = -262888.3541562,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -169439.58709346,
+												["x"] = -262899.63165504,
+											}, -- end of [2]
+											[3] = 
+											{
+												["y"] = -169444.50443633,
+												["x"] = -262900.58443138,
+											}, -- end of [3]
+											[4] = 
+											{
+												["y"] = -169448.89307837,
+												["x"] = -262902.78231541,
+											}, -- end of [4]
+											[5] = 
+											{
+												["y"] = -169450.55115736,
+												["x"] = -262907.39540206,
+											}, -- end of [5]
+											[6] = 
+											{
+												["y"] = -169450.6627367,
+												["x"] = -262912.39924167,
+											}, -- end of [6]
+											[7] = 
+											{
+												["y"] = -169450.10980244,
+												["x"] = -262922.38124104,
+											}, -- end of [7]
+											[8] = 
+											{
+												["y"] = -169423.60643528,
+												["x"] = -263231.2608324,
+											}, -- end of [8]
+											[9] = 
+											{
+												["y"] = -169424.080331,
+												["x"] = -263236.18340403,
+											}, -- end of [9]
+											[10] = 
+											{
+												["y"] = -169428.11860006,
+												["x"] = -263238.8301418,
+											}, -- end of [10]
+											[11] = 
+											{
+												["y"] = -169432.50921887,
+												["x"] = -263241.14968716,
+											}, -- end of [11]
+											[12] = 
+											{
+												["y"] = -169435.18818936,
+												["x"] = -263245.24479948,
+											}, -- end of [12]
+											[13] = 
+											{
+												["y"] = -169435.69554899,
+												["x"] = -263250.21015128,
+											}, -- end of [13]
+											[14] = 
+											{
+												["y"] = -169435.50615566,
+												["x"] = -263255.20383035,
+											}, -- end of [14]
+											[15] = 
+											{
+												["y"] = -169430.73423919,
+												["x"] = -263315.01247711,
+											}, -- end of [15]
+											[16] = 
+											{
+												["y"] = -169431.79870512,
+												["x"] = -263319.81514789,
+											}, -- end of [16]
+											[17] = 
+											{
+												["y"] = -169436.25193905,
+												["x"] = -263321.73985147,
+											}, -- end of [17]
+											[18] = 
+											{
+												["y"] = -169441.21513576,
+												["x"] = -263322.43824506,
+											}, -- end of [18]
+											[19] = 
+											{
+												["y"] = -169501.02394169,
+												["x"] = -263327.20654358,
+											}, -- end of [19]
+											[20] = 
+											{
+												["y"] = -169585.72350668,
+												["x"] = -263334.26023582,
+											}, -- end of [20]
+											[21] = 
+											{
+												["y"] = -169595.63108182,
+												["x"] = -263335.66679063,
+											}, -- end of [21]
+											[22] = 
+											{
+												["y"] = -169600.48098907,
+												["x"] = -263336.87144572,
+											}, -- end of [22]
+											[23] = 
+											{
+												["y"] = -169604.04539308,
+												["x"] = -263340.14437518,
+											}, -- end of [23]
+											[24] = 
+											{
+												["y"] = -169605.35046913,
+												["x"] = -263344.94059878,
+											}, -- end of [24]
+											[25] = 
+											{
+												["y"] = -169604.96533156,
+												["x"] = -263349.92609199,
+											}, -- end of [25]
+											[26] = 
+											{
+												["y"] = -169585.85511475,
+												["x"] = -263554.02856272,
+											}, -- end of [26]
+											[27] = 
+											{
+												["y"] = -169586.42006409,
+												["x"] = -263558.95890951,
+											}, -- end of [27]
+											[28] = 
+											{
+												["y"] = -169590.21255334,
+												["x"] = -263561.90631453,
+											}, -- end of [28]
+											[29] = 
+											{
+												["y"] = -169594.44501132,
+												["x"] = -263564.53490111,
+											}, -- end of [29]
+											[30] = 
+											{
+												["y"] = -169596.83116891,
+												["x"] = -263568.81607573,
+											}, -- end of [30]
+											[31] = 
+											{
+												["y"] = -169597.1968191,
+												["x"] = -263573.79750305,
+											}, -- end of [31]
+											[32] = 
+											{
+												["y"] = -169597.31366066,
+												["x"] = -263583.79197062,
+											}, -- end of [32]
+											[33] = 
+											{
+												["y"] = -169597.95483507,
+												["x"] = -263588.74666294,
+											}, -- end of [33]
+											[34] = 
+											{
+												["y"] = -169598.92963002,
+												["x"] = -263593.65315638,
+											}, -- end of [34]
+											[35] = 
+											{
+												["y"] = -169600.14288463,
+												["x"] = -263598.50356425,
+											}, -- end of [35]
+											[36] = 
+											{
+												["y"] = -169601.63572572,
+												["x"] = -263603.27453372,
+											}, -- end of [36]
+											[37] = 
+											{
+												["y"] = -169606.96245677,
+												["x"] = -263617.29472033,
+											}, -- end of [37]
+											[38] = 
+											{
+												["y"] = -169690.62963033,
+												["x"] = -263804.43477063,
+											}, -- end of [38]
+											[39] = 
+											{
+												["y"] = -169720.363664,
+												["x"] = -263867.78718067,
+											}, -- end of [39]
+											[40] = 
+											{
+												["y"] = -169723.48010035,
+												["x"] = -263877.28633717,
+											}, -- end of [40]
+											[41] = 
+											{
+												["y"] = -169724.50859987,
+												["x"] = -263882.17542683,
+											}, -- end of [41]
+											[42] = 
+											{
+												["y"] = -169724.93286724,
+												["x"] = -263887.15587806,
+											}, -- end of [42]
+											[43] = 
+											{
+												["y"] = -169725.02289687,
+												["x"] = -263892.15446507,
+											}, -- end of [43]
+											[44] = 
+											{
+												["y"] = -169724.69649837,
+												["x"] = -263902.14819341,
+											}, -- end of [44]
+											[45] = 
+											{
+												["y"] = -169710.18418639,
+												["x"] = -264091.56616149,
+											}, -- end of [45]
+											[46] = 
+											{
+												["y"] = -169709.34412885,
+												["x"] = -264096.48909201,
+											}, -- end of [46]
+											[47] = 
+											{
+												["y"] = -169707.7430038,
+												["x"] = -264101.21941199,
+											}, -- end of [47]
+											[48] = 
+											{
+												["y"] = -169705.33543149,
+												["x"] = -264105.5971786,
+											}, -- end of [48]
+											[49] = 
+											{
+												["y"] = -169703.36459917,
+												["x"] = -264110.15401726,
+											}, -- end of [49]
+											[50] = 
+											{
+												["y"] = -169705.36740163,
+												["x"] = -264114.45404711,
+											}, -- end of [50]
+											[51] = 
+											{
+												["y"] = -169709.20242468,
+												["x"] = -264117.6799269,
+											}, -- end of [51]
+											[52] = 
+											{
+												["y"] = -169788.70172803,
+												["x"] = -264178.32096377,
+											}, -- end of [52]
+											[53] = 
+											{
+												["y"] = -169894.51230616,
+												["x"] = -264253.77557216,
+											}, -- end of [53]
+											[54] = 
+											{
+												["y"] = -169949.80063937,
+												["x"] = -264296.69504103,
+											}, -- end of [54]
+											[55] = 
+											{
+												["y"] = -169954.02078332,
+												["x"] = -264299.37392612,
+											}, -- end of [55]
+											[56] = 
+											{
+												["y"] = -169958.59108849,
+												["x"] = -264301.36371266,
+											}, -- end of [56]
+											[57] = 
+											{
+												["y"] = -169963.4905521,
+												["x"] = -264302.36068425,
+											}, -- end of [57]
+											[58] = 
+											{
+												["y"] = -169973.21066559,
+												["x"] = -264304.61339413,
+											}, -- end of [58]
+											[59] = 
+											{
+												["y"] = -169976.8545517,
+												["x"] = -264307.88990152,
+											}, -- end of [59]
+											[60] = 
+											{
+												["y"] = -169978.0412767,
+												["x"] = -264312.71180598,
+											}, -- end of [60]
+											[61] = 
+											{
+												["y"] = -169978.0763989,
+												["x"] = -264317.70645597,
+											}, -- end of [61]
+											[62] = 
+											{
+												["y"] = -169971.23129163,
+												["x"] = -264412.46087229,
+											}, -- end of [62]
+											[63] = 
+											{
+												["y"] = -169968.58774358,
+												["x"] = -264437.31891971,
+											}, -- end of [63]
+											[64] = 
+											{
+												["y"] = -169965.8618813,
+												["x"] = -264452.0628325,
+											}, -- end of [64]
+											[65] = 
+											{
+												["y"] = -169958.58480324,
+												["x"] = -264481.16418436,
+											}, -- end of [65]
+											[66] = 
+											{
+												["y"] = -169951.26379187,
+												["x"] = -264510.22612564,
+											}, -- end of [66]
+											[67] = 
+											{
+												["y"] = -169952.93015474,
+												["x"] = -264514.85274742,
+											}, -- end of [67]
+											[68] = 
+											{
+												["y"] = -169955.97820695,
+												["x"] = -264518.77844024,
+											}, -- end of [68]
+											[69] = 
+											{
+												["y"] = -169959.51191754,
+												["x"] = -264522.29967918,
+											}, -- end of [69]
+											[70] = 
+											{
+												["y"] = -169967.07011348,
+												["x"] = -264528.85585587,
+											}, -- end of [70]
+											[71] = 
+											{
+												["y"] = -169986.38331835,
+												["x"] = -264544.73552884,
+											}, -- end of [71]
+											[72] = 
+											{
+												["y"] = -169993.54449346,
+												["x"] = -264551.70936463,
+											}, -- end of [72]
+											[73] = 
+											{
+												["y"] = -170271.74365712,
+												["x"] = -264859.64264445,
+											}, -- end of [73]
+											[74] = 
+											{
+												["y"] = -170556.31397652,
+												["x"] = -265181.92632727,
+											}, -- end of [74]
+											[75] = 
+											{
+												["y"] = -170588.5544894,
+												["x"] = -265213.30901473,
+											}, -- end of [75]
+											[76] = 
+											{
+												["y"] = -170629.61170057,
+												["x"] = -265249.90542125,
+											}, -- end of [76]
+											[77] = 
+											{
+												["y"] = -170653.09565874,
+												["x"] = -265268.56302326,
+											}, -- end of [77]
+											[78] = 
+											{
+												["y"] = -170689.7950754,
+												["x"] = -265294.59651952,
+											}, -- end of [78]
+											[79] = 
+											{
+												["y"] = -170727.70992558,
+												["x"] = -265318.83202682,
+											}, -- end of [79]
+											[80] = 
+											{
+												["y"] = -170749.51096988,
+												["x"] = -265331.05051308,
+											}, -- end of [80]
+											[81] = 
+											{
+												["y"] = -170767.53474359,
+												["x"] = -265339.69337113,
+											}, -- end of [81]
+											[82] = 
+											{
+												["y"] = -170846.46969512,
+												["x"] = -265371.23767302,
+											}, -- end of [82]
+											[83] = 
+											{
+												["y"] = -170870.02689829,
+												["x"] = -265379.59410808,
+											}, -- end of [83]
+											[84] = 
+											{
+												["y"] = -170937.06628284,
+												["x"] = -265399.71457181,
+											}, -- end of [84]
+											[85] = 
+											{
+												["y"] = -170966.24206784,
+												["x"] = -265406.67932166,
+											}, -- end of [85]
+											[86] = 
+											{
+												["y"] = -170995.77148326,
+												["x"] = -265411.9512459,
+											}, -- end of [86]
+											[87] = 
+											{
+												["y"] = -171040.41441716,
+												["x"] = -265417.57158294,
+											}, -- end of [87]
+											[88] = 
+											{
+												["y"] = -171464.38430817,
+												["x"] = -265446.89290208,
+											}, -- end of [88]
+											[89] = 
+											{
+												["y"] = -171755.41780257,
+												["x"] = -265465.27083248,
+											}, -- end of [89]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -171755.27160306,
+												["x"] = -265467.50828526,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171755.27160306,
+												["x"] = -265467.50828526,
+											}, -- end of [2]
+										}, -- end of [2]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 785,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -169319.96970323,
+											["x"] = -262890.09815738,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "301",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 169.97513225262,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171755.27160306,
+											["x"] = -265467.50828526,
+											["ETA_locked"] = false,
+											["speed"] = 25,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 45,
+										["y"] = -169319.96970323,
+										["x"] = -262890.09815738,
+										["name"] = "SECONDARY DESTROYED Hostile North 1-1",
+										["heading"] = -2.3845364685283,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 46,
+										["y"] = -169290.0876911,
+										["x"] = -262887.45308085,
+										["name"] = "SECONDARY DESTROYED Hostile North 1-2",
+										["heading"] = -2.3845364685283,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 47,
+										["y"] = -169260.2048288,
+										["x"] = -262884.80459006,
+										["name"] = "SECONDARY DESTROYED Hostile North 1-3",
+										["heading"] = -2.3845364685283,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+								}, -- end of ["units"]
+								["y"] = -169319.96970323,
+								["x"] = -262890.09815738,
+								["name"] = "SECONDARY DESTROYED Hostile North 1",
+								["start_time"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -169332.64940575,
+												["x"] = -262799.12828704,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -169447.11468792,
+												["x"] = -262810.27863333,
+											}, -- end of [2]
+											[3] = 
+											{
+												["y"] = -169452.05068249,
+												["x"] = -262811.14562806,
+											}, -- end of [3]
+											[4] = 
+											{
+												["y"] = -169456.64475087,
+												["x"] = -262812.90912913,
+											}, -- end of [4]
+											[5] = 
+											{
+												["y"] = -169458.6031924,
+												["x"] = -262817.38767122,
+											}, -- end of [5]
+											[6] = 
+											{
+												["y"] = -169458.78612551,
+												["x"] = -262822.387504,
+											}, -- end of [6]
+											[7] = 
+											{
+												["y"] = -169458.24762837,
+												["x"] = -262832.37005479,
+											}, -- end of [7]
+											[8] = 
+											{
+												["y"] = -169423.61311695,
+												["x"] = -263230.88162494,
+											}, -- end of [8]
+											[9] = 
+											{
+												["y"] = -169423.93895655,
+												["x"] = -263235.83918389,
+											}, -- end of [9]
+											[10] = 
+											{
+												["y"] = -169427.74200592,
+												["x"] = -263238.81974395,
+											}, -- end of [10]
+											[11] = 
+											{
+												["y"] = -169432.2127401,
+												["x"] = -263240.91766546,
+											}, -- end of [11]
+											[12] = 
+											{
+												["y"] = -169435.08358883,
+												["x"] = -263244.88156276,
+											}, -- end of [12]
+											[13] = 
+											{
+												["y"] = -169435.69336256,
+												["x"] = -263249.83241997,
+											}, -- end of [13]
+											[14] = 
+											{
+												["y"] = -169435.52915648,
+												["x"] = -263254.82637714,
+											}, -- end of [14]
+											[15] = 
+											{
+												["y"] = -169430.73545104,
+												["x"] = -263314.63461695,
+											}, -- end of [15]
+											[16] = 
+											{
+												["y"] = -169431.59029445,
+												["x"] = -263319.50067714,
+											}, -- end of [16]
+											[17] = 
+											{
+												["y"] = -169435.87932545,
+												["x"] = -263321.67096837,
+											}, -- end of [17]
+											[18] = 
+											{
+												["y"] = -169440.83903301,
+												["x"] = -263322.39375842,
+											}, -- end of [18]
+											[19] = 
+											{
+												["y"] = -169485.68361731,
+												["x"] = -263326.12837197,
+											}, -- end of [19]
+											[20] = 
+											{
+												["y"] = -169590.30839811,
+												["x"] = -263334.84118629,
+											}, -- end of [20]
+											[21] = 
+											{
+												["y"] = -169600.12648479,
+												["x"] = -263336.74449416,
+											}, -- end of [21]
+											[22] = 
+											{
+												["y"] = -169603.86745307,
+												["x"] = -263339.81278918,
+											}, -- end of [22]
+											[23] = 
+											{
+												["y"] = -169605.33324995,
+												["x"] = -263344.5626516,
+											}, -- end of [23]
+											[24] = 
+											{
+												["y"] = -169605.00032541,
+												["x"] = -263349.54962126,
+											}, -- end of [24]
+											[25] = 
+											{
+												["y"] = -169585.86364947,
+												["x"] = -263553.65010023,
+											}, -- end of [25]
+											[26] = 
+											{
+												["y"] = -169586.27686797,
+												["x"] = -263558.61151181,
+											}, -- end of [26]
+											[27] = 
+											{
+												["y"] = -169589.89423684,
+												["x"] = -263561.8822259,
+											}, -- end of [27]
+											[28] = 
+											{
+												["y"] = -169594.16291458,
+												["x"] = -263564.2867865,
+											}, -- end of [28]
+											[29] = 
+											{
+												["y"] = -169596.74525181,
+												["x"] = -263568.44736319,
+											}, -- end of [29]
+											[30] = 
+											{
+												["y"] = -169597.19798497,
+												["x"] = -263573.41939923,
+											}, -- end of [30]
+											[31] = 
+											{
+												["y"] = -169597.28301398,
+												["x"] = -263583.41535578,
+											}, -- end of [31]
+											[32] = 
+											{
+												["y"] = -169597.8929354,
+												["x"] = -263588.37364042,
+											}, -- end of [32]
+											[33] = 
+											{
+												["y"] = -169598.8472924,
+												["x"] = -263593.28396373,
+											}, -- end of [33]
+											[34] = 
+											{
+												["y"] = -169600.04135487,
+												["x"] = -263598.13936048,
+											}, -- end of [34]
+											[35] = 
+											{
+												["y"] = -169601.51450973,
+												["x"] = -263602.91641182,
+											}, -- end of [35]
+											[36] = 
+											{
+												["y"] = -169604.97031932,
+												["x"] = -263612.29922182,
+											}, -- end of [36]
+											[37] = 
+											{
+												["y"] = -169634.75289112,
+												["x"] = -263681.12686141,
+											}, -- end of [37]
+											[38] = 
+											{
+												["y"] = -169720.23112142,
+												["x"] = -263867.43309693,
+											}, -- end of [38]
+											[39] = 
+											{
+												["y"] = -169723.38013926,
+												["x"] = -263876.92164755,
+											}, -- end of [39]
+											[40] = 
+											{
+												["y"] = -169724.45389131,
+												["x"] = -263881.80136092,
+											}, -- end of [40]
+											[41] = 
+											{
+												["y"] = -169724.91515858,
+												["x"] = -263886.77821201,
+											}, -- end of [41]
+											[42] = 
+											{
+												["y"] = -169725.02398122,
+												["x"] = -263891.77637163,
+											}, -- end of [42]
+											[43] = 
+											{
+												["y"] = -169724.71657002,
+												["x"] = -263901.77064866,
+											}, -- end of [43]
+											[44] = 
+											{
+												["y"] = -169710.22439588,
+												["x"] = -264091.19049226,
+											}, -- end of [44]
+											[45] = 
+											{
+												["y"] = -169709.43151502,
+												["x"] = -264096.12146153,
+											}, -- end of [45]
+											[46] = 
+											{
+												["y"] = -169707.89484073,
+												["x"] = -264100.87283922,
+											}, -- end of [46]
+											[47] = 
+											{
+												["y"] = -169705.53266118,
+												["x"] = -264105.27426082,
+											}, -- end of [47]
+											[48] = 
+											{
+												["y"] = -169703.42170718,
+												["x"] = -264109.78113488,
+											}, -- end of [48]
+											[49] = 
+											{
+												["y"] = -169705.09525558,
+												["x"] = -264114.19131092,
+											}, -- end of [49]
+											[50] = 
+											{
+												["y"] = -169708.90493328,
+												["x"] = -264117.44535244,
+											}, -- end of [50]
+											[51] = 
+											{
+												["y"] = -169788.39361198,
+												["x"] = -264178.10189832,
+											}, -- end of [51]
+											[52] = 
+											{
+												["y"] = -169894.2150257,
+												["x"] = -264253.54194495,
+											}, -- end of [52]
+											[53] = 
+											{
+												["y"] = -169949.48836606,
+												["x"] = -264296.48197515,
+											}, -- end of [53]
+											[54] = 
+											{
+												["y"] = -169953.69345508,
+												["x"] = -264299.18449594,
+											}, -- end of [54]
+											[55] = 
+											{
+												["y"] = -169958.22832739,
+												["x"] = -264301.25662373,
+											}, -- end of [55]
+											[56] = 
+											{
+												["y"] = -169963.11745883,
+												["x"] = -264302.29833617,
+											}, -- end of [56]
+											[57] = 
+											{
+												["y"] = -169972.86413832,
+												["x"] = -264304.46079311,
+											}, -- end of [57]
+											[58] = 
+											{
+												["y"] = -169976.66686221,
+												["x"] = -264307.56293411,
+											}, -- end of [58]
+											[59] = 
+											{
+												["y"] = -169978.01081867,
+												["x"] = -264312.33475949,
+											}, -- end of [59]
+											[60] = 
+											{
+												["y"] = -169978.08872495,
+												["x"] = -264317.3285287,
+											}, -- end of [60]
+											[61] = 
+											{
+												["y"] = -169971.66589684,
+												["x"] = -264407.10039426,
+											}, -- end of [61]
+											[62] = 
+											{
+												["y"] = -169968.64311494,
+												["x"] = -264436.94502306,
+											}, -- end of [62]
+											[63] = 
+											{
+												["y"] = -169966.95224672,
+												["x"] = -264446.79712366,
+											}, -- end of [63]
+											[64] = 
+											{
+												["y"] = -169962.49453552,
+												["x"] = -264466.28924865,
+											}, -- end of [64]
+											[65] = 
+											{
+												["y"] = -169953.22464052,
+												["x"] = -264500.03949297,
+											}, -- end of [65]
+											[66] = 
+											{
+												["y"] = -169951.85224072,
+												["x"] = -264504.84832381,
+											}, -- end of [66]
+											[67] = 
+											{
+												["y"] = -169951.23253506,
+												["x"] = -264509.84399812,
+											}, -- end of [67]
+											[68] = 
+											{
+												["y"] = -169952.74034036,
+												["x"] = -264514.53122295,
+											}, -- end of [68]
+											[69] = 
+											{
+												["y"] = -169955.72395515,
+												["x"] = -264518.49983045,
+											}, -- end of [69]
+											[70] = 
+											{
+												["y"] = -169959.23627021,
+												["x"] = -264522.04152699,
+											}, -- end of [70]
+											[71] = 
+											{
+												["y"] = -169966.77796456,
+												["x"] = -264528.61487136,
+											}, -- end of [71]
+											[72] = 
+											{
+												["y"] = -169989.74701418,
+												["x"] = -264547.90337146,
+											}, -- end of [72]
+											[73] = 
+											{
+												["y"] = -170000.14744406,
+												["x"] = -264558.70739354,
+											}, -- end of [73]
+											[74] = 
+											{
+												["y"] = -170570.16803064,
+												["x"] = -265195.8198515,
+											}, -- end of [74]
+											[75] = 
+											{
+												["y"] = -170614.22021718,
+												["x"] = -265236.54865783,
+											}, -- end of [75]
+											[76] = 
+											{
+												["y"] = -170640.92588444,
+												["x"] = -265259.16366545,
+											}, -- end of [76]
+											[77] = 
+											{
+												["y"] = -170668.93370122,
+												["x"] = -265280.14483473,
+											}, -- end of [77]
+											[78] = 
+											{
+												["y"] = -170710.37715244,
+												["x"] = -265308.11466403,
+											}, -- end of [78]
+											[79] = 
+											{
+												["y"] = -170736.01562184,
+												["x"] = -265323.6856782,
+											}, -- end of [79]
+											[80] = 
+											{
+												["y"] = -170753.6298842,
+												["x"] = -265333.14359379,
+											}, -- end of [80]
+											[81] = 
+											{
+												["y"] = -170771.77003864,
+												["x"] = -265341.5440363,
+											}, -- end of [81]
+											[82] = 
+											{
+												["y"] = -170855.47364161,
+												["x"] = -265374.62913471,
+											}, -- end of [82]
+											[83] = 
+											{
+												["y"] = -170893.50604694,
+												["x"] = -265387.0086321,
+											}, -- end of [83]
+											[84] = 
+											{
+												["y"] = -170946.38043168,
+												["x"] = -265402.12693387,
+											}, -- end of [84]
+											[85] = 
+											{
+												["y"] = -170970.77177699,
+												["x"] = -265407.597673,
+											}, -- end of [85]
+											[86] = 
+											{
+												["y"] = -171000.34214753,
+												["x"] = -265412.63694338,
+											}, -- end of [86]
+											[87] = 
+											{
+												["y"] = -171045.01300043,
+												["x"] = -265418.03403575,
+											}, -- end of [87]
+											[88] = 
+											{
+												["y"] = -171134.63005665,
+												["x"] = -265425.76622233,
+											}, -- end of [88]
+											[89] = 
+											{
+												["y"] = -171139.23951279,
+												["x"] = -265427.76037723,
+											}, -- end of [89]
+											[90] = 
+											{
+												["y"] = -171143.24577284,
+												["x"] = -265430.68136122,
+											}, -- end of [90]
+											[91] = 
+											{
+												["y"] = -171145.90885992,
+												["x"] = -265434.83370324,
+											}, -- end of [91]
+											[92] = 
+											{
+												["y"] = -171146.95826773,
+												["x"] = -265439.70235018,
+											}, -- end of [92]
+											[93] = 
+											{
+												["y"] = -171147.29957021,
+												["x"] = -265444.70853511,
+											}, -- end of [93]
+											[94] = 
+											{
+												["y"] = -171147.24373284,
+												["x"] = -265454.71559631,
+											}, -- end of [94]
+											[95] = 
+											{
+												["y"] = -171140.04456263,
+												["x"] = -265564.47595462,
+											}, -- end of [95]
+											[96] = 
+											{
+												["y"] = -171036.88909578,
+												["x"] = -266614.40351864,
+											}, -- end of [96]
+											[97] = 
+											{
+												["y"] = -171036.08877348,
+												["x"] = -266619.34568584,
+											}, -- end of [97]
+											[98] = 
+											{
+												["y"] = -171034.5174038,
+												["x"] = -266624.05829284,
+											}, -- end of [98]
+											[99] = 
+											{
+												["y"] = -171031.20298367,
+												["x"] = -266627.71704094,
+											}, -- end of [99]
+											[100] = 
+											{
+												["y"] = -171026.5852885,
+												["x"] = -266629.57928402,
+											}, -- end of [100]
+											[101] = 
+											{
+												["y"] = -171021.60562344,
+												["x"] = -266629.93609848,
+											}, -- end of [101]
+											[102] = 
+											{
+												["y"] = -171016.60861773,
+												["x"] = -266629.76903395,
+											}, -- end of [102]
+											[103] = 
+											{
+												["y"] = -170961.75812932,
+												["x"] = -266625.88166471,
+											}, -- end of [103]
+											[104] = 
+											{
+												["y"] = -170956.76379466,
+												["x"] = -266626.11196186,
+											}, -- end of [104]
+											[105] = 
+											{
+												["y"] = -170951.87586982,
+												["x"] = -266627.12654237,
+											}, -- end of [105]
+											[106] = 
+											{
+												["y"] = -170948.19302172,
+												["x"] = -266630.28928233,
+											}, -- end of [106]
+											[107] = 
+											{
+												["y"] = -170946.87163281,
+												["x"] = -266635.09861215,
+											}, -- end of [107]
+											[108] = 
+											{
+												["y"] = -170937.88814997,
+												["x"] = -266699.47028767,
+											}, -- end of [108]
+											[109] = 
+											{
+												["y"] = -170916.79248035,
+												["x"] = -266949.23028639,
+											}, -- end of [109]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -170915.04812366,
+												["x"] = -266949.08983846,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170354.20614396,
+												["x"] = -267071.59380651,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -170354.20614396,
+												["x"] = -267071.59380651,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170354.20614396,
+												["x"] = -267071.59380651,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 785,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -169332.49198117,
+											["x"] = -262800.86980573,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "301",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 191.98689202095,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170915.04812366,
+											["x"] = -266949.08983846,
+											["ETA_locked"] = false,
+											["speed"] = 27.777777777778,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 212.65324218499,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170354.20614396,
+											["x"] = -267071.59380651,
+											["ETA_locked"] = false,
+											["speed"] = 27.777777777778,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 9,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "tt_DSHK",
+										["unitId"] = 48,
+										["y"] = -169332.49198117,
+										["x"] = -262800.86980573,
+										["name"] = "PRIMARY INCAPACITATED Hostile North 2-1",
+										["heading"] = -2.7771334199187,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "tt_DSHK",
+										["unitId"] = 49,
+										["y"] = -169302.61464851,
+										["x"] = -262798.17082486,
+										["name"] = "PRIMARY INCAPACITATED Hostile North 2-2",
+										["heading"] = -2.7771334199187,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "tt_DSHK",
+										["unitId"] = 50,
+										["y"] = -169272.73632023,
+										["x"] = -262795.47165914,
+										["name"] = "PRIMARY INCAPACITATED Hostile North 2-3",
+										["heading"] = -2.7771334199187,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+								}, -- end of ["units"]
+								["y"] = -169332.49198117,
+								["x"] = -262800.86980573,
+								["name"] = "PRIMARY INCAPACITATED Hostile North 2",
+								["start_time"] = 0,
+							}, -- end of [3]
+							[4] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 772,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -172213.25274989,
+											["x"] = -265483.29063772,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 10,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BMP-1",
+										["unitId"] = 51,
+										["y"] = -172213.25274989,
+										["x"] = -265483.29063772,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-5-1",
+										["heading"] = 4.6774823953448,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -172213.25274989,
+								["x"] = -265483.29063772,
+								["name"] = "PRIMARY INCAPACITATED Hostile East-5",
+								["start_time"] = 0,
+							}, -- end of [4]
+							[5] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171795.2736361,
+											["x"] = -265469.77572581,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 11,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 52,
+										["y"] = -171795.2736361,
+										["x"] = -265469.77572581,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-6-1",
+										["heading"] = 6.1959188445799,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -171795.2736361,
+								["x"] = -265469.77572581,
+								["name"] = "PRIMARY INCAPACITATED Hostile East-6",
+								["start_time"] = 0,
+							}, -- end of [5]
+							[6] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 781,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170902.05892372,
+											["x"] = -265372.70912408,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 12,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "tt_KORD",
+										["unitId"] = 53,
+										["y"] = -170902.05892372,
+										["x"] = -265372.70912408,
+										["name"] = "Hostile East-9-1",
+										["heading"] = 4.5553093477052,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -170902.05892372,
+								["x"] = -265372.70912408,
+								["name"] = "Hostile East-9",
+								["start_time"] = 0,
+							}, -- end of [6]
+							[7] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 775,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171748.95614606,
+											["x"] = -265908.28245519,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 13,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "generator_5i57",
+										["unitId"] = 54,
+										["y"] = -171748.95614606,
+										["x"] = -265908.28245519,
+										["name"] = "SECONDARY DESTROYED Airfield Defense-2-1",
+										["heading"] = 2.4958208303519,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "generator_5i57",
+										["unitId"] = 55,
+										["y"] = -169310.99224077,
+										["x"] = -262841.88692718,
+										["name"] = "SECONDARY DESTROYED Airfield Defense-2-2",
+										["heading"] = 3.3684854563491,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "generator_5i57",
+										["unitId"] = 57,
+										["y"] = -172424.60958709,
+										["x"] = -262629.05062317,
+										["name"] = "SECONDARY DESTROYED Airfield Defense-2-3",
+										["heading"] = 5.7421332390613,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "generator_5i57",
+										["unitId"] = 56,
+										["y"] = -173186.91545946,
+										["x"] = -266375.07568002,
+										["name"] = "SECONDARY DESTROYED Airfield Defense-2-4",
+										["heading"] = 4.2586033748662,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+								}, -- end of ["units"]
+								["y"] = -171748.95614606,
+								["x"] = -265908.28245519,
+								["name"] = "SECONDARY DESTROYED Airfield Defense-2",
+								["start_time"] = 0,
+							}, -- end of [7]
+							[8] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -169328.53642152,
+												["x"] = -262836.62367296,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -169328.53642152,
+												["x"] = -262836.62367296,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 784,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -169328.53642152,
+											["x"] = -262836.62367296,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 14,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 60,
+										["y"] = -169328.53642152,
+										["x"] = -262836.62367296,
+										["name"] = "SECONDARY DESTROYED Hostile East-10-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 58,
+										["y"] = -169344.8561805,
+										["x"] = -262848.18505119,
+										["name"] = "SECONDARY DESTROYED Hostile East-10-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 59,
+										["y"] = -169337.35417753,
+										["x"] = -262851.97310009,
+										["name"] = "SECONDARY DESTROYED Hostile East-10-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 61,
+										["y"] = -169344.50927958,
+										["x"] = -262838.81872628,
+										["name"] = "SECONDARY DESTROYED Hostile East-10-4",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 62,
+										["y"] = -169330.60478404,
+										["x"] = -262850.12245994,
+										["name"] = "SECONDARY DESTROYED Hostile East-10-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -169328.53642152,
+								["x"] = -262836.62367296,
+								["name"] = "SECONDARY DESTROYED Hostile East-10",
+								["start_time"] = 0,
+							}, -- end of [8]
+							[9] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -169283.79876059,
+												["x"] = -262840.13250911,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -169283.79876059,
+												["x"] = -262840.13250911,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 783,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -169283.79876059,
+											["x"] = -262840.13250911,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 15,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 65,
+										["y"] = -169283.79876059,
+										["x"] = -262840.13250911,
+										["name"] = "SECONDARY DESTROYED Hostile East-11-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 63,
+										["y"] = -169294.6151971,
+										["x"] = -262851.56119674,
+										["name"] = "SECONDARY DESTROYED Hostile East-11-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 64,
+										["y"] = -169292.6165166,
+										["x"] = -262855.48193624,
+										["name"] = "SECONDARY DESTROYED Hostile East-11-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 66,
+										["y"] = -169296.45195047,
+										["x"] = -262843.19376472,
+										["name"] = "SECONDARY DESTROYED Hostile East-11-4",
+										["heading"] = 2.146754979953,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 67,
+										["y"] = -169284.20692801,
+										["x"] = -262849.52035966,
+										["name"] = "SECONDARY DESTROYED Hostile East-11-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -169283.79876059,
+								["x"] = -262840.13250911,
+								["name"] = "SECONDARY DESTROYED Hostile East-11",
+								["start_time"] = 0,
+							}, -- end of [9]
+							[10] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -173179.56226998,
+												["x"] = -266368.61004457,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -173179.56226998,
+												["x"] = -266368.61004457,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 773,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -173179.56226998,
+											["x"] = -266368.61004457,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 16,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 70,
+										["y"] = -173179.56226998,
+										["x"] = -266368.61004457,
+										["name"] = "SECONDARY DESTROYED Hostile East-12-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 68,
+										["y"] = -173195.88202896,
+										["x"] = -266380.1714228,
+										["name"] = "SECONDARY DESTROYED Hostile East-12-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 69,
+										["y"] = -173188.38002599,
+										["x"] = -266383.9594717,
+										["name"] = "SECONDARY DESTROYED Hostile East-12-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 71,
+										["y"] = -173195.53512804,
+										["x"] = -266370.80509789,
+										["name"] = "SECONDARY DESTROYED Hostile East-12-4",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 72,
+										["y"] = -173181.6306325,
+										["x"] = -266382.10883155,
+										["name"] = "SECONDARY DESTROYED Hostile East-12-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -173179.56226998,
+								["x"] = -266368.61004457,
+								["name"] = "SECONDARY DESTROYED Hostile East-12",
+								["start_time"] = 0,
+							}, -- end of [10]
+							[11] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -173367.97988809,
+												["x"] = -265526.77805984,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -173376.64957968,
+												["x"] = -265531.75915298,
+											}, -- end of [2]
+											[3] = 
+											{
+												["y"] = -173385.62322078,
+												["x"] = -265536.16862647,
+											}, -- end of [3]
+											[4] = 
+											{
+												["y"] = -173403.73755071,
+												["x"] = -265544.63992737,
+											}, -- end of [4]
+											[5] = 
+											{
+												["y"] = -173407.89355699,
+												["x"] = -265547.40359979,
+											}, -- end of [5]
+											[6] = 
+											{
+												["y"] = -173410.86562341,
+												["x"] = -265551.35833775,
+											}, -- end of [6]
+											[7] = 
+											{
+												["y"] = -173411.64376894,
+												["x"] = -265556.26732383,
+											}, -- end of [7]
+											[8] = 
+											{
+												["y"] = -173410.58057979,
+												["x"] = -265561.12350308,
+											}, -- end of [8]
+											[9] = 
+											{
+												["y"] = -173407.54430286,
+												["x"] = -265565.00478589,
+											}, -- end of [9]
+											[10] = 
+											{
+												["y"] = -173402.7564692,
+												["x"] = -265566.24372885,
+											}, -- end of [10]
+											[11] = 
+											{
+												["y"] = -173397.75436652,
+												["x"] = -265566.38878962,
+											}, -- end of [11]
+											[12] = 
+											{
+												["y"] = -173382.7666587,
+												["x"] = -265565.83476781,
+											}, -- end of [12]
+											[13] = 
+											{
+												["y"] = -171815.58391511,
+												["x"] = -265472.32884845,
+											}, -- end of [13]
+											[14] = 
+											{
+												["y"] = -171775.60835619,
+												["x"] = -265471.06067992,
+											}, -- end of [14]
+											[15] = 
+											{
+												["y"] = -171526.86022734,
+												["x"] = -265454.80341988,
+											}, -- end of [15]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -171526.99068001,
+												["x"] = -265452.55720483,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171526.99068001,
+												["x"] = -265452.55720483,
+											}, -- end of [2]
+										}, -- end of [2]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 775,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -173367.10810673,
+											["x"] = -265528.22976301,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 5,
+																		["name"] = 30,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["enabled"] = true,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["number"] = 2,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "300",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 487.2484553915,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171526.99068001,
+											["x"] = -265452.55720483,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 17,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 74,
+										["y"] = -173367.10810673,
+										["x"] = -265528.22976301,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-1",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 75,
+										["y"] = -173341.41743747,
+										["x"] = -265511.11841533,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-2",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 81,
+										["y"] = -173316.59408841,
+										["x"] = -265494.27399696,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-3",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 76,
+										["y"] = -173291.76982001,
+										["x"] = -265477.42894729,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-4",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 79,
+										["y"] = -173266.94676715,
+										["x"] = -265460.58211075,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-5",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 82,
+										["y"] = -173242.20473552,
+										["x"] = -265443.61754973,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-6",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 73,
+										["y"] = -173217.49855842,
+										["x"] = -265426.59991347,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-7",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 77,
+										["y"] = -173192.79610637,
+										["x"] = -265409.57672879,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-8",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 78,
+										["y"] = -173168.09370297,
+										["x"] = -265392.55347216,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-9",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 80,
+										["y"] = -173143.39129649,
+										["x"] = -265375.53021999,
+										["name"] = "PRIMARY INCAPACITATED Hostile West 2-10",
+										["heading"] = 1.5296957198029,
+										["playerCanDrive"] = false,
+									}, -- end of [10]
+								}, -- end of ["units"]
+								["y"] = -173367.10810673,
+								["x"] = -265528.22976301,
+								["name"] = "PRIMARY INCAPACITATED Hostile West 2",
+								["start_time"] = 0,
+							}, -- end of [11]
+							[12] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -168610.89358591,
+												["x"] = -269086.68291419,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -168603.1648521,
+												["x"] = -269073.83023142,
+											}, -- end of [2]
+											[3] = 
+											{
+												["y"] = -168598.73947507,
+												["x"] = -269064.86641252,
+											}, -- end of [3]
+											[4] = 
+											{
+												["y"] = -168584.90706882,
+												["x"] = -269032.72188249,
+											}, -- end of [4]
+											[5] = 
+											{
+												["y"] = -168583.58057188,
+												["x"] = -269027.90929807,
+											}, -- end of [5]
+											[6] = 
+											{
+												["y"] = -168584.75028194,
+												["x"] = -269023.16879406,
+											}, -- end of [6]
+											[7] = 
+											{
+												["y"] = -168588.34316601,
+												["x"] = -269019.72652755,
+											}, -- end of [7]
+											[8] = 
+											{
+												["y"] = -168596.49803768,
+												["x"] = -269013.94816668,
+											}, -- end of [8]
+											[9] = 
+											{
+												["y"] = -168600.19315517,
+												["x"] = -269010.58152318,
+											}, -- end of [9]
+											[10] = 
+											{
+												["y"] = -168603.64421364,
+												["x"] = -269006.96509474,
+											}, -- end of [10]
+											[11] = 
+											{
+												["y"] = -168610.07709117,
+												["x"] = -268999.312465,
+											}, -- end of [11]
+											[12] = 
+											{
+												["y"] = -168647.80246905,
+												["x"] = -268952.67297908,
+											}, -- end of [12]
+											[13] = 
+											{
+												["y"] = -168671.7868704,
+												["x"] = -268927.18690772,
+											}, -- end of [13]
+											[14] = 
+											{
+												["y"] = -168736.55144595,
+												["x"] = -268864.70148229,
+											}, -- end of [14]
+											[15] = 
+											{
+												["y"] = -168751.62906957,
+												["x"] = -268851.56868471,
+											}, -- end of [15]
+											[16] = 
+											{
+												["y"] = -168759.66473027,
+												["x"] = -268845.6180698,
+											}, -- end of [16]
+											[17] = 
+											{
+												["y"] = -168780.23678592,
+												["x"] = -268831.42108133,
+											}, -- end of [17]
+											[18] = 
+											{
+												["y"] = -168784.62615816,
+												["x"] = -268829.02978831,
+											}, -- end of [18]
+											[19] = 
+											{
+												["y"] = -168815.72297038,
+												["x"] = -268812.98854281,
+											}, -- end of [19]
+											[20] = 
+											{
+												["y"] = -168824.10059415,
+												["x"] = -268807.53235687,
+											}, -- end of [20]
+											[21] = 
+											{
+												["y"] = -168832.13153489,
+												["x"] = -268801.57710541,
+											}, -- end of [21]
+											[22] = 
+											{
+												["y"] = -168874.37157553,
+												["x"] = -268766.35624743,
+											}, -- end of [22]
+											[23] = 
+											{
+												["y"] = -168881.78820135,
+												["x"] = -268759.6495723,
+											}, -- end of [23]
+											[24] = 
+											{
+												["y"] = -168888.80880886,
+												["x"] = -268752.53160933,
+											}, -- end of [24]
+											[25] = 
+											{
+												["y"] = -169066.90272488,
+												["x"] = -268570.06958661,
+											}, -- end of [25]
+											[26] = 
+											{
+												["y"] = -169074.53573716,
+												["x"] = -268563.62028078,
+											}, -- end of [26]
+											[27] = 
+											{
+												["y"] = -169078.69926527,
+												["x"] = -268560.85622074,
+											}, -- end of [27]
+											[28] = 
+											{
+												["y"] = -169083.05997474,
+												["x"] = -268558.40963942,
+											}, -- end of [28]
+											[29] = 
+											{
+												["y"] = -169092.10222638,
+												["x"] = -268554.14287221,
+											}, -- end of [29]
+											[30] = 
+											{
+												["y"] = -169110.5299518,
+												["x"] = -268546.39197885,
+											}, -- end of [30]
+											[31] = 
+											{
+												["y"] = -169138.81383646,
+												["x"] = -268536.48065911,
+											}, -- end of [31]
+											[32] = 
+											{
+												["y"] = -169143.03699332,
+												["x"] = -268533.81089575,
+											}, -- end of [32]
+											[33] = 
+											{
+												["y"] = -169147.03898269,
+												["x"] = -268530.81526617,
+											}, -- end of [33]
+											[34] = 
+											{
+												["y"] = -169154.65635781,
+												["x"] = -268524.33791692,
+											}, -- end of [34]
+											[35] = 
+											{
+												["y"] = -169172.7464209,
+												["x"] = -268507.08628853,
+											}, -- end of [35]
+											[36] = 
+											{
+												["y"] = -169218.09824785,
+												["x"] = -268460.52864294,
+											}, -- end of [36]
+											[37] = 
+											{
+												["y"] = -169221.17254424,
+												["x"] = -268456.58955519,
+											}, -- end of [37]
+											[38] = 
+											{
+												["y"] = -169223.34136895,
+												["x"] = -268452.10119859,
+											}, -- end of [38]
+											[39] = 
+											{
+												["y"] = -169224.64507385,
+												["x"] = -268447.27487457,
+											}, -- end of [39]
+											[40] = 
+											{
+												["y"] = -169225.0954831,
+												["x"] = -268442.31024232,
+											}, -- end of [40]
+											[41] = 
+											{
+												["y"] = -169222.7072893,
+												["x"] = -268438.14185137,
+											}, -- end of [41]
+											[42] = 
+											{
+												["y"] = -169218.00029013,
+												["x"] = -268436.53215126,
+											}, -- end of [42]
+											[43] = 
+											{
+												["y"] = -169213.11769073,
+												["x"] = -268435.45100302,
+											}, -- end of [43]
+											[44] = 
+											{
+												["y"] = -169208.38324066,
+												["x"] = -268433.85118234,
+											}, -- end of [44]
+											[45] = 
+											{
+												["y"] = -169203.9609761,
+												["x"] = -268431.53494551,
+											}, -- end of [45]
+											[46] = 
+											{
+												["y"] = -169199.95003821,
+												["x"] = -268428.55669153,
+											}, -- end of [46]
+											[47] = 
+											{
+												["y"] = -169196.37559856,
+												["x"] = -268425.0648757,
+											}, -- end of [47]
+											[48] = 
+											{
+												["y"] = -169193.26016558,
+												["x"] = -268421.15803645,
+											}, -- end of [48]
+											[49] = 
+											{
+												["y"] = -169190.64016634,
+												["x"] = -268416.90362002,
+											}, -- end of [49]
+											[50] = 
+											{
+												["y"] = -169188.53005448,
+												["x"] = -268412.37334699,
+											}, -- end of [50]
+											[51] = 
+											{
+												["y"] = -169186.85208934,
+												["x"] = -268407.66445642,
+											}, -- end of [51]
+											[52] = 
+											{
+												["y"] = -169185.52177184,
+												["x"] = -268402.84609741,
+											}, -- end of [52]
+											[53] = 
+											{
+												["y"] = -169183.40331899,
+												["x"] = -268393.07325399,
+											}, -- end of [53]
+											[54] = 
+											{
+												["y"] = -169179.14736553,
+												["x"] = -268368.43918017,
+											}, -- end of [54]
+											[55] = 
+											{
+												["y"] = -169177.94427935,
+												["x"] = -268358.51454427,
+											}, -- end of [55]
+											[56] = 
+											{
+												["y"] = -169177.6584567,
+												["x"] = -268353.52494354,
+											}, -- end of [56]
+											[57] = 
+											{
+												["y"] = -169177.81220077,
+												["x"] = -268348.53308599,
+											}, -- end of [57]
+											[58] = 
+											{
+												["y"] = -169178.60203246,
+												["x"] = -268343.5954639,
+											}, -- end of [58]
+											[59] = 
+											{
+												["y"] = -169179.90786018,
+												["x"] = -268338.76897376,
+											}, -- end of [59]
+											[60] = 
+											{
+												["y"] = -169181.59833674,
+												["x"] = -268334.06407604,
+											}, -- end of [60]
+											[61] = 
+											{
+												["y"] = -169183.65106,
+												["x"] = -268329.5078315,
+											}, -- end of [61]
+											[62] = 
+											{
+												["y"] = -169186.0492931,
+												["x"] = -268325.12201414,
+											}, -- end of [62]
+											[63] = 
+											{
+												["y"] = -169193.56973206,
+												["x"] = -268312.1491405,
+											}, -- end of [63]
+											[64] = 
+											{
+												["y"] = -169195.6512735,
+												["x"] = -268307.60740454,
+											}, -- end of [64]
+											[65] = 
+											{
+												["y"] = -169199.2362282,
+												["x"] = -268298.27443485,
+											}, -- end of [65]
+											[66] = 
+											{
+												["y"] = -169207.13255238,
+												["x"] = -268274.55211568,
+											}, -- end of [66]
+											[67] = 
+											{
+												["y"] = -169225.33401184,
+												["x"] = -268217.39865247,
+											}, -- end of [67]
+											[68] = 
+											{
+												["y"] = -169232.50737494,
+												["x"] = -268198.73430775,
+											}, -- end of [68]
+											[69] = 
+											{
+												["y"] = -169240.82792708,
+												["x"] = -268180.5522788,
+											}, -- end of [69]
+											[70] = 
+											{
+												["y"] = -169249.24138179,
+												["x"] = -268162.40877901,
+											}, -- end of [70]
+											[71] = 
+											{
+												["y"] = -169250.97881393,
+												["x"] = -268157.72220106,
+											}, -- end of [71]
+											[72] = 
+											{
+												["y"] = -169252.41969268,
+												["x"] = -268152.93625937,
+											}, -- end of [72]
+											[73] = 
+											{
+												["y"] = -169253.58021782,
+												["x"] = -268148.07483846,
+											}, -- end of [73]
+											[74] = 
+											{
+												["y"] = -169254.50266877,
+												["x"] = -268143.15938194,
+											}, -- end of [74]
+											[75] = 
+											{
+												["y"] = -169255.11721148,
+												["x"] = -268138.19737972,
+											}, -- end of [75]
+											[76] = 
+											{
+												["y"] = -169254.44596018,
+												["x"] = -268133.28604573,
+											}, -- end of [76]
+											[77] = 
+											{
+												["y"] = -169251.18153183,
+												["x"] = -268129.60544719,
+											}, -- end of [77]
+											[78] = 
+											{
+												["y"] = -169246.58449777,
+												["x"] = -268127.68860312,
+											}, -- end of [78]
+											[79] = 
+											{
+												["y"] = -169241.66695907,
+												["x"] = -268126.80917227,
+											}, -- end of [79]
+											[80] = 
+											{
+												["y"] = -169236.67910075,
+												["x"] = -268126.49661739,
+											}, -- end of [80]
+											[81] = 
+											{
+												["y"] = -169226.68217806,
+												["x"] = -268126.6711691,
+											}, -- end of [81]
+											[82] = 
+											{
+												["y"] = -169211.73627455,
+												["x"] = -268127.92888511,
+											}, -- end of [82]
+											[83] = 
+											{
+												["y"] = -169186.83658776,
+												["x"] = -268130.12637098,
+											}, -- end of [83]
+											[84] = 
+											{
+												["y"] = -169181.83966554,
+												["x"] = -268130.04601925,
+											}, -- end of [84]
+											[85] = 
+											{
+												["y"] = -169176.94430699,
+												["x"] = -268129.08453888,
+											}, -- end of [85]
+											[86] = 
+											{
+												["y"] = -169172.89668601,
+												["x"] = -268126.28569259,
+											}, -- end of [86]
+											[87] = 
+											{
+												["y"] = -169171.26450669,
+												["x"] = -268121.6199054,
+											}, -- end of [87]
+											[88] = 
+											{
+												["y"] = -169170.99813057,
+												["x"] = -268116.62773982,
+											}, -- end of [88]
+											[89] = 
+											{
+												["y"] = -169170.53183904,
+												["x"] = -268106.64117543,
+											}, -- end of [89]
+											[90] = 
+											{
+												["y"] = -169168.31389173,
+												["x"] = -268081.75677547,
+											}, -- end of [90]
+											[91] = 
+											{
+												["y"] = -169168.46876883,
+												["x"] = -268076.76395835,
+											}, -- end of [91]
+											[92] = 
+											{
+												["y"] = -169168.89494789,
+												["x"] = -268071.77769595,
+											}, -- end of [92]
+											[93] = 
+											{
+												["y"] = -169174.14170448,
+												["x"] = -268032.12586439,
+											}, -- end of [93]
+											[94] = 
+											{
+												["y"] = -169176.87550206,
+												["x"] = -268017.3800636,
+											}, -- end of [94]
+											[95] = 
+											{
+												["y"] = -169178.27973617,
+												["x"] = -268012.58281178,
+											}, -- end of [95]
+											[96] = 
+											{
+												["y"] = -169180.20343373,
+												["x"] = -268007.97189849,
+											}, -- end of [96]
+											[97] = 
+											{
+												["y"] = -169182.64724389,
+												["x"] = -268003.61297008,
+											}, -- end of [97]
+											[98] = 
+											{
+												["y"] = -169195.69877155,
+												["x"] = -267982.30242622,
+											}, -- end of [98]
+											[99] = 
+											{
+												["y"] = -169200.1026108,
+												["x"] = -267973.33044047,
+											}, -- end of [99]
+											[100] = 
+											{
+												["y"] = -169201.62070352,
+												["x"] = -267968.57132611,
+											}, -- end of [100]
+											[101] = 
+											{
+												["y"] = -169202.5801597,
+												["x"] = -267963.6667525,
+											}, -- end of [101]
+											[102] = 
+											{
+												["y"] = -169207.53101884,
+												["x"] = -267934.08404571,
+											}, -- end of [102]
+											[103] = 
+											{
+												["y"] = -169213.37188739,
+												["x"] = -267909.77889418,
+											}, -- end of [103]
+											[104] = 
+											{
+												["y"] = -169217.64362454,
+												["x"] = -267895.40349783,
+											}, -- end of [104]
+											[105] = 
+											{
+												["y"] = -169234.66834639,
+												["x"] = -267848.39260386,
+											}, -- end of [105]
+											[106] = 
+											{
+												["y"] = -169249.01294679,
+												["x"] = -267811.07674558,
+											}, -- end of [106]
+											[107] = 
+											{
+												["y"] = -169276.98916872,
+												["x"] = -267725.54719849,
+											}, -- end of [107]
+											[108] = 
+											{
+												["y"] = -169284.50552791,
+												["x"] = -267707.01751912,
+											}, -- end of [108]
+											[109] = 
+											{
+												["y"] = -169288.92520938,
+												["x"] = -267698.05079956,
+											}, -- end of [109]
+											[110] = 
+											{
+												["y"] = -169293.9947994,
+												["x"] = -267689.43447755,
+											}, -- end of [110]
+											[111] = 
+											{
+												["y"] = -169307.11432629,
+												["x"] = -267668.15777518,
+											}, -- end of [111]
+											[112] = 
+											{
+												["y"] = -169361.81508961,
+												["x"] = -267561.35516141,
+											}, -- end of [112]
+											[113] = 
+											{
+												["y"] = -169376.89220937,
+												["x"] = -267529.77271329,
+											}, -- end of [113]
+											[114] = 
+											{
+												["y"] = -169382.59899246,
+												["x"] = -267515.90154991,
+											}, -- end of [114]
+											[115] = 
+											{
+												["y"] = -169389.070035,
+												["x"] = -267496.98123745,
+											}, -- end of [115]
+											[116] = 
+											{
+												["y"] = -169441.32489317,
+												["x"] = -267319.5210401,
+											}, -- end of [116]
+											[117] = 
+											{
+												["y"] = -169447.08472103,
+												["x"] = -267295.19667272,
+											}, -- end of [117]
+											[118] = 
+											{
+												["y"] = -169448.86067728,
+												["x"] = -267285.35846878,
+											}, -- end of [118]
+											[119] = 
+											{
+												["y"] = -169450.01316299,
+												["x"] = -267275.42577845,
+											}, -- end of [119]
+											[120] = 
+											{
+												["y"] = -169451.55200928,
+												["x"] = -267260.5281019,
+											}, -- end of [120]
+											[121] = 
+											{
+												["y"] = -169454.24598097,
+												["x"] = -267256.41929642,
+											}, -- end of [121]
+											[122] = 
+											{
+												["y"] = -169458.87496441,
+												["x"] = -267254.6732355,
+											}, -- end of [122]
+											[123] = 
+											{
+												["y"] = -169463.86146666,
+												["x"] = -267254.34780282,
+											}, -- end of [123]
+											[124] = 
+											{
+												["y"] = -169468.84703121,
+												["x"] = -267254.676034,
+											}, -- end of [124]
+											[125] = 
+											{
+												["y"] = -169473.76471481,
+												["x"] = -267255.55561441,
+											}, -- end of [125]
+											[126] = 
+											{
+												["y"] = -169478.57868583,
+												["x"] = -267256.89820844,
+											}, -- end of [126]
+											[127] = 
+											{
+												["y"] = -169483.26755456,
+												["x"] = -267258.63561611,
+											}, -- end of [127]
+											[128] = 
+											{
+												["y"] = -169487.73985682,
+												["x"] = -267260.86572801,
+											}, -- end of [128]
+											[129] = 
+											{
+												["y"] = -169491.75477839,
+												["x"] = -267263.83009546,
+											}, -- end of [129]
+											[130] = 
+											{
+												["y"] = -169495.17276788,
+												["x"] = -267267.46993841,
+											}, -- end of [130]
+											[131] = 
+											{
+												["y"] = -169498.08285268,
+												["x"] = -267271.53272707,
+											}, -- end of [131]
+											[132] = 
+											{
+												["y"] = -169503.303422,
+												["x"] = -267280.06192323,
+											}, -- end of [132]
+											[133] = 
+											{
+												["y"] = -169536.01208378,
+												["x"] = -267336.21548477,
+											}, -- end of [133]
+											[134] = 
+											{
+												["y"] = -169541.93532639,
+												["x"] = -267344.26600201,
+											}, -- end of [134]
+											[135] = 
+											{
+												["y"] = -169545.74013723,
+												["x"] = -267347.47267783,
+											}, -- end of [135]
+											[136] = 
+											{
+												["y"] = -169550.39811268,
+												["x"] = -267349.22818896,
+											}, -- end of [136]
+											[137] = 
+											{
+												["y"] = -169555.36289197,
+												["x"] = -267349.73068578,
+											}, -- end of [137]
+											[138] = 
+											{
+												["y"] = -169560.36335213,
+												["x"] = -267349.62897392,
+											}, -- end of [138]
+											[139] = 
+											{
+												["y"] = -169570.32547547,
+												["x"] = -267348.77078939,
+											}, -- end of [139]
+											[140] = 
+											{
+												["y"] = -169649.72742708,
+												["x"] = -267339.18983916,
+											}, -- end of [140]
+											[141] = 
+											{
+												["y"] = -169654.71850877,
+												["x"] = -267339.46501372,
+											}, -- end of [141]
+											[142] = 
+											{
+												["y"] = -169659.43630306,
+												["x"] = -267341.01642697,
+											}, -- end of [142]
+											[143] = 
+											{
+												["y"] = -169663.19024504,
+												["x"] = -267344.27570046,
+											}, -- end of [143]
+											[144] = 
+											{
+												["y"] = -169665.96196472,
+												["x"] = -267348.4280278,
+											}, -- end of [144]
+											[145] = 
+											{
+												["y"] = -169668.14073124,
+												["x"] = -267352.92424995,
+											}, -- end of [145]
+											[146] = 
+											{
+												["y"] = -169668.21109548,
+												["x"] = -267353.11526159,
+											}, -- end of [146]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -169666.52835391,
+												["x"] = -267353.94617532,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170282.85829434,
+												["x"] = -267075.57954124,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -170282.85829434,
+												["x"] = -267075.57954124,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170282.85829434,
+												["x"] = -267075.57954124,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 766,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -168612.48597757,
+											["x"] = -269085.68023954,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 5,
+																		["name"] = 30,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["enabled"] = true,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["number"] = 2,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "300",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 642.18218854301,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -169666.52835391,
+											["x"] = -267353.94617532,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 809.48523826807,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170282.85829434,
+											["x"] = -267075.57954124,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 18,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 84,
+										["y"] = -168612.48597757,
+										["x"] = -269085.68023954,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-1",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 85,
+										["y"] = -168631.04695917,
+										["x"] = -269109.24576742,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-2",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 91,
+										["y"] = -168652.46161165,
+										["x"] = -269123.67621487,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-3",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 86,
+										["y"] = -168678.86607011,
+										["x"] = -269127.5667775,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-4",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 89,
+										["y"] = -168701.03970513,
+										["x"] = -269139.56039193,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-5",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 92,
+										["y"] = -168719.52414274,
+										["x"] = -269160.80922895,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-6",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 83,
+										["y"] = -168741.12622219,
+										["x"] = -269180.97636146,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-7",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 87,
+										["y"] = -168765.66883962,
+										["x"] = -269196.67497657,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-8",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 88,
+										["y"] = -168790.04144499,
+										["x"] = -269213.58585253,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-9",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 90,
+										["y"] = -168803.69246656,
+										["x"] = -269236.19069676,
+										["name"] = "PRIMARY INCAPACITATED Hostile South 2-10",
+										["heading"] = -0.54676498437134,
+										["playerCanDrive"] = false,
+									}, -- end of [10]
+								}, -- end of ["units"]
+								["y"] = -168612.48597757,
+								["x"] = -269085.68023954,
+								["name"] = "PRIMARY INCAPACITATED Hostile South 2",
+								["start_time"] = 0,
+							}, -- end of [12]
+							[13] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -170851.99112374,
+												["x"] = -269892.7570917,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170827.40061514,
+												["x"] = -269888.26658447,
+											}, -- end of [2]
+											[3] = 
+											{
+												["y"] = -170817.70467098,
+												["x"] = -269885.82016684,
+											}, -- end of [3]
+											[4] = 
+											{
+												["y"] = -170812.94973394,
+												["x"] = -269884.28188322,
+											}, -- end of [4]
+											[5] = 
+											{
+												["y"] = -170808.42378985,
+												["x"] = -269882.16872598,
+											}, -- end of [5]
+											[6] = 
+											{
+												["y"] = -170805.37819591,
+												["x"] = -269878.34583444,
+											}, -- end of [6]
+											[7] = 
+											{
+												["y"] = -170805.07335288,
+												["x"] = -269873.39110517,
+											}, -- end of [7]
+											[8] = 
+											{
+												["y"] = -170805.93076414,
+												["x"] = -269868.46694762,
+											}, -- end of [8]
+											[9] = 
+											{
+												["y"] = -170806.75113326,
+												["x"] = -269863.53517379,
+											}, -- end of [9]
+											[10] = 
+											{
+												["y"] = -170807.14550433,
+												["x"] = -269858.5528556,
+											}, -- end of [10]
+											[11] = 
+											{
+												["y"] = -170807.06969642,
+												["x"] = -269853.55587049,
+											}, -- end of [11]
+											[12] = 
+											{
+												["y"] = -170805.90548117,
+												["x"] = -269848.71875214,
+											}, -- end of [12]
+											[13] = 
+											{
+												["y"] = -170802.91145073,
+												["x"] = -269844.78392056,
+											}, -- end of [13]
+											[14] = 
+											{
+												["y"] = -170798.64196278,
+												["x"] = -269842.18163956,
+											}, -- end of [14]
+											[15] = 
+											{
+												["y"] = -170795.14481477,
+												["x"] = -269838.65951328,
+											}, -- end of [15]
+											[16] = 
+											{
+												["y"] = -170794.20790921,
+												["x"] = -269833.8880189,
+											}, -- end of [16]
+											[17] = 
+											{
+												["y"] = -170795.57255483,
+												["x"] = -269829.07765863,
+											}, -- end of [17]
+											[18] = 
+											{
+												["y"] = -170799.32874162,
+												["x"] = -269819.811802,
+											}, -- end of [18]
+											[19] = 
+											{
+												["y"] = -170821.64173806,
+												["x"] = -269769.55248581,
+											}, -- end of [19]
+											[20] = 
+											{
+												["y"] = -170826.62280658,
+												["x"] = -269760.88187546,
+											}, -- end of [20]
+											[21] = 
+											{
+												["y"] = -170850.61453892,
+												["x"] = -269722.8205756,
+											}, -- end of [21]
+											[22] = 
+											{
+												["y"] = -170862.36201726,
+												["x"] = -269706.66364685,
+											}, -- end of [22]
+											[23] = 
+											{
+												["y"] = -170864.39642647,
+												["x"] = -269702.10251853,
+											}, -- end of [23]
+											[24] = 
+											{
+												["y"] = -170865.95427806,
+												["x"] = -269697.35279155,
+											}, -- end of [24]
+											[25] = 
+											{
+												["y"] = -170868.36669327,
+												["x"] = -269687.650033,
+											}, -- end of [25]
+											[26] = 
+											{
+												["y"] = -170900.4325634,
+												["x"] = -269525.79817032,
+											}, -- end of [26]
+											[27] = 
+											{
+												["y"] = -170901.74977347,
+												["x"] = -269515.8894186,
+											}, -- end of [27]
+											[28] = 
+											{
+												["y"] = -170903.81933461,
+												["x"] = -269485.9545027,
+											}, -- end of [28]
+											[29] = 
+											{
+												["y"] = -170903.90158582,
+												["x"] = -269475.95885052,
+											}, -- end of [29]
+											[30] = 
+											{
+												["y"] = -170903.11392437,
+												["x"] = -269460.98548238,
+											}, -- end of [30]
+											[31] = 
+											{
+												["y"] = -170861.853676,
+												["x"] = -268987.83093229,
+											}, -- end of [31]
+											[32] = 
+											{
+												["y"] = -170860.97046567,
+												["x"] = -268917.86606606,
+											}, -- end of [32]
+											[33] = 
+											{
+												["y"] = -170853.57712742,
+												["x"] = -268853.2868869,
+											}, -- end of [33]
+											[34] = 
+											{
+												["y"] = -170851.80695831,
+												["x"] = -268843.4503265,
+											}, -- end of [34]
+											[35] = 
+											{
+												["y"] = -170849.38260227,
+												["x"] = -268833.75227229,
+											}, -- end of [35]
+											[36] = 
+											{
+												["y"] = -170845.54329677,
+												["x"] = -268819.25444095,
+											}, -- end of [36]
+											[37] = 
+											{
+												["y"] = -170844.74696222,
+												["x"] = -268814.32322562,
+											}, -- end of [37]
+											[38] = 
+											{
+												["y"] = -170844.32065072,
+												["x"] = -268809.3369225,
+											}, -- end of [38]
+											[39] = 
+											{
+												["y"] = -170833.36089999,
+												["x"] = -268634.69136769,
+											}, -- end of [39]
+											[40] = 
+											{
+												["y"] = -170832.26674598,
+												["x"] = -268354.71198045,
+											}, -- end of [40]
+											[41] = 
+											{
+												["y"] = -170833.49904981,
+												["x"] = -268309.73385092,
+											}, -- end of [41]
+											[42] = 
+											{
+												["y"] = -170831.00052065,
+												["x"] = -268239.6506031,
+											}, -- end of [42]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -170832.74901204,
+												["x"] = -268239.58516813,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170366.78583773,
+												["x"] = -268095.81944009,
+											}, -- end of [2]
+										}, -- end of [2]
+										[3] = 
+										{
+											[1] = 
+											{
+												["y"] = -170366.78583773,
+												["x"] = -268095.81944009,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -170366.78583773,
+												["x"] = -268095.81944009,
+											}, -- end of [2]
+										}, -- end of [3]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 764,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170852.24680672,
+											["x"] = -269891.2163782,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 5,
+																		["name"] = 30,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["enabled"] = true,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["number"] = 2,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "300",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 429.88011548439,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170832.74901204,
+											["x"] = -268239.58516813,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "On Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 551.78947330115,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170366.78583773,
+											["x"] = -268095.81944009,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [3]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 19,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 94,
+										["y"] = -170852.24680672,
+										["x"] = -269891.2163782,
+										["name"] = "PRIMARY INCAPACITATED g1-1",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 95,
+										["y"] = -170881.10868044,
+										["x"] = -269897.99671842,
+										["name"] = "PRIMARY INCAPACITATED g1-2",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 101,
+										["y"] = -170909.54956842,
+										["x"] = -269907.08107431,
+										["name"] = "PRIMARY INCAPACITATED g1-3",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 96,
+										["y"] = -170937.63077532,
+										["x"] = -269917.4458087,
+										["name"] = "PRIMARY INCAPACITATED g1-4",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 99,
+										["y"] = -170965.74048897,
+										["x"] = -269927.96305491,
+										["name"] = "PRIMARY INCAPACITATED g1-5",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 102,
+										["y"] = -170994.63947942,
+										["x"] = -269933.69888076,
+										["name"] = "PRIMARY INCAPACITATED g1-6",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 93,
+										["y"] = -171024.23606721,
+										["x"] = -269938.62571128,
+										["name"] = "PRIMARY INCAPACITATED g1-7",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 97,
+										["y"] = -171050.63445683,
+										["x"] = -269948.14605043,
+										["name"] = "PRIMARY INCAPACITATED g1-8",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 98,
+										["y"] = -171062.58604836,
+										["x"] = -269940.91797769,
+										["name"] = "PRIMARY INCAPACITATED g1-9",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 100,
+										["y"] = -171076.30139034,
+										["x"] = -269918.18167141,
+										["name"] = "PRIMARY INCAPACITATED g1-10",
+										["heading"] = 0.011804626169186,
+										["playerCanDrive"] = false,
+									}, -- end of [10]
+								}, -- end of ["units"]
+								["y"] = -170852.24680672,
+								["x"] = -269891.2163782,
+								["name"] = "PRIMARY INCAPACITATED g1",
+								["start_time"] = 0,
+							}, -- end of [13]
+							[14] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -170880.95592956,
+												["x"] = -265356.59599772,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171812.29582903,
+												["x"] = -265479.17548391,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -171812.29582903,
+												["x"] = -265479.17548391,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171812.29582903,
+												["x"] = -265479.17548391,
+											}, -- end of [2]
+										}, -- end of [2]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 781,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170880.95592956,
+											["x"] = -265356.59599772,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["enabled"] = true,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["number"] = 1,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "300",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 775,
+											["type"] = "Turning Point",
+											["ETA"] = 234.84299792346,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171812.29582903,
+											["x"] = -265479.17548391,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 20,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 105,
+										["y"] = -170880.95592956,
+										["x"] = -265356.59599772,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-8-1",
+										["heading"] = -1.701660412812,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 103,
+										["y"] = -170891.86538094,
+										["x"] = -265366.89936847,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-8-2",
+										["heading"] = -1.701660412812,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 104,
+										["y"] = -170889.64308529,
+										["x"] = -265362.05072342,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-8-3",
+										["heading"] = -1.701660412812,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 106,
+										["y"] = -170896.92878762,
+										["x"] = -265358.79105104,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-8-4",
+										["heading"] = -1.701660412812,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 107,
+										["y"] = -170881.56201019,
+										["x"] = -265362.05072342,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-8-5",
+										["heading"] = -1.701660412812,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -170880.95592956,
+								["x"] = -265356.59599772,
+								["name"] = "PRIMARY INCAPACITATED Hostile East-8",
+								["start_time"] = 0,
+							}, -- end of [14]
+							[15] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -170919.59918648,
+												["x"] = -265375.20014632,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171824.33813696,
+												["x"] = -265489.12347741,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -171824.33813696,
+												["x"] = -265489.12347741,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171824.33813696,
+												["x"] = -265489.12347741,
+											}, -- end of [2]
+										}, -- end of [2]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 810.6607538045,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -170919.59918648,
+											["x"] = -265375.20014632,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["enabled"] = true,
+															["auto"] = false,
+															["id"] = "ControlledTask",
+															["number"] = 1,
+															["params"] = 
+															{
+																["task"] = 
+																{
+																	["id"] = "Hold",
+																	["params"] = 
+																	{
+																		["templateId"] = "",
+																	}, -- end of ["params"]
+																}, -- end of ["task"]
+																["stopCondition"] = 
+																{
+																	["userFlag"] = "300",
+																}, -- end of ["stopCondition"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 227.97081692158,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171824.33813696,
+											["x"] = -265489.12347741,
+											["ETA_locked"] = false,
+											["speed"] = 4,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 21,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 110,
+										["y"] = -170919.59918648,
+										["x"] = -265375.20014632,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-7-1",
+										["heading"] = -1.6960555440952,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 108,
+										["y"] = -170930.50863786,
+										["x"] = -265385.50351707,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-7-2",
+										["heading"] = -1.6960555440952,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 109,
+										["y"] = -170928.28634221,
+										["x"] = -265380.65487202,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-7-3",
+										["heading"] = -1.6960555440952,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 111,
+										["y"] = -170935.57204454,
+										["x"] = -265377.39519964,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-7-4",
+										["heading"] = -1.6960555440952,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 112,
+										["y"] = -170920.20526711,
+										["x"] = -265380.65487202,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-7-5",
+										["heading"] = -1.6960555440952,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -170919.59918648,
+								["x"] = -265375.20014632,
+								["name"] = "PRIMARY INCAPACITATED Hostile East-7",
+								["start_time"] = 0,
+							}, -- end of [15]
+							[16] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -172191.44537768,
+												["x"] = -265501.381221,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -172191.44537768,
+												["x"] = -265501.381221,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 772,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -172191.44537768,
+											["x"] = -265501.381221,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 22,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 115,
+										["y"] = -172191.44537768,
+										["x"] = -265501.381221,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-4-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 113,
+										["y"] = -172202.35482906,
+										["x"] = -265511.68459175,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-4-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 114,
+										["y"] = -172200.13253341,
+										["x"] = -265506.8359467,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-4-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 116,
+										["y"] = -172207.41823574,
+										["x"] = -265503.57627432,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-4-4",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 117,
+										["y"] = -172192.05145831,
+										["x"] = -265506.8359467,
+										["name"] = "PRIMARY INCAPACITATED Hostile East-4-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -172191.44537768,
+								["x"] = -265501.381221,
+								["name"] = "PRIMARY INCAPACITATED Hostile East-4",
+								["start_time"] = 0,
+							}, -- end of [16]
+							[17] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -171723.1585871,
+												["x"] = -265913.14458793,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171723.1585871,
+												["x"] = -265913.14458793,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 777,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171723.1585871,
+											["x"] = -265913.14458793,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 23,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 120,
+										["y"] = -171723.1585871,
+										["x"] = -265913.14458793,
+										["name"] = "SECONDARY DESTROYED Hostile East-3-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 118,
+										["y"] = -171739.47834608,
+										["x"] = -265924.70596616,
+										["name"] = "SECONDARY DESTROYED Hostile East-3-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 119,
+										["y"] = -171731.97634311,
+										["x"] = -265928.49401506,
+										["name"] = "SECONDARY DESTROYED Hostile East-3-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 121,
+										["y"] = -171739.13144516,
+										["x"] = -265915.33964125,
+										["name"] = "SECONDARY DESTROYED Hostile East-3-4",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 122,
+										["y"] = -171725.22694962,
+										["x"] = -265926.64337491,
+										["name"] = "SECONDARY DESTROYED Hostile East-3-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -171723.1585871,
+								["x"] = -265913.14458793,
+								["name"] = "SECONDARY DESTROYED Hostile East-3",
+								["start_time"] = 0,
+							}, -- end of [17]
+							[18] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -171756.72824019,
+												["x"] = -265892.2956981,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -171756.72824019,
+												["x"] = -265892.2956981,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 776,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -171756.72824019,
+											["x"] = -265892.2956981,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 24,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 125,
+										["y"] = -171756.72824019,
+										["x"] = -265892.2956981,
+										["name"] = "SECONDARY DESTROYED Hostile East-2-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 123,
+										["y"] = -171773.04799917,
+										["x"] = -265903.85707633,
+										["name"] = "SECONDARY DESTROYED Hostile East-2-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 124,
+										["y"] = -171765.5459962,
+										["x"] = -265907.64512523,
+										["name"] = "SECONDARY DESTROYED Hostile East-2-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 126,
+										["y"] = -171772.70109825,
+										["x"] = -265894.49075142,
+										["name"] = "SECONDARY DESTROYED Hostile East-2-4",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 127,
+										["y"] = -171758.79660271,
+										["x"] = -265905.79448508,
+										["name"] = "SECONDARY DESTROYED Hostile East-2-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -171756.72824019,
+								["x"] = -265892.2956981,
+								["name"] = "SECONDARY DESTROYED Hostile East-2",
+								["start_time"] = 0,
+							}, -- end of [18]
+							[19] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -177335.19932981,
+												["x"] = -265788.26820683,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -177335.19932981,
+												["x"] = -265788.26820683,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 783,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -177335.19932981,
+											["x"] = -265788.26820683,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 25,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 130,
+										["y"] = -177335.19932981,
+										["x"] = -265788.26820683,
+										["name"] = "Hostile East-13-1",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 128,
+										["y"] = -177351.51908879,
+										["x"] = -265799.82958506,
+										["name"] = "Hostile East-13-2",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 129,
+										["y"] = -177344.01708582,
+										["x"] = -265803.61763396,
+										["name"] = "Hostile East-13-3",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 131,
+										["y"] = -177351.17218787,
+										["x"] = -265790.46326015,
+										["name"] = "Hostile East-13-4",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 132,
+										["y"] = -177337.26769233,
+										["x"] = -265801.76699381,
+										["name"] = "Hostile East-13-5",
+										["heading"] = 0.95443619025833,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -177335.19932981,
+								["x"] = -265788.26820683,
+								["name"] = "Hostile East-13",
+								["start_time"] = 0,
+							}, -- end of [19]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "Russia",
+				}, -- end of [5]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "mis1",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Afghanistan",
+	["desc"] = "",
+} -- end of staticTemplate

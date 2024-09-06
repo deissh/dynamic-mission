@@ -2,13 +2,7 @@ name = "Tarinkot"
 priority = 50
 airspace = false
 links = {
-	ground = {},
-	air    = {},
+	ground = { "Kandahar" },
+	air    = { "Kandahar" },
     sea    = {},
-}
-limits = {
-    ["shorad"] = {
-        ["min"] = 1,
-        ["max"] = 2,
-    },
 }

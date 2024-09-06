@@ -1,7 +1,9 @@
-name = "Camp Bastion"
+name = "Kandahar"
 priority = 10
+airspace = true
 links = {
 	ground = { "Tarinkot" },
 	air    = { "Tarinkot" },
     sea    = {},
 }
+limits = {}

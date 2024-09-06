@@ -1,0 +1,12 @@
+objtype = "airbase"
+name = "Kandahar"
+desc = "Kandahar Air Base"
+coalition = 2
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {
+	"77th",
+	"494th",
+	"VMA-214",
+}

@@ -1,0 +1,9 @@
+objtype = "airbase"
+name = "Tarinkot"
+desc = "Tarinkot Air Base"
+capturable = true
+coalition = 1
+cost = 10
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

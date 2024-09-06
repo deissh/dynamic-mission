@@ -1,0 +1,9 @@
+objtype = "airbase"
+name = "Bost"
+desc = "Bost airfield"
+capturable = true
+coalition = 0
+cost = 10
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}
