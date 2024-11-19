@@ -1,7 +1,7 @@
 require("dependency/dct")
 require("dependency/moose")
 
+-- PROFILER.Start()
+MESSAGE:New("Loaded dependencies", 10, "DEBUG"):ToAll()
 
-local atc = FLIGHTCONTROL:New(AIRBASE.Afghanistan.Kandahar, 251, nil, "C:\\Program Files\\DCS-SimpleRadio-Standalone")
-atc:SetParkingGuardStatic("Static TAXI STOP")
-atc:Start()
+require("src/systems/sam")

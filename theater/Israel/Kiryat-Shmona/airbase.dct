@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "Kiryat Shmona"
+desc = "Kiryat Shmona"
+coalition = 2
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

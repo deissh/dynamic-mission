@@ -1,8 +1,0 @@
-name = "Tarinkot"
-priority = 50
-airspace = false
-links = {
-	ground = { "Kandahar" },
-	air    = { "Kandahar" },
-    sea    = {},
-}

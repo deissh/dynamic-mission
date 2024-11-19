@@ -1,12 +1,12 @@
 objtype = "airbase"
-name = "Kandahar"
-desc = "Kandahar Air Base"
+name = "Ramat David"
+desc = "Ramat David - main airfield"
 coalition = 2
+
+capturable = false
 cost = 20
 recoverytype = "land"
 takeofftype = "runway"
 subordinates = {
-	"77th",
-	"494th",
-	"VMA-214",
+	"101st"
 }

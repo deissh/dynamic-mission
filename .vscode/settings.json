@@ -24,6 +24,7 @@
     "vscord.status.details.text.notInFile": "In workspace",
     "vscord.behaviour.prioritizeLanguagesOverExtensions": true,
     "Lua.diagnostics.globals": [
-        "CTLD"
+        "CTLD",
+        "lfs"
     ]
 }

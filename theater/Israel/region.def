@@ -1,0 +1,8 @@
+name = "Israel"
+priority = 50
+airspace = true
+links = {
+	ground = { "Liban" },
+	air    = { "Liban" },
+    sea    = {},
+}

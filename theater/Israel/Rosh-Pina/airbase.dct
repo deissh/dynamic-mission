@@ -1,9 +1,10 @@
 objtype = "airbase"
-name = "Bost"
-desc = "Bost airfield"
-capturable = true
-coalition = 1
-cost = 10
+name = "Rosh Pina"
+desc = "Rosh Pina"
+coalition = 2
+
+capturable = false
+cost = 20
 recoverytype = "land"
 takeofftype = "runway"
 subordinates = {}
