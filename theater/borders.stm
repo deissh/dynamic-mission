@@ -1,0 +1,1685 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 2,
+					["name"] = "USA",
+					["helicopter"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["dynSpawnTemplate"] = false,
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "CAS",
+								["uncontrolled"] = false,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["enabled"] = true,
+															["key"] = "CAS",
+															["id"] = "EngageTargets",
+															["number"] = 1,
+															["auto"] = true,
+															["params"] = 
+															{
+																["targetTypes"] = 
+																{
+																	[1] = "Helicopters",
+																	[2] = "Ground Units",
+																	[3] = "Light armed ships",
+																}, -- end of ["targetTypes"]
+																["priority"] = 0,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = -81014.090145452,
+											["x"] = -211383.19914875,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 630,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 418.772121979,
+											["ETA_locked"] = false,
+											["y"] = -61652.385430964,
+											["x"] = -210881.22902652,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 660,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 580.38760201106,
+											["ETA_locked"] = false,
+											["y"] = -56776.104243611,
+											["x"] = -216546.32040595,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [3]
+										[4] = 
+										{
+											["alt"] = 688,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 868.23163608505,
+											["ETA_locked"] = false,
+											["y"] = -44083.431153003,
+											["x"] = -212530.55942813,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [4]
+										[5] = 
+										{
+											["alt"] = 688,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1350.622462151,
+											["ETA_locked"] = false,
+											["y"] = -37916.369651351,
+											["x"] = -191089.26420727,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [5]
+										[6] = 
+										{
+											["alt"] = 688,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1508.0484260051,
+											["ETA_locked"] = false,
+											["y"] = -32322.988289388,
+											["x"] = -195750.41534224,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [6]
+										[7] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1981.221352331,
+											["ETA_locked"] = false,
+											["y"] = -13821.803784433,
+											["x"] = -184061.68249608,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [7]
+										[8] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 2541.1210298102,
+											["ETA_locked"] = false,
+											["y"] = -13176.413627283,
+											["x"] = -209948.99879953,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [8]
+										[9] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 2946.9222764966,
+											["ETA_locked"] = false,
+											["y"] = -10021.172858996,
+											["x"] = -228450.18330448,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [9]
+										[10] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3245.5268861901,
+											["ETA_locked"] = false,
+											["y"] = -12674.443505056,
+											["x"] = -242003.37660463,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [10]
+										[11] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3537.4210671958,
+											["ETA_locked"] = false,
+											["y"] = -20901.22301791,
+											["x"] = -252707.25241617,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [11]
+										[12] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3999.5339861125,
+											["ETA_locked"] = false,
+											["y"] = -39702.946213925,
+											["x"] = -262870.34603564,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [12]
+										[13] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 4610.9012821755,
+											["ETA_locked"] = false,
+											["y"] = -41735.564937818,
+											["x"] = -291072.93082966,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [13]
+										[14] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 5190.5764307316,
+											["ETA_locked"] = false,
+											["y"] = -42243.719618792,
+											["x"] = -317878.090251,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [14]
+										[15] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 6128.1348714438,
+											["ETA_locked"] = false,
+											["y"] = -44149.299672442,
+											["x"] = -361198.27680399,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [15]
+										[16] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 6562.2046609006,
+											["ETA_locked"] = false,
+											["y"] = -51517.542546556,
+											["x"] = -379872.96132976,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [16]
+										[17] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 9226.5832584366,
+											["ETA_locked"] = false,
+											["y"] = -174745.0526826,
+											["x"] = -379872.96132976,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [17]
+										[18] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 10744.463076849,
+											["ETA_locked"] = false,
+											["y"] = -139301.26368471,
+											["x"] = -319275.51562368,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [18]
+										[19] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 13222.658806448,
+											["ETA_locked"] = false,
+											["y"] = -102333.01064389,
+											["x"] = -210784.49123586,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [19]
+										[20] = 
+										{
+											["alt"] = 2147,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 13683.632916417,
+											["ETA_locked"] = false,
+											["y"] = -81021.430074577,
+											["x"] = -211385.47036194,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [20]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 1,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 500,
+										["alt_type"] = "BARO",
+										["livery_id"] = "USA X Black",
+										["skill"] = "High",
+										["speed"] = 46.25,
+										["type"] = "AH-1W",
+										["unitId"] = 1,
+										["psi"] = -1.5448762072625,
+										["onboard_num"] = "010",
+										["y"] = -81014.090145452,
+										["x"] = -211383.19914875,
+										["name"] = "Israel",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = "1250.0",
+											["flare"] = 30,
+											["chaff"] = 30,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["heading"] = 1.5448762072625,
+										["callsign"] = 
+										{
+											[1] = 1,
+											[2] = 1,
+											[3] = 1,
+											["name"] = "Enfield11",
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -81014.090145452,
+								["x"] = -211383.19914875,
+								["name"] = "Israel",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 225,
+							}, -- end of [1]
+							[2] = 
+							{
+								["dynSpawnTemplate"] = false,
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "CAS",
+								["uncontrolled"] = false,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["enabled"] = true,
+															["key"] = "CAS",
+															["id"] = "EngageTargets",
+															["number"] = 1,
+															["auto"] = true,
+															["params"] = 
+															{
+																["targetTypes"] = 
+																{
+																	[1] = "Helicopters",
+																	[2] = "Ground Units",
+																	[3] = "Light armed ships",
+																}, -- end of ["targetTypes"]
+																["priority"] = 0,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = 6054.577336724,
+											["x"] = -41875.541605865,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 291.67208865367,
+											["ETA_locked"] = false,
+											["y"] = 19529.615441168,
+											["x"] = -42507.184017011,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 623.3679928679,
+											["ETA_locked"] = false,
+											["y"] = 34829.398288923,
+											["x"] = -43630.103859048,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [3]
+										[4] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 746.31965421411,
+											["ETA_locked"] = false,
+											["y"] = 36092.683111214,
+											["x"] = -38085.68713899,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [4]
+										[5] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 820.81438542011,
+											["ETA_locked"] = false,
+											["y"] = 39531.625127453,
+											["x"] = -38296.234609372,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [5]
+										[6] = 
+										{
+											["alt"] = 500,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1086.1615631642,
+											["ETA_locked"] = false,
+											["y"] = 50480.093587314,
+											["x"] = -43840.65132943,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [6]
+										[7] = 
+										{
+											["alt"] = 520,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1186.6467015673,
+											["ETA_locked"] = false,
+											["y"] = 49286.991255149,
+											["x"] = -48332.330697578,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [7]
+										[8] = 
+										{
+											["alt"] = 1193,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1480.7207506532,
+											["ETA_locked"] = false,
+											["y"] = 37636.697894015,
+											["x"] = -55350.579710309,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [8]
+										[9] = 
+										{
+											["alt"] = 1193,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1549.4266401728,
+											["ETA_locked"] = false,
+											["y"] = 37987.610344652,
+											["x"] = -58508.791766039,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [9]
+										[10] = 
+										{
+											["alt"] = 1193,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 1779.1701704734,
+											["ETA_locked"] = false,
+											["y"] = 48585.166353876,
+											["x"] = -57736.784374638,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [10]
+										[11] = 
+										{
+											["alt"] = 1193,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 2088.5607232618,
+											["ETA_locked"] = false,
+											["y"] = 58200.167501318,
+											["x"] = -68334.340383862,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [11]
+										[12] = 
+										{
+											["alt"] = 1193,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 2204.8915679431,
+											["ETA_locked"] = false,
+											["y"] = 55463.050386353,
+											["x"] = -72966.384732265,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [12]
+										[13] = 
+										{
+											["alt"] = 2302,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 2647.2459042625,
+											["ETA_locked"] = false,
+											["y"] = 63674.401731249,
+											["x"] = -91705.109596258,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [13]
+										[14] = 
+										{
+											["alt"] = 2302,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 2985.7502799451,
+											["ETA_locked"] = false,
+											["y"] = 53100.637586178,
+											["x"] = -103250.69068212,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [14]
+										[15] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3132.0802817757,
+											["ETA_locked"] = false,
+											["y"] = 50111.424966675,
+											["x"] = -109322.52881549,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [15]
+										[16] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3254.0865161927,
+											["ETA_locked"] = false,
+											["y"] = 44506.651305108,
+											["x"] = -108668.63855497,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [16]
+										[17] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3688.799694136,
+											["ETA_locked"] = false,
+											["y"] = 31709.084777863,
+											["x"] = -124175.17901864,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [17]
+										[18] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 3936.9975043033,
+											["ETA_locked"] = false,
+											["y"] = 41143.787108168,
+											["x"] = -130714.0816238,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [18]
+										[19] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 4022.7115408821,
+											["ETA_locked"] = false,
+											["y"] = 38901.877643541,
+											["x"] = -133983.53292638,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [19]
+										[20] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 4268.7965693985,
+											["ETA_locked"] = false,
+											["y"] = 28252.807686563,
+											["x"] = -129966.77846893,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [20]
+										[21] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 4444.5254050149,
+											["ETA_locked"] = false,
+											["y"] = 20125.88587729,
+											["x"] = -129873.36557457,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [21]
+										[22] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 4784.5680004202,
+											["ETA_locked"] = false,
+											["y"] = 6954.6677726071,
+											["x"] = -138467.35185564,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [22]
+										[23] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 5128.5170316865,
+											["ETA_locked"] = false,
+											["y"] = -1826.144297182,
+											["x"] = -151731.98285468,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [23]
+										[24] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 5451.2014293401,
+											["ETA_locked"] = false,
+											["y"] = 10691.183546985,
+											["x"] = -159858.90466395,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [24]
+										[25] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 5757.4166633922,
+											["ETA_locked"] = false,
+											["y"] = -1919.5571915419,
+											["x"] = -166304.39437475,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [25]
+										[26] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 5873.0896671926,
+											["ETA_locked"] = false,
+											["y"] = -798.60245922842,
+											["x"] = -171535.51645888,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [26]
+										[27] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 6257.5886347499,
+											["ETA_locked"] = false,
+											["y"] = -13876.407669552,
+											["x"] = -183585.77983125,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [27]
+										[28] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 6728.6829317543,
+											["ETA_locked"] = false,
+											["y"] = -32312.572283953,
+											["x"] = -195197.39580677,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [28]
+										[29] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 6886.5924189147,
+											["ETA_locked"] = false,
+											["y"] = -37741.0826657,
+											["x"] = -190311.73646319,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [29]
+										[30] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 7378.1854732416,
+											["ETA_locked"] = false,
+											["y"] = -44363.865331431,
+											["x"] = -212061.96805939,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [30]
+										[31] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 7656.9203897872,
+											["ETA_locked"] = false,
+											["y"] = -56704.678932602,
+											["x"] = -215789.54518819,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [31]
+										[32] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 7816.7357783354,
+											["ETA_locked"] = false,
+											["y"] = -61517.958137751,
+											["x"] = -210180.08446039,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [32]
+										[33] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 8699.3836104971,
+											["ETA_locked"] = false,
+											["y"] = -102340.35620849,
+											["x"] = -210107.70432196,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [33]
+										[34] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 9755.871396116,
+											["ETA_locked"] = false,
+											["y"] = -81356.857902053,
+											["x"] = -165980.1327043,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [34]
+										[35] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 11873.717233454,
+											["ETA_locked"] = false,
+											["y"] = -44016.657511805,
+											["x"] = -75426.367385443,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [35]
+										[36] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 12769.475477589,
+											["ETA_locked"] = false,
+											["y"] = -20584.547955172,
+											["x"] = -41260.83990287,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [36]
+										[37] = 
+										{
+											["alt"] = 2392,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 46.25,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 13347.54639259,
+											["ETA_locked"] = false,
+											["y"] = 6141.4674642778,
+											["x"] = -41983.351023304,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [37]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 2,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 500,
+										["alt_type"] = "BARO",
+										["livery_id"] = "USA X Black",
+										["skill"] = "High",
+										["speed"] = 46.25,
+										["type"] = "AH-1W",
+										["unitId"] = 2,
+										["psi"] = -1.6176370397109,
+										["onboard_num"] = "011",
+										["y"] = 6054.577336724,
+										["x"] = -41875.541605865,
+										["name"] = "Liban",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = "1250.0",
+											["flare"] = 30,
+											["chaff"] = 30,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["heading"] = 1.6176370397109,
+										["callsign"] = 
+										{
+											[1] = 2,
+											[2] = 1,
+											[3] = 1,
+											["name"] = "Enfield12",
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 6054.577336724,
+								["x"] = -41875.541605865,
+								["name"] = "Liban",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 127.5,
+							}, -- end of [2]
+						}, -- end of ["group"]
+					}, -- end of ["helicopter"]
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = {},
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "borders",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "Ливанская война (1982)",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate
