@@ -1,0 +1,12 @@
+objtype = "ewr"
+intel = 1
+cost = 2
+name = "RED EWR SR"
+priority = 25
+desc = [[Command is tasking you to take out a known EWR installation just east-north of the Rayak airbase, said site has a range bigger than 200nm, and so, command deemed necessary the destruction of the instalation.
+
+Primary objective: Eliminate the EWR.
+
+Threats: Damascus & Bekka SAM network.
+
+Recommended pilots: 2]]

@@ -1,0 +1,225 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 0,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 963,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -18647.336677214,
+											["x"] = -165574.08811802,
+											["ETA_locked"] = true,
+											["speed"] = 5.5555555555556,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 14,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 1S91 str",
+										["unitId"] = 89,
+										["y"] = -18647.336677214,
+										["x"] = -165574.08811802,
+										["name"] = "Ground-4-1",
+										["heading"] = 4.4505895925855,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 90,
+										["y"] = -18676.011550305,
+										["x"] = -165477.33540253,
+										["name"] = "Ground-4-2",
+										["heading"] = 2.8797932657907,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 91,
+										["y"] = -18617.017117417,
+										["x"] = -165671.82384404,
+										["name"] = "Ground-4-3",
+										["heading"] = 6.0039326268605,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 92,
+										["y"] = -18546.387992914,
+										["x"] = -165541.97046497,
+										["name"] = "Ground-4-4",
+										["heading"] = 4.4854961776254,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 93,
+										["y"] = -18742.26127426,
+										["x"] = -165602.98750346,
+										["name"] = "Ground-4-5",
+										["heading"] = 1.3089969389958,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ATZ-10",
+										["unitId"] = 94,
+										["y"] = -18745.497056997,
+										["x"] = -165708.64797456,
+										["name"] = "Ground-4-6",
+										["heading"] = 0.48869219055845,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ATZ-10",
+										["unitId"] = 95,
+										["y"] = -18734.686196942,
+										["x"] = -165713.44490727,
+										["name"] = "Ground-4-7",
+										["heading"] = 0.66322511575785,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ZiL-131 APA-80",
+										["unitId"] = 96,
+										["y"] = -18677.251633423,
+										["x"] = -165561.37795624,
+										["name"] = "Ground-4-8",
+										["heading"] = 6.0388392119003,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-4320-31",
+										["unitId"] = 97,
+										["y"] = -18682.891377121,
+										["x"] = -165604.33816616,
+										["name"] = "Ground-4-9",
+										["heading"] = 4.5029494701454,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-4320-31",
+										["unitId"] = 98,
+										["y"] = -18680.613337892,
+										["x"] = -165612.83992431,
+										["name"] = "Ground-4-10",
+										["heading"] = 4.4854961776254,
+										["playerCanDrive"] = false,
+									}, -- end of [10]
+									[11] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375 PBU",
+										["unitId"] = 99,
+										["y"] = -18673.829900637,
+										["x"] = -165560.36353603,
+										["name"] = "Ground-4-11",
+										["heading"] = 6.0388392119003,
+										["playerCanDrive"] = false,
+									}, -- end of [11]
+								}, -- end of ["units"]
+								["y"] = -18647.336677214,
+								["x"] = -165574.08811802,
+								["name"] = "Ground-4",
+								["start_time"] = 0,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "Russia",
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "sam",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

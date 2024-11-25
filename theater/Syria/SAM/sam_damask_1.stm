@@ -1,0 +1,589 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 0,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1118,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 10247.062210502,
+											["x"] = -146754.49514196,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "snr s-125 tr",
+										["unitId"] = 18,
+										["y"] = 10247.062210502,
+										["x"] = -146754.49514196,
+										["name"] = "Ground-2-1",
+										["heading"] = 4.0650329426515,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "5p73 s-125 ln",
+										["unitId"] = 19,
+										["y"] = 10279.071631379,
+										["x"] = -146706.00910238,
+										["name"] = "Ground-2-2",
+										["heading"] = 0.95993108859684,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "5p73 s-125 ln",
+										["unitId"] = 20,
+										["y"] = 10300.970008141,
+										["x"] = -146734.01278875,
+										["name"] = "Ground-2-3",
+										["heading"] = 0.95993108859684,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "5p73 s-125 ln",
+										["unitId"] = 21,
+										["y"] = 10245.774405067,
+										["x"] = -146707.80048555,
+										["name"] = "Ground-2-4",
+										["heading"] = 0.95993108859684,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "5p73 s-125 ln",
+										["unitId"] = 22,
+										["y"] = 10291.244992448,
+										["x"] = -146767.02748301,
+										["name"] = "Ground-2-5",
+										["heading"] = 0.95993108859684,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "p-19 s-125 sr",
+										["unitId"] = 23,
+										["y"] = 10262.831454582,
+										["x"] = -146833.62473267,
+										["name"] = "Ground-2-6",
+										["heading"] = 4.0650329426515,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ZIL-131 KUNG",
+										["unitId"] = 24,
+										["y"] = 10237.571672879,
+										["x"] = -146741.09705764,
+										["name"] = "Ground-2-7",
+										["heading"] = 5.6548667764616,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ZiL-131 APA-80",
+										["unitId"] = 25,
+										["y"] = 10233.608505856,
+										["x"] = -146747.34272342,
+										["name"] = "Ground-2-8",
+										["heading"] = 0.92502450355705,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "GAZ-66",
+										["unitId"] = 26,
+										["y"] = 10173.672751389,
+										["x"] = -146777.93019317,
+										["name"] = "Ground-2-9",
+										["heading"] = 5.6897733615015,
+										["playerCanDrive"] = true,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "GAZ-66",
+										["unitId"] = 27,
+										["y"] = 10178.279339554,
+										["x"] = -146774.53033659,
+										["name"] = "Ground-2-10",
+										["heading"] = 5.7246799465414,
+										["playerCanDrive"] = true,
+									}, -- end of [10]
+									[11] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "GAZ-66",
+										["unitId"] = 28,
+										["y"] = 10181.897842521,
+										["x"] = -146771.52284645,
+										["name"] = "Ground-2-11",
+										["heading"] = 5.6548667764616,
+										["playerCanDrive"] = true,
+									}, -- end of [11]
+									[12] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ZiL-131 APA-80",
+										["unitId"] = 29,
+										["y"] = 10253.95001695,
+										["x"] = -146831.69240849,
+										["name"] = "Ground-2-12",
+										["heading"] = 5.7246799465414,
+										["playerCanDrive"] = false,
+									}, -- end of [12]
+								}, -- end of ["units"]
+								["y"] = 10247.062210502,
+								["x"] = -146754.49514196,
+								["name"] = "Ground-2",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1111,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 13067.745673985,
+											["x"] = -147682.85477407,
+											["ETA_locked"] = true,
+											["speed"] = 5.5555555555556,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 9,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 1S91 str",
+										["unitId"] = 30,
+										["y"] = 13067.745673985,
+										["x"] = -147682.85477407,
+										["name"] = "Ground-3-1",
+										["heading"] = 3.8571776469075,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 31,
+										["y"] = 13006.302301474,
+										["x"] = -147602.80448816,
+										["name"] = "Ground-3-2",
+										["heading"] = 2.5132741228718,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 32,
+										["y"] = 13131.076773283,
+										["x"] = -147763.23337638,
+										["name"] = "Ground-3-3",
+										["heading"] = 5.6374134839417,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 33,
+										["y"] = 13150.479452261,
+										["x"] = -147616.69358884,
+										["name"] = "Ground-3-4",
+										["heading"] = 4.1189770347066,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 34,
+										["y"] = 12989.482541695,
+										["x"] = -147743.85260786,
+										["name"] = "Ground-3-5",
+										["heading"] = 0.94247779607695,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ATZ-10",
+										["unitId"] = 35,
+										["y"] = 13024.327004643,
+										["x"] = -147843.65475636,
+										["name"] = "Ground-3-6",
+										["heading"] = 0.12217304763965,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ATZ-10",
+										["unitId"] = 36,
+										["y"] = 13036.138878921,
+										["x"] = -147844.25881309,
+										["name"] = "Ground-3-7",
+										["heading"] = 0.29670597283904,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ZiL-131 APA-80",
+										["unitId"] = 37,
+										["y"] = 13035.262741795,
+										["x"] = -147681.70937734,
+										["name"] = "Ground-3-8",
+										["heading"] = 5.6723200689815,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-4320-31",
+										["unitId"] = 38,
+										["y"] = 13045.393149808,
+										["x"] = -147723.83729182,
+										["name"] = "Ground-3-9",
+										["heading"] = 4.1364303272266,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-4320-31",
+										["unitId"] = 39,
+										["y"] = 13050.566640278,
+										["x"] = -147730.95799057,
+										["name"] = "Ground-3-10",
+										["heading"] = 4.1189770347066,
+										["playerCanDrive"] = false,
+									}, -- end of [10]
+									[11] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375 PBU",
+										["unitId"] = 40,
+										["y"] = 13038.093668857,
+										["x"] = -147679.53609512,
+										["name"] = "Ground-3-11",
+										["heading"] = 5.6723200689815,
+										["playerCanDrive"] = false,
+									}, -- end of [11]
+								}, -- end of ["units"]
+								["y"] = 13067.745673985,
+								["x"] = -147682.85477407,
+								["name"] = "Ground-3",
+								["start_time"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1294,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 12322.208378941,
+											["x"] = -157227.50294201,
+											["ETA_locked"] = true,
+											["speed"] = 5.5555555555556,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 10,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 1S91 str",
+										["unitId"] = 41,
+										["y"] = 12322.208378941,
+										["x"] = -157227.50294201,
+										["name"] = "Ground-4-1",
+										["heading"] = 4.1887902047864,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 42,
+										["y"] = 12269.469133023,
+										["x"] = -157141.46859863,
+										["name"] = "Ground-4-2",
+										["heading"] = 2.6179938779915,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 43,
+										["y"] = 12376.790692072,
+										["x"] = -157314.0611244,
+										["name"] = "Ground-4-3",
+										["heading"] = 5.7421332390614,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 44,
+										["y"] = 12411.404659943,
+										["x"] = -157170.35222937,
+										["name"] = "Ground-4-4",
+										["heading"] = 4.2236967898263,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Kub 2P25 ln",
+										["unitId"] = 45,
+										["y"] = 12237.997970449,
+										["x"] = -157279.98589833,
+										["name"] = "Ground-4-5",
+										["heading"] = 1.0471975511966,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ATZ-10",
+										["unitId"] = 46,
+										["y"] = 12262.21938657,
+										["x"] = -157382.88355839,
+										["name"] = "Ground-4-6",
+										["heading"] = 0.2268928027593,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ATZ-10",
+										["unitId"] = 47,
+										["y"] = 12273.903413043,
+										["x"] = -157384.71898309,
+										["name"] = "Ground-4-7",
+										["heading"] = 0.4014257279587,
+										["playerCanDrive"] = false,
+									}, -- end of [7]
+									[8] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "ZiL-131 APA-80",
+										["unitId"] = 48,
+										["y"] = 12290.023118212,
+										["x"] = -157222.96842889,
+										["name"] = "Ground-4-8",
+										["heading"] = 5.7770398241012,
+										["playerCanDrive"] = false,
+									}, -- end of [8]
+									[9] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-4320-31",
+										["unitId"] = 49,
+										["y"] = 12295.694464629,
+										["x"] = -157265.92447823,
+										["name"] = "Ground-4-9",
+										["heading"] = 4.2411500823462,
+										["playerCanDrive"] = false,
+									}, -- end of [9]
+									[10] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-4320-31",
+										["unitId"] = 50,
+										["y"] = 12300.095298479,
+										["x"] = -157273.54694606,
+										["name"] = "Ground-4-10",
+										["heading"] = 4.2236967898263,
+										["playerCanDrive"] = false,
+									}, -- end of [10]
+									[11] = 
+									{
+										["skill"] = "High",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375 PBU",
+										["unitId"] = 51,
+										["y"] = 12293.06570701,
+										["x"] = -157221.10296459,
+										["name"] = "Ground-4-11",
+										["heading"] = 5.7770398241012,
+										["playerCanDrive"] = false,
+									}, -- end of [11]
+								}, -- end of ["units"]
+								["y"] = 12322.208378941,
+								["x"] = -157227.50294201,
+								["name"] = "Ground-4",
+								["start_time"] = 0,
+							}, -- end of [3]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "Russia",
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "sam",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

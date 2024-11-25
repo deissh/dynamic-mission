@@ -1,6 +1,6 @@
 objtype = "airbase"
-name = "Naqoura"
-desc = "Naqoura"
+name = "Rayak"
+desc = "Rayak"
 coalition = 1
 
 capturable = true

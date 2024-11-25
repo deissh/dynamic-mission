@@ -1,0 +1,9 @@
+name = "Liban East"
+priority = 20
+airspace = true
+capturable = true
+links = {
+	ground = { "Liban South", "Liban Center", "Israel", "Syria" },
+	air    = { "Liban South", "Liban Center", "Israel", "Syria" },
+    sea    = {  },
+}

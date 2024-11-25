@@ -26,5 +26,6 @@
     "Lua.diagnostics.globals": [
         "CTLD",
         "lfs"
-    ]
+    ],
+    "makefile.configureOnOpen": false
 }

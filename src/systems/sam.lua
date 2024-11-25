@@ -4,16 +4,10 @@
 local networks = {}
 
 
---- @param Wrapper.Group#GROUP
-local function group_handler(group)
+function SETUP_SAM()
     MESSAGE:New("Found new SAM site", 10, "DEBUG"):ToAll()
-
-    local coalition = group:GetCoalition()
 end
 
-
-SET_GROUP
-    :New()
-    :FilterPrefixes("n_sam")
-    :ForEachGroup(group_handler)
-    :FilterStart()
+-- local myredmantis = MANTIS:New("myredmantis", "Liban_RED SAM", "Liban_RED EWR", nil, "red", true)
+-- myredmantis:Debug(true)
+-- myredmantis:__Start(10)
