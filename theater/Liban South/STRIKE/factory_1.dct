@@ -1,0 +1,35 @@
+objtype = "Factory"
+name = "red_factory_1"
+intel = 5
+cost = 3
+coalition = 1
+priority = 65
+buildings = {
+    {
+        ["name"] = "nevad_vegas_industrial_04",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 79477975,
+    },
+    {
+        ["name"] = "hungar_042",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 93914456,
+    },
+    {
+        ["name"] = "airbase_airport_tbilisi_hangar_01",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 93914460,
+    }
+}
+
+desc = [[
+Intel shows Syrian forces have established a weapon storage facility, outside of the airbase perimeter.
+
+Primary objective: Destroy the warehouse.
+
+Secondary objective: Destroy the office complex.
+
+Threats: AAA and IR-guided SAMs.
+
+Recommended pilots: 2
+]]

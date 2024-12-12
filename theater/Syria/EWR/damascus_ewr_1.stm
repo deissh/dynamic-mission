@@ -1,0 +1,153 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[11] = 
+				{
+					["id"] = 68,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 713,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 24668.079613469,
+											["x"] = -173074.26149386,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = true,
+															["id"] = "EWR",
+															["enabled"] = true,
+															["params"] = {},
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 10,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["type"] = "55G6 EWR",
+										["unitId"] = 61,
+										["y"] = 24668.079613469,
+										["x"] = -173074.26149386,
+										["name"] = "PRIMARY DAMAGED Radar-1",
+										["playerCanDrive"] = false,
+										["heading"] = 4.1189770347066,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["type"] = "Ural-375 PBU",
+										["unitId"] = 62,
+										["y"] = 24708.85114079,
+										["x"] = -173060.08960995,
+										["name"] = "Radar-2",
+										["playerCanDrive"] = false,
+										["heading"] = 5.4454272662223,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["AddPropVehicle"] = 
+										{
+											["Branches"] = false,
+										}, -- end of ["AddPropVehicle"]
+										["type"] = "ZSU_57_2",
+										["unitId"] = 64,
+										["y"] = 24626.731991441,
+										["x"] = -173017.59284616,
+										["name"] = "Radar-3",
+										["playerCanDrive"] = false,
+										["heading"] = 0.68067840827779,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["type"] = "generator_5i57",
+										["unitId"] = 63,
+										["y"] = 24714.942055335,
+										["x"] = -173065.7920161,
+										["name"] = "Radar-4",
+										["playerCanDrive"] = false,
+										["heading"] = 1.1344640137963,
+									}, -- end of [4]
+								}, -- end of ["units"]
+								["y"] = 24668.079613469,
+								["x"] = -173074.26149386,
+								["name"] = "Radar",
+								["start_time"] = 0,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "USSR",
+				}, -- end of [11]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "Damascus EWR 1",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

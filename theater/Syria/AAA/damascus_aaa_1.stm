@@ -1,0 +1,1073 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 47,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 717,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 25265.987630775,
+											["x"] = -172259.1507655,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 1,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 1,
+										["y"] = 25265.987630775,
+										["x"] = -172259.1507655,
+										["name"] = "Ground-6-1",
+										["heading"] = 4.8520153205442,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 2,
+										["y"] = 25217.423688564,
+										["x"] = -172117.70110421,
+										["name"] = "Ground-6-2",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 3,
+										["y"] = 25414.949293625,
+										["x"] = -172325.83758888,
+										["name"] = "Ground-6-3",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 4,
+										["y"] = 25297.666705985,
+										["x"] = -172407.90468387,
+										["name"] = "Ground-6-4",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 5,
+										["y"] = 25154.574632409,
+										["x"] = -172381.34065146,
+										["name"] = "Ground-6-5",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 6,
+										["y"] = 25382.300433284,
+										["x"] = -172150.34996455,
+										["name"] = "Ground-6-6",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 7,
+										["y"] = 25111.314892457,
+										["x"] = -172223.80990031,
+										["name"] = "Ground-6-7",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 25265.987630775,
+								["x"] = -172259.1507655,
+								["name"] = "PRIMARY INCAPACITATED Ground-6",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 790,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 16880.194821059,
+											["x"] = -176339.44579488,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 2,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 8,
+										["y"] = 16880.194821059,
+										["x"] = -176339.44579488,
+										["name"] = "Ground-1-1",
+										["heading"] = 4.5029494701454,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 9,
+										["y"] = 16803.054394374,
+										["x"] = -176467.57002262,
+										["name"] = "Ground-1-2",
+										["heading"] = 4.014257279587,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 10,
+										["y"] = 16835.529180338,
+										["x"] = -176182.46907702,
+										["name"] = "Ground-1-3",
+										["heading"] = 4.014257279587,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 11,
+										["y"] = 16973.784016587,
+										["x"] = -176219.56103974,
+										["name"] = "Ground-1-4",
+										["heading"] = 4.014257279587,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 12,
+										["y"] = 17045.412599108,
+										["x"] = -176346.25095845,
+										["name"] = "Ground-1-5",
+										["heading"] = 4.014257279587,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 13,
+										["y"] = 16722.08414378,
+										["x"] = -176320.28082563,
+										["name"] = "Ground-1-6",
+										["heading"] = 4.2411500823462,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 14,
+										["y"] = 16952.543867414,
+										["x"] = -176480.64865683,
+										["name"] = "Ground-1-7",
+										["heading"] = 4.014257279587,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 16880.194821059,
+								["x"] = -176339.44579488,
+								["name"] = "PRIMARY INCAPACITATED Ground-1",
+								["start_time"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 657,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 32958.370830032,
+											["x"] = -175955.90259414,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 3,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 15,
+										["y"] = 32958.370830032,
+										["x"] = -175955.90259414,
+										["name"] = "Ground-2-1",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 16,
+										["y"] = 33314.94224781,
+										["x"] = -175938.85535505,
+										["name"] = "Ground-2-2",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 17,
+										["y"] = 32676.381083303,
+										["x"] = -175840.83373024,
+										["name"] = "Ground-2-3",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 18,
+										["y"] = 33031.531897823,
+										["x"] = -175593.64876333,
+										["name"] = "Ground-2-4",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 19,
+										["y"] = 33276.585959842,
+										["x"] = -175712.26913538,
+										["name"] = "Ground-2-5",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 20,
+										["y"] = 32764.458485304,
+										["x"] = -176161.89006657,
+										["name"] = "Ground-2-6",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 21,
+										["y"] = 33334.830693423,
+										["x"] = -176164.02097145,
+										["name"] = "Ground-2-7",
+										["heading"] = 3.6128315516283,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 32958.370830032,
+								["x"] = -175955.90259414,
+								["name"] = "PRIMARY INCAPACITATED Ground-2",
+								["start_time"] = 0,
+							}, -- end of [3]
+							[4] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 650,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 37031.521026989,
+											["x"] = -174691.14302688,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 4,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 22,
+										["y"] = 37031.521026989,
+										["x"] = -174691.14302688,
+										["name"] = "Ground-3-1",
+										["heading"] = 3.682644721708,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 23,
+										["y"] = 37131.310739338,
+										["x"] = -174513.46289278,
+										["name"] = "Ground-3-2",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 24,
+										["y"] = 37417.354749878,
+										["x"] = -174679.53743893,
+										["name"] = "Ground-3-3",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 25,
+										["y"] = 37024.155095286,
+										["x"] = -174770.9936877,
+										["name"] = "Ground-3-4",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 26,
+										["y"] = 36940.814328361,
+										["x"] = -174568.85338767,
+										["name"] = "Ground-3-5",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 27,
+										["y"] = 37419.843355287,
+										["x"] = -174424.45538452,
+										["name"] = "Ground-3-6",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 28,
+										["y"] = 36866.649478156,
+										["x"] = -174732.83408622,
+										["name"] = "Ground-3-7",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 37031.521026989,
+								["x"] = -174691.14302688,
+								["name"] = "PRIMARY INCAPACITATED Ground-3",
+								["start_time"] = 0,
+							}, -- end of [4]
+							[5] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 656,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 37145.261100248,
+											["x"] = -168997.46472566,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 5,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 29,
+										["y"] = 37145.261100248,
+										["x"] = -168997.46472566,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-1",
+										["heading"] = 4.8520153205442,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 30,
+										["y"] = 37096.697158036,
+										["x"] = -168856.01506437,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-2",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 31,
+										["y"] = 37294.222763098,
+										["x"] = -169064.15154904,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-3",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 32,
+										["y"] = 37176.940175458,
+										["x"] = -169146.21864403,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-4",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 33,
+										["y"] = 37033.848101882,
+										["x"] = -169119.65461162,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-5",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 34,
+										["y"] = 37261.573902757,
+										["x"] = -168888.66392471,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-6",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 35,
+										["y"] = 36990.58836193,
+										["x"] = -168962.12386047,
+										["name"] = "PRIMARY INCAPACITATED Ground-4-7",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 37145.261100248,
+								["x"] = -168997.46472566,
+								["name"] = "PRIMARY INCAPACITATED Ground-4",
+								["start_time"] = 0,
+							}, -- end of [5]
+							[6] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 758,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 26116.700496488,
+											["x"] = -164535.71078978,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 36,
+										["y"] = 26116.700496488,
+										["x"] = -164535.71078978,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-1",
+										["heading"] = 3.9444441095072,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 37,
+										["y"] = 26068.136554277,
+										["x"] = -164394.26112849,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-2",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 38,
+										["y"] = 26265.662159338,
+										["x"] = -164602.39761316,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-3",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 39,
+										["y"] = 26148.379571698,
+										["x"] = -164684.46470815,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-4",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 40,
+										["y"] = 26005.287498122,
+										["x"] = -164657.90067574,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-5",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 41,
+										["y"] = 26233.013298997,
+										["x"] = -164426.90998883,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-6",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 42,
+										["y"] = 25962.02775817,
+										["x"] = -164500.36992459,
+										["name"] = "PRIMARY INCAPACITATED Ground-5-7",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 26116.700496488,
+								["x"] = -164535.71078978,
+								["name"] = "PRIMARY INCAPACITATED Ground-5",
+								["start_time"] = 0,
+							}, -- end of [6]
+							[7] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 674,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 39422.066607244,
+											["x"] = -163140.43895878,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 7,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 43,
+										["y"] = 39422.066607244,
+										["x"] = -163140.43895878,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-1",
+										["heading"] = 5.3058009260628,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 44,
+										["y"] = 39373.502665033,
+										["x"] = -162998.98929749,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-2",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 45,
+										["y"] = 39571.028270094,
+										["x"] = -163207.12578216,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-3",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 46,
+										["y"] = 39453.745682454,
+										["x"] = -163289.19287715,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-4",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 47,
+										["y"] = 39310.653608878,
+										["x"] = -163262.62884474,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-5",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 48,
+										["y"] = 39538.379409753,
+										["x"] = -163031.63815783,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-6",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 49,
+										["y"] = 39267.393868926,
+										["x"] = -163105.09809359,
+										["name"] = "PRIMARY INCAPACITATED Ground-7-7",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 39422.066607244,
+								["x"] = -163140.43895878,
+								["name"] = "PRIMARY INCAPACITATED Ground-7",
+								["start_time"] = 0,
+							}, -- end of [7]
+							[8] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 717,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 27367.192202113,
+											["x"] = -176269.15300617,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SON_9",
+										["unitId"] = 50,
+										["y"] = 27367.192202113,
+										["x"] = -176269.15300617,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-1",
+										["heading"] = 2.9321531433505,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 51,
+										["y"] = 27318.628259902,
+										["x"] = -176127.70334488,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-2",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 52,
+										["y"] = 27516.153864963,
+										["x"] = -176335.83982955,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-3",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 53,
+										["y"] = 27398.871277323,
+										["x"] = -176417.90692454,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-4",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 54,
+										["y"] = 27255.779203747,
+										["x"] = -176391.34289213,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-5",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 55,
+										["y"] = 27483.505004622,
+										["x"] = -176160.35220522,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-6",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [6]
+									[7] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "S-60_Type59_Artillery",
+										["unitId"] = 56,
+										["y"] = 27212.519463795,
+										["x"] = -176233.81214098,
+										["name"] = "PRIMARY INCAPACITATED Ground-8-7",
+										["heading"] = 0,
+										["playerCanDrive"] = true,
+									}, -- end of [7]
+								}, -- end of ["units"]
+								["y"] = 27367.192202113,
+								["x"] = -176269.15300617,
+								["name"] = "PRIMARY INCAPACITATED Ground-8",
+								["start_time"] = 0,
+							}, -- end of [8]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "Syria",
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "Damascus AAA",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

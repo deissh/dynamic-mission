@@ -1,0 +1,15 @@
+objtype = "shorad"
+cost = 3
+name = "damascus_aaa_1"
+coalition = 1
+priority = 30
+
+desc = [[TODO
+
+Primary objective: TODO
+
+Secondary objective: TODO
+
+Threats: TODO
+
+Recommended pilots: 2]]

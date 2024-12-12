@@ -1,0 +1,43 @@
+objtype = "Factory"
+name = "red_factory_2"
+intel = 5
+cost = 3
+coalition = 1
+priority = 65
+buildings = {
+    {
+        ["name"] = "cg_building07",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 78626845,
+    },
+    {
+        ["name"] = "airbase_tbilisi_tank_02",
+        ["goal"] = "secondary destroyed",
+        ["id"]   = 92140127,
+    },
+    {
+        ["name"] = "cg_building07",
+        ["goal"] = "secondary destroyed",
+        ["id"]   = 92140128,
+    },
+    {
+        ["name"] = "cg_building07",
+        ["goal"] = "secondary destroyed",
+        ["id"]   = 92140130,
+    },
+    {
+        ["name"] = "cg_building07",
+        ["goal"] = "secondary destroyed",
+        ["id"]   = 92140129,
+    }
+}
+
+desc = [[
+Primary objective: Destroy the warehouse.
+
+Secondary objective: Destroy the fuel tanks.
+
+Threats: AAA and IR-guided SAMs.
+
+Recommended pilots: 2
+]]

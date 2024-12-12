@@ -2,9 +2,13 @@
 
 -- contains air defence networks separated by countryID
 local networks = {}
+local ewrs = {}
 
+function SETUP_EWR(group_name)
+    MESSAGE:New("Found new SAM site", 10, "DEBUG"):ToAll()
+end
 
-function SETUP_SAM()
+function SETUP_SAM(group_name)
     MESSAGE:New("Found new SAM site", 10, "DEBUG"):ToAll()
 end
 
