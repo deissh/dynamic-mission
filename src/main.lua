@@ -8,5 +8,5 @@ if config.debug then
     MESSAGE:New("Loaded dependencies", 10, "DEBUG"):ToAll()
 end
 
--- require("src/systems/atis")
+require("src/systems/atc")
 -- require("src/systems/sam")
