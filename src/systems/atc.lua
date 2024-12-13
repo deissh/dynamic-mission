@@ -16,17 +16,20 @@ local airports = {
     },
 }
 
-local instances = {}
+local atis_instances = {}
+local atc_instances = {}
 
 local function setup_atc(name, params)
-    
+    local atc = FLIGHTCONTROL:New(name, params["atc_freq"], nil, config.srs_path)
+    atc:SetParkingGuardStatic("Static TAXI STOP")
+    atc:SetATIS(atis_instances[name])
+    atc:SetRadioOnlyIfPlayers(true)
+    atc:Start()
+
+    atc_instances[name] = atc
 end
 
 local function setup_atis(name, params)
-    if !config.atis.enable then
-        return
-    end
-
     local atis = ATIS:New(name, params["atis_freq"])
 
     atis:SetTransmitOnlyWithPlayers(true)
@@ -35,7 +38,7 @@ local function setup_atis(name, params)
     atis:SetTowerFrequencies(params["atc_freq"])
     atis:Start()
 
-    instances[name] = atis
+    atis_instances[name] = atis
 end
 
 local function setup_service ()
