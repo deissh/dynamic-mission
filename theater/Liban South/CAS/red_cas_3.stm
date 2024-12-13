@@ -1,0 +1,664 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[10] = 
+				{
+					["id"] = 47,
+					["static"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -52703.356649543,
+											["speed"] = 0,
+											["x"] = -181449.91365615,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 39,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 39,
+										["rate"] = 10,
+										["y"] = -52703.356649543,
+										["x"] = -181449.91365615,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-9-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -52703.356649543,
+								["x"] = -181449.91365615,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-9",
+								["dead"] = false,
+							}, -- end of [1]
+							[2] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -52706.445920802,
+											["speed"] = 0,
+											["x"] = -181431.37802859,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 40,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 40,
+										["rate"] = 10,
+										["y"] = -52706.445920802,
+										["x"] = -181431.37802859,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-7-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -52706.445920802,
+								["x"] = -181431.37802859,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-7",
+								["dead"] = false,
+							}, -- end of [2]
+							[3] = 
+							{
+								["heading"] = 4.4505895925855,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -50817.718891239,
+											["speed"] = 0,
+											["x"] = -180510.57455652,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 41,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 41,
+										["rate"] = 10,
+										["y"] = -50817.718891239,
+										["x"] = -180510.57455652,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-11-1",
+										["heading"] = 4.4505895925855,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -50817.718891239,
+								["x"] = -180510.57455652,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-11",
+								["dead"] = false,
+							}, -- end of [3]
+							[4] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -51293.174579631,
+											["speed"] = 0,
+											["x"] = -180578.43629687,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 42,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 42,
+										["rate"] = 10,
+										["y"] = -51293.174579631,
+										["x"] = -180578.43629687,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-12-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -51293.174579631,
+								["x"] = -180578.43629687,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-12",
+								["dead"] = false,
+							}, -- end of [4]
+							[5] = 
+							{
+								["heading"] = 2.8797932657906,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -51082.562553541,
+											["speed"] = 0,
+											["x"] = -180490.36217687,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 43,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 43,
+										["rate"] = 10,
+										["y"] = -51082.562553541,
+										["x"] = -180490.36217687,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-13-1",
+										["heading"] = 2.8797932657906,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -51082.562553541,
+								["x"] = -180490.36217687,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-13",
+								["dead"] = false,
+							}, -- end of [5]
+							[6] = 
+							{
+								["heading"] = 3.08923277603,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -50828.870794842,
+											["speed"] = 0,
+											["x"] = -180630.131976,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 44,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 44,
+										["rate"] = 10,
+										["y"] = -50828.870794842,
+										["x"] = -180630.131976,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-14-1",
+										["heading"] = 3.08923277603,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -50828.870794842,
+								["x"] = -180630.131976,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-14",
+								["dead"] = false,
+							}, -- end of [6]
+							[7] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53822.243453449,
+											["speed"] = 0,
+											["x"] = -180970.92732068,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 45,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 45,
+										["rate"] = 10,
+										["y"] = -53822.243453449,
+										["x"] = -180970.92732068,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-15-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53822.243453449,
+								["x"] = -180970.92732068,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-15",
+								["dead"] = false,
+							}, -- end of [7]
+							[8] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -52680.187115101,
+											["speed"] = 0,
+											["x"] = -181447.33926343,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 46,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 46,
+										["rate"] = 10,
+										["y"] = -52680.187115101,
+										["x"] = -181447.33926343,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-8-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -52680.187115101,
+								["x"] = -181447.33926343,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-8",
+								["dead"] = false,
+							}, -- end of [8]
+							[9] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -52685.850779076,
+											["speed"] = 0,
+											["x"] = -181428.80363588,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 47,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 47,
+										["rate"] = 10,
+										["y"] = -52685.850779076,
+										["x"] = -181428.80363588,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-10-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -52685.850779076,
+								["x"] = -181428.80363588,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-10",
+								["dead"] = false,
+							}, -- end of [9]
+							[10] = 
+							{
+								["heading"] = 3.08923277603,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53771.814042969,
+											["speed"] = 0,
+											["x"] = -180942.34562921,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 48,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 48,
+										["rate"] = 10,
+										["y"] = -53771.814042969,
+										["x"] = -180942.34562921,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-2-1",
+										["heading"] = 3.08923277603,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53771.814042969,
+								["x"] = -180942.34562921,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-2",
+								["dead"] = false,
+							}, -- end of [10]
+							[11] = 
+							{
+								["heading"] = 4.3807764225058,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53270.323082952,
+											["speed"] = 0,
+											["x"] = -182094.33293539,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 49,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 49,
+										["rate"] = 10,
+										["y"] = -53270.323082952,
+										["x"] = -182094.33293539,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-4-1",
+										["heading"] = 4.3807764225058,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53270.323082952,
+								["x"] = -182094.33293539,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-4",
+								["dead"] = false,
+							}, -- end of [11]
+							[12] = 
+							{
+								["heading"] = 2.0769418098733,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53228.448531743,
+											["speed"] = 0,
+											["x"] = -182096.63603571,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 50,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 50,
+										["rate"] = 10,
+										["y"] = -53228.448531743,
+										["x"] = -182096.63603571,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-5-1",
+										["heading"] = 2.0769418098733,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53228.448531743,
+								["x"] = -182096.63603571,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-5",
+								["dead"] = false,
+							}, -- end of [12]
+							[13] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53238.498424033,
+											["speed"] = 0,
+											["x"] = -182037.5929185,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 51,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 51,
+										["rate"] = 10,
+										["y"] = -53238.498424033,
+										["x"] = -182037.5929185,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-6-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53238.498424033,
+								["x"] = -182037.5929185,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-6",
+								["dead"] = false,
+							}, -- end of [13]
+							[14] = 
+							{
+								["heading"] = 2.5307274153918,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53765.140196842,
+											["speed"] = 0,
+											["x"] = -180913.8705524,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 52,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 52,
+										["rate"] = 10,
+										["y"] = -53765.140196842,
+										["x"] = -180913.8705524,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-1-1",
+										["heading"] = 2.5307274153918,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53765.140196842,
+								["x"] = -180913.8705524,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-1",
+								["dead"] = false,
+							}, -- end of [14]
+							[15] = 
+							{
+								["heading"] = 3.6302848441482,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = -53802.06881208,
+											["speed"] = 0,
+											["x"] = -180914.76039855,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 53,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["category"] = "Armor",
+										["type"] = "T-55",
+										["unitId"] = 53,
+										["rate"] = 10,
+										["y"] = -53802.06881208,
+										["x"] = -180914.76039855,
+										["name"] = "PRIMARY DESTROY Static ОБТ Т-55-3-1",
+										["heading"] = 3.6302848441482,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -53802.06881208,
+								["x"] = -180914.76039855,
+								["name"] = "PRIMARY DESTROY Static ОБТ Т-55-3",
+								["dead"] = false,
+							}, -- end of [15]
+						}, -- end of ["group"]
+					}, -- end of ["static"]
+					["name"] = "Syria",
+				}, -- end of [10]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "red_cas_3",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

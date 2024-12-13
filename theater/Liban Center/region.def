@@ -2,6 +2,7 @@ name = "Liban Center"
 priority = 30
 airspace = true
 capturable = true
+coalition = 1
 links = {
 	ground = { "Liban South", "Liban East" },
 	air    = { "Liban South", "Liban East", "Israel", "Syria" },
