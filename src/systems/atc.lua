@@ -3,15 +3,15 @@ local config = require("src/config")
 
 local airports = {
     [AIRBASE.Syria.Ramat_David] = {
-        ["atc_freq"] = 251.3,
+        ["atc_freq"] = 250.0,
         ["atis_freq"] = 121.4,
     },
     [AIRBASE.Syria.Rosh_Pina] = {
-        ["atc_freq"] = 251.3,
+        ["atc_freq"] = 251.0,
         ["atis_freq"] = 118.45,
     },
     [AIRBASE.Syria.Kiryat_Shmona] = {
-        ["atc_freq"] = 251.3,
+        ["atc_freq"] = 252.0,
         ["atis_freq"] = 110.15,
     },
 }
@@ -36,7 +36,7 @@ local function setup_atis(name, params)
     atis:SetMapMarks(true)
     atis:SetSRS(config.srs_path, "male", "en-US")
     atis:SetTowerFrequencies(params["atc_freq"])
-    atis:Start()
+    atis:__Start(3)
 
     atis_instances[name] = atis
 end
@@ -47,6 +47,5 @@ local function setup_service ()
         setup_atc(name, params)
     end
 end
-
 
 setup_service()

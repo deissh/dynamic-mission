@@ -5,7 +5,7 @@ local networks = {}
 local ewrs = {}
 
 function SETUP_EWR(group_name)
-    MESSAGE:New("Found new SAM site", 10, "DEBUG"):ToAll()
+    MESSAGE:New("Found new EWR site", 10, "DEBUG"):ToAll()
 end
 
 function SETUP_SAM(group_name)
