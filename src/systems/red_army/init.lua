@@ -21,21 +21,21 @@ local function create_sayqal()
     airwing:SetRespawnAfterDestroyed(120)
 
     local mig21 = SQUADRON
-        :New(tmpl.CAP.MIG21, 8, "MiG-21")
+        :New(tmpl.CAP.MIG21, 24, "MiG-21")
         :SetGrouping(2)
         :AddMissionCapability({AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.CAP, AUFTRAG.Type.GCICAP, AUFTRAG.Type.ALERT5})
         :SetMissionRange(250)
 
     local mig23 = SQUADRON
-        :New(tmpl.CAP.MIG23, 8, "MiG-23")
+        :New(tmpl.CAP.MIG23, 24, "MiG-23")
         :SetGrouping(2)
         :AddMissionCapability({AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.CAP, AUFTRAG.Type.GCICAP, AUFTRAG.Type.ALERT5})
         :SetMissionRange(250)
 
     airwing:AddSquadron(mig21)
     airwing:AddSquadron(mig23)
-    airwing:NewPayload(tmpl.CAP.MIG21, -1, {AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.ALERT5})
-    airwing:NewPayload(tmpl.CAP.MIG23, -1, {AUFTRAG.Type.GCICAP, AUFTRAG.Type.CAP})
+    airwing:NewPayload(tmpl.CAP.MIG21, -1, {AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.CAP, AUFTRAG.Type.GCICAP, AUFTRAG.Type.ALERT5})
+    airwing:NewPayload(tmpl.CAP.MIG23, -1, {AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.ALERT5})
 
     return airwing
 end
@@ -62,8 +62,14 @@ local function create_chief()
     chief:AddAirwing(create_sayqal())
 
     -- setup borders and cap zones
-    chief:AddGciCapZone(ZONE:FindByName("RED CAP-1"))
-    chief:AddCapZone(ZONE:FindByName("RED CAP-2"))
+    SET_ZONE
+        :New()
+        :FilterPrefixes("RED CAP")
+        :FilterOnce()
+        :DrawZone()
+        :ForEachZone(function (zone)
+            chief:AddCapZone(zone)
+        end)
 
     chief:AddBorderZone(ZONE_POLYGON:NewFromGroupName("Syria"))
     chief:AddConflictZone(ZONE_POLYGON:NewFromGroupName("Israel"))
