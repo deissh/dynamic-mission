@@ -1,0 +1,9 @@
+objtype = "airbase"
+name = "Sayqal"
+coalition = 1
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

@@ -21,7 +21,7 @@ local atc_instances = {}
 
 local function setup_atc(name, params)
     local atc = FLIGHTCONTROL:New(name, params["atc_freq"], nil, config.srs_path)
-    atc:SetParkingGuardStatic("Static TAXI STOP")
+    atc:SetParkingGuardStatic("#TMPL ATC Guard")
     atc:SetATIS(atis_instances[name])
     atc:SetRadioOnlyIfPlayers(true)
     atc:Start()
@@ -42,10 +42,16 @@ local function setup_atis(name, params)
 end
 
 local function setup_service ()
+    if config.atc == false then
+        return atc_instances
+    end
+
     for name, params in pairs(airports) do
         setup_atis(name, params)
         setup_atc(name, params)
     end
+
+    return atc_instances
 end
 
-setup_service()
+return setup_service()

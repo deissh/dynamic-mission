@@ -25,7 +25,8 @@
     "vscord.behaviour.prioritizeLanguagesOverExtensions": true,
     "Lua.diagnostics.globals": [
         "CTLD",
-        "lfs"
+        "lfs",
+        "coalition"
     ],
     "makefile.configureOnOpen": false
 }

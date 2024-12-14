@@ -1,0 +1,9 @@
+objtype = "airbase"
+name = "Al-Dumayr"
+coalition = 1
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}
