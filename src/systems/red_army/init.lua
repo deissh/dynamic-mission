@@ -8,26 +8,26 @@ local tmpl = {
     }
 }
 
-local function create_sayqal()
-    local airwing = AIRWING:New(AIRBASE.Syria.Sayqal, "Sayqal Wing")
+local function create_airwing(warehouseName, name)
+    local airwing = AIRWING:New(warehouseName, name)
     if config.debug then
         -- airwing:SetMarker(true)
         -- airwing:SetDebugOn()
         -- airwing:ShowPatrolPointMarkers(true)
+        airwing:SetTakeoffAir()
     end
 
     airwing:SetCapCloseRaceTrack(true)
-    airwing:SetNumberCAP(3)
     airwing:SetRespawnAfterDestroyed(120)
 
     local mig21 = SQUADRON
-        :New(tmpl.CAP.MIG21, 24, "MiG-21")
+        :New(tmpl.CAP.MIG21, 24, name .. " MiG-21")
         :SetGrouping(2)
         :AddMissionCapability({AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.CAP, AUFTRAG.Type.GCICAP, AUFTRAG.Type.ALERT5})
         :SetMissionRange(250)
 
     local mig23 = SQUADRON
-        :New(tmpl.CAP.MIG23, 24, "MiG-23")
+        :New(tmpl.CAP.MIG23, 24, name .. " MiG-23")
         :SetGrouping(2)
         :AddMissionCapability({AUFTRAG.Type.INTERCEPT, AUFTRAG.Type.CAP, AUFTRAG.Type.GCICAP, AUFTRAG.Type.ALERT5})
         :SetMissionRange(250)
@@ -59,15 +59,16 @@ local function create_chief()
     chief:SetResponseOnTarget(2, 2, 0, TARGET.Category.AIRCRAFT)
 
     -- setup utis
-    chief:AddAirwing(create_sayqal())
+    chief:AddAirwing(create_airwing("Sayqal Warehouse", "Sayqal"))
+    chief:AddAirwing(create_airwing("Palmyra Warehouse", "Palmyra"))
 
     -- setup borders and cap zones
     SET_ZONE
         :New()
         :FilterPrefixes("RED CAP")
         :FilterOnce()
-        :DrawZone()
         :ForEachZone(function (zone)
+            -- TODO: fetch zone props
             chief:AddCapZone(zone)
         end)
 
