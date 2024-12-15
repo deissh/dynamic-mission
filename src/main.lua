@@ -11,4 +11,4 @@ require("src/systems/atc")
 require("src/systems/sam")
 
 -- TODO: init blue
-require("src/systems/red_army/init")
+require("src/systems/army/init")
