@@ -8,8 +8,10 @@ local function create_squadron(unit_proto, name)
         :SetGrouping(unit_proto.GROUP)
         :AddMissionCapability(unit_proto.CAPABILITY)
         :SetMissionRange(250)
+        :SetDespawnAfterHolding(true)
         :SetDespawnAfterLanding(true)
         :SetFuelLowRefuel(true)
+        :SetFuelLowThreshold(30)
 end
 
 local function create_airwing(warehouseName, name, unit_protos)
