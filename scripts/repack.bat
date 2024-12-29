@@ -1,1 +1,0 @@
-dcs-miz-repacker.exe --batch ..\mission\mission.miz
