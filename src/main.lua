@@ -7,8 +7,4 @@ if config.debug then
     MESSAGE:New("Loaded dependencies", 10, "DEBUG"):ToAll()
 end
 
-require("src/systems/atc")
-require("src/systems/sam")
-
--- TODO: init blue
--- require("src/systems/army/init")
+require("src/traffic/rat")
