@@ -1,0 +1,9 @@
+name = "Farah"
+priority = 50
+coalition = 1
+
+links = {
+	ground = {  },
+	air    = {  },
+    sea    = {  },
+}

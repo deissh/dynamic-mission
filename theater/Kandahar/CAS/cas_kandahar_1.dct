@@ -1,0 +1,6 @@
+objtype = "frontline"
+name = "cas_kandahar_1"
+intel = 3
+cost = 2
+coalition = 1
+desc = [[TODO]]

@@ -1,8 +1,0 @@
-name = "Israel"
-priority = 50
-airspace = true
-links = {
-	ground = { "Liban South", "Liban East", "Syria" },
-	air    = { "Liban South", "Liban East", "Liban Center", "Syria" },
-    sea    = { "Liban South", "Liban East", "Liban Center", "Syria" },
-}

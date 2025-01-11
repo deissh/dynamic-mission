@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "Kandahar"
+desc = "Main AirBase"
+coalition = 2
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

@@ -2,17 +2,9 @@ local config = require("src/config")
 
 
 local airports = {
-    [AIRBASE.Syria.Ramat_David] = {
-        ["atc_freq"] = 250.0,
-        ["atis_freq"] = 121.4,
-    },
-    [AIRBASE.Syria.Rosh_Pina] = {
-        ["atc_freq"] = 251.0,
-        ["atis_freq"] = 118.45,
-    },
-    [AIRBASE.Syria.Kiryat_Shmona] = {
-        ["atc_freq"] = 252.0,
-        ["atis_freq"] = 110.15,
+    [AIRBASE.Afghanistan.Kandahar] = {
+        ["atc_freq"] = 119.50,
+        ["atis_freq"] = 125.50,
     },
 }
 

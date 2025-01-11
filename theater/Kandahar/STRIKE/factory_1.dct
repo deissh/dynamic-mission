@@ -1,0 +1,17 @@
+objtype = "Factory"
+name = "red_factory_3"
+intel = 5
+cost = 3
+coalition = 1
+priority = 65
+buildings = {
+    {
+        ["name"] = "townhouseafghanistan_03",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 133399187,
+    }
+}
+
+desc = [[
+TODO
+]]
