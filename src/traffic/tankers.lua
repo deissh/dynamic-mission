@@ -6,7 +6,6 @@ local function collect_aar_zones()
 end
 
 local function create_tankers()
-    local zones = collect_aar_zones()
 end
 
 return create_tankers()

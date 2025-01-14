@@ -32,6 +32,7 @@ local function create_heli()
             :AddFriendlyAirportsToDestinations()
             :AddFriendlyAirportsToDepartures()
             :Commute(true)
+            :EnableATC(false)
 
         manager:Add(inst, template.min)
     end
@@ -59,7 +60,7 @@ local function create_cargo()
             :AddFriendlyAirportsToDestinations()
             :AddFriendlyAirportsToDepartures()
             :Commute(true)
-            :EnableATC(false) -- todo
+            :EnableATC(false)
 
         manager:Add(inst, template.min)
     end

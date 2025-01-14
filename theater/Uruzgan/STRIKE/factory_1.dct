@@ -6,9 +6,14 @@ coalition = 1
 priority = 65
 buildings = {
     {
-        ["name"] = "townhouseafghanistan_03",
+        ["name"] = "industrialbuildingafghanistan_01",
         ["goal"] = "primary destroyed",
-        ["id"]   = 133399187,
+        ["id"]   = 101458119,
+    },
+    {
+        ["name"] = "industrialbuildingafghanistan_01",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 101458120,
     }
 }
 
@@ -19,19 +24,19 @@ UMF HEADERS:      AUTHA, KEYTOK, KEYMATID
 
 MESSAGE NUMBER:   K03.Y
 MESSAGE CLASS:    CONF
-MESSAGE SENDER:   BELLRINGER2
-MESSAGE TITLE:    JTAR-REQ-001
+MESSAGE SENDER:   TANGO4
+MESSAGE TITLE:    JTAR-REQ-021
 
 MESSAGE BODY:
 
-THIS IS BASTARD 4 REQUEST NUMBER 90-44912 SENT BY BELLRINGER 2
+THIS IS TANGO 4 REQUEST NUMBER 90-44912 SENT BY TANGO 4
 PREPLANNED PRIORITY 3 RECEIVED
 TARGET IS SINGLE TOWN HOUSE
-TARGET LOCATION 41 R QR 3373 4158
-TARGET ELEV 5200 FT
+TARGET LOCATION 42 S TB 432 502
+TARGET ELEV 6500 FT
 TARGET TIME NLT %TOT%
 DESIRED RESULTS DESTROY
-FINAL CONTROL POINT QR 34
+FINAL CONTROL POINT TB 45
 REMARKS NOT SET
 COORDINATION NOT SET
 ]]
