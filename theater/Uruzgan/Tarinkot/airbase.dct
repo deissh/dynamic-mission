@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "Tarinkot"
+desc = "Tarinkot Airport - Kamp Holland"
+coalition = 2
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

@@ -4,7 +4,7 @@ blue = {
 	flag = 45,
 	tickets = 1000,
 	player_cost = 1,
-	modifier_reward = 1,
+	modifier_reward = 1.5,
 	modifier_loss = 1,
 }
 

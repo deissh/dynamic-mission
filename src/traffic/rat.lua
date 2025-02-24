@@ -39,7 +39,7 @@ local function create_heli()
             :SetCoalition("sameonly")
             :AddFriendlyAirportsToDestinations()
             :AddFriendlyAirportsToDepartures()
-            :SetMaxDistance(100)
+            :SetMaxDistance(200)
             :Commute(true)
             :EnableATC(false)
 
