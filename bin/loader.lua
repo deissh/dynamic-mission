@@ -1,5 +1,5 @@
 do
-    local modpath = lfs.writedir() .. "\\00_DEV\\dynamic-mission\\";
+    local modpath = lfs.writedir() .. "\\Missions\\dynamic-mission\\";
 
     if lfs.attributes(modpath) == nil then
         local errmsg = "Not found dynamic-mission folder in " .. modpath

@@ -11,7 +11,7 @@
     "Lua.workspace.preloadFileSize": 15000,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[lua]": {
-        "editor.defaultFormatter": "sumneko.lua"
+        "editor.defaultFormatter": "tangzx.emmylua"
     },
     "vscord.status.state.idle.enabled": false,
     "vscord.status.state.enabled": false,
