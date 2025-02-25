@@ -23,8 +23,8 @@ local function setup_airboss()
     airboss:AddRecoveryWindow("17:00", "17:30", 1, nil, true)
     airboss:AddRecoveryWindow("23:30", "00:00+1", 3, nil, true)
 
-    airboss:Load()
-    airboss:SetAutoSave()
+    -- airboss:Load()
+    -- airboss:SetAutoSave()
 
     airboss:Start()
 
