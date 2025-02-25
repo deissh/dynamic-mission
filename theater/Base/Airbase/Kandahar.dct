@@ -1,6 +1,6 @@
 objtype = "airbase"
 name = "Kandahar"
-desc = "Main AirBase"
+desc = "Kandahar Airport"
 coalition = 2
 
 capturable = false

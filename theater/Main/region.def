@@ -1,8 +1,0 @@
-name = "Main"
-priority = 50
-airspace = true
-links = {
-	ground = {  },
-	air    = {  },
-    sea    = {  },
-}
