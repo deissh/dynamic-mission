@@ -6,9 +6,9 @@ coalition = 1
 priority = 65
 buildings = {
     {
-        ["name"] = "townhouseafghanistan_01",
+        ["name"] = "greenhouse_01",
         ["goal"] = "primary destroyed",
-        ["id"]   = 137519123,
+        ["id"]   = 85625789,
     }
 }
 

@@ -8,7 +8,7 @@ buildings = {
     {
         ["name"] = "townhouseafghanistan_03",
         ["goal"] = "primary destroyed",
-        ["id"]   = 133399187,
+        ["id"]   = 165372079,
     }
 }
 

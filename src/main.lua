@@ -1,10 +1,5 @@
-require("dependency/dct")
-require("dependency/moose")
+require("src/libs/dct")
+require("src/libs/moose")
+require("src/libs/splash_damage")
 
-local config = require("src/config")
-
-if config.debug then
-    MESSAGE:New("Loaded dependencies", 10, "DEBUG"):ToAll()
-end
-
-require("src/traffic/rat")
+require("src/systems/traffic")
