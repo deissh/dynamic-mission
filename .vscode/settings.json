@@ -1,32 +1,6 @@
 {
-    "Lua.workspace.library": [
-        "dependency\\DCS-Scripting-Library-Updated",
-        "dependency\\Moose"
-    ],
-    "Lua.codeLens.enable": true,
-    "Lua.diagnostics.disable": [
-        "need-check-nil"
-    ],
-    "Lua.hint.setType": true,
-    "Lua.workspace.preloadFileSize": 15000,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[lua]": {
         "editor.defaultFormatter": "tangzx.emmylua"
-    },
-    "vscord.status.state.idle.enabled": false,
-    "vscord.status.state.enabled": false,
-    "vscord.app.name": "Code",
-    "vscord.app.privacyMode.enable": true,
-    "vscord.status.idle.enabled": false,
-    "vscord.status.problems.enabled": false,
-    "vscord.status.showElapsedTime": false,
-    "vscord.status.details.idle.enabled": false,
-    "vscord.status.details.text.notInFile": "In workspace",
-    "vscord.behaviour.prioritizeLanguagesOverExtensions": true,
-    "Lua.diagnostics.globals": [
-        "CTLD",
-        "lfs",
-        "coalition"
-    ],
-    "makefile.configureOnOpen": false
+    }
 }
