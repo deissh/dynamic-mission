@@ -1,8 +1,8 @@
 -- Make it global
 g_CTLD = CTLD:New(
     coalition.side.BLUE,
-    { "CARGO" },
-    "Lufttransportbrigade I"
+    { "FOB" },
+    "Cargo Ops"
 )
 
 g_CTLD.basetype = "container_cargo"

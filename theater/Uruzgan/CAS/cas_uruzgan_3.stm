@@ -2,115 +2,32 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
 		["blue"] = 
 		{
 			["name"] = "blue",
 			["country"] = 
 			{
-				[21] = 
+				[18] = 
 				{
-					["name"] = "USA",
 					["id"] = 2,
-					["static"] = 
-					{
-						["group"] = 
-						{
-							[1] = 
-							{
-								["heading"] = 5.1958451831871,
-								["route"] = 
-								{
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 0,
-											["type"] = "",
-											["name"] = "",
-											["y"] = -58822.77920677,
-											["speed"] = 0,
-											["x"] = -145092.48764351,
-											["formation_template"] = "",
-											["action"] = "",
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 18,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["effectPreset"] = 1,
-										["category"] = "Effects",
-										["type"] = "big_smoke",
-										["unitId"] = 54,
-										["y"] = -58822.77920677,
-										["x"] = -145092.48764351,
-										["name"] = "Static Большой дым-2",
-										["effectTransparency"] = 1,
-										["heading"] = 5.1958451831871,
-									}, -- end of [1]
-								}, -- end of ["units"]
-								["y"] = -58822.77920677,
-								["x"] = -145092.48764351,
-								["name"] = "Static Большой дым-2",
-								["dead"] = false,
-							}, -- end of [1]
-							[2] = 
-							{
-								["heading"] = 5.1958451831871,
-								["route"] = 
-								{
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 0,
-											["type"] = "",
-											["name"] = "",
-											["y"] = -58562.919136271,
-											["speed"] = 0,
-											["x"] = -145145.52178582,
-											["formation_template"] = "",
-											["action"] = "",
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 20,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["effectPreset"] = 1,
-										["category"] = "Effects",
-										["type"] = "big_smoke",
-										["unitId"] = 56,
-										["y"] = -58562.919136271,
-										["x"] = -145145.52178582,
-										["name"] = "Static Большой дым-1-1",
-										["effectTransparency"] = 1,
-										["heading"] = 5.1958451831871,
-									}, -- end of [1]
-								}, -- end of ["units"]
-								["y"] = -58562.919136271,
-								["x"] = -145145.52178582,
-								["name"] = "Static Большой дым-1",
-								["dead"] = false,
-							}, -- end of [2]
-						}, -- end of ["group"]
-					}, -- end of ["static"]
 					["vehicle"] = 
 					{
 						["group"] = 
 						{
 							[1] = 
 							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
+								["visible"] = true,
+								["lateActivation"] = true,
 								["tasks"] = {},
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
 								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -119,13 +36,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58183.865627204,
-												["x"] = -144789.90651829,
+												["y"] = -58311.092522366,
+												["x"] = -144895.19140364,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58183.865627204,
-												["x"] = -144789.90651829,
+												["y"] = -58311.092522366,
+												["x"] = -144895.19140364,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -133,13 +50,13 @@ staticTemplate =
 									{
 										[1] = 
 										{
-											["alt"] = 1139,
+											["alt"] = 1165.2501586865,
 											["type"] = "Turning Point",
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58183.865627204,
-											["x"] = -144789.90651829,
+											["y"] = -58311.092522366,
+											["x"] = -144895.19140364,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -164,7 +81,7 @@ staticTemplate =
 																	["params"] = 
 																	{
 																		["value"] = true,
-																		["groupId"] = 2,
+																		["groupId"] = 6,
 																	}, -- end of ["params"]
 																}, -- end of ["action"]
 															}, -- end of ["params"]
@@ -182,8 +99,8 @@ staticTemplate =
 																	["id"] = "Option",
 																	["params"] = 
 																	{
-																		["name"] = 0,
 																		["value"] = 4,
+																		["name"] = 0,
 																	}, -- end of ["params"]
 																}, -- end of ["action"]
 															}, -- end of ["params"]
@@ -194,351 +111,9 @@ staticTemplate =
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 2,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["livery_id"] = "desert",
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "M1043 HMMWV Armament",
-										["unitId"] = 2,
-										["y"] = -58183.865627204,
-										["x"] = -144789.90651829,
-										["name"] = "Ground-2-1",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-								}, -- end of ["units"]
-								["y"] = -58183.865627204,
-								["x"] = -144789.90651829,
-								["name"] = "Ground-2",
-								["start_time"] = 0,
-							}, -- end of [1]
-							[2] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -58171.679694343,
-												["x"] = -144765.87508752,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -58171.679694343,
-												["x"] = -144765.87508752,
-											}, -- end of [2]
-										}, -- end of [1]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1129,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -58171.679694343,
-											["x"] = -144765.87508752,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "EPLRS",
-																	["params"] = 
-																	{
-																		["value"] = true,
-																		["groupId"] = 3,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-														[2] = 
-														{
-															["number"] = 2,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [2]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 3,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["livery_id"] = "desert",
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "M1043 HMMWV Armament",
-										["unitId"] = 3,
-										["y"] = -58171.679694343,
-										["x"] = -144765.87508752,
-										["name"] = "Ground-3-1",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-								}, -- end of ["units"]
-								["y"] = -58171.679694343,
-								["x"] = -144765.87508752,
-								["name"] = "Ground-3",
-								["start_time"] = 0,
-							}, -- end of [2]
-							[3] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -58142.308228932,
-												["x"] = -144754.08034995,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -58142.308228932,
-												["x"] = -144754.08034995,
-											}, -- end of [2]
-										}, -- end of [1]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1130,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -58142.308228932,
-											["x"] = -144754.08034995,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "EPLRS",
-																	["params"] = 
-																	{
-																		["value"] = true,
-																		["groupId"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-														[2] = 
-														{
-															["number"] = 2,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [2]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 5,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["livery_id"] = "desert",
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "M1043 HMMWV Armament",
-										["unitId"] = 5,
-										["y"] = -58142.308228932,
-										["x"] = -144754.08034995,
-										["name"] = "Ground-4-1",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-								}, -- end of ["units"]
-								["y"] = -58142.308228932,
-								["x"] = -144754.08034995,
-								["name"] = "Ground-4",
-								["start_time"] = 0,
-							}, -- end of [3]
-							[4] = 
-							{
-								["visible"] = false,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -58218.526914359,
-												["x"] = -144809.68092511,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -58218.526914359,
-												["x"] = -144809.68092511,
-											}, -- end of [2]
-										}, -- end of [1]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1138,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -58218.526914359,
-											["x"] = -144809.68092511,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "EPLRS",
-																	["params"] = 
-																	{
-																		["value"] = true,
-																		["groupId"] = 5,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-														[2] = 
-														{
-															["number"] = 2,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [2]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 6,
+								["groupId"] = 21,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -547,27 +122,383 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "MaxxPro_MRAP",
-										["unitId"] = 6,
-										["y"] = -58218.526914359,
-										["x"] = -144809.68092511,
-										["name"] = "Ground-5-1",
-										["heading"] = 4.0962877544307,
+										["unitId"] = 61,
+										["y"] = -58311.092522366,
+										["x"] = -144895.19140364,
+										["name"] = "Ground-6-1",
+										["heading"] = 3.385938748869,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -58218.526914359,
-								["x"] = -144809.68092511,
-								["name"] = "Ground-5",
+								["y"] = -58311.092522366,
+								["x"] = -144895.19140364,
+								["name"] = "Ground-6",
 								["start_time"] = 0,
+								["hiddenOnPlanner"] = true,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = true,
+								["lateActivation"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -58286.447492473,
+												["x"] = -144881.19978397,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -58286.447492473,
+												["x"] = -144881.19978397,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1165.3402466672,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58286.447492473,
+											["x"] = -144881.19978397,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "EPLRS",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["groupId"] = 7,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 4,
+																		["name"] = 0,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
+								}, -- end of ["route"]
+								["groupId"] = 22,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "M1043 HMMWV Armament",
+										["unitId"] = 62,
+										["y"] = -58286.447492473,
+										["x"] = -144881.19978397,
+										["name"] = "Ground-7-1",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -58286.447492473,
+								["x"] = -144881.19978397,
+								["name"] = "Ground-7",
+								["start_time"] = 0,
+								["hiddenOnPlanner"] = true,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = true,
+								["lateActivation"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -58273.927466875,
+												["x"] = -144850.20915333,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -58273.927466875,
+												["x"] = -144850.20915333,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1166.2831187039,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58273.927466875,
+											["x"] = -144850.20915333,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "EPLRS",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["groupId"] = 8,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 4,
+																		["name"] = 0,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
+								}, -- end of ["route"]
+								["groupId"] = 23,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "M1043 HMMWV Armament",
+										["unitId"] = 63,
+										["y"] = -58273.927466875,
+										["x"] = -144850.20915333,
+										["name"] = "Ground-8-1",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -58273.927466875,
+								["x"] = -144850.20915333,
+								["name"] = "Ground-8",
+								["start_time"] = 0,
+								["hiddenOnPlanner"] = true,
+							}, -- end of [3]
+							[4] = 
+							{
+								["visible"] = true,
+								["lateActivation"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -58246.678034551,
+												["x"] = -144834.10737541,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -58246.678034551,
+												["x"] = -144834.10737541,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1166.0694954434,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58246.678034551,
+											["x"] = -144834.10737541,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "EPLRS",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["groupId"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 4,
+																		["name"] = 0,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
+								}, -- end of ["route"]
+								["groupId"] = 24,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "desert",
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "M1043 HMMWV Armament",
+										["unitId"] = 64,
+										["y"] = -58246.678034551,
+										["x"] = -144834.10737541,
+										["name"] = "Ground-9-1",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -58246.678034551,
+								["x"] = -144834.10737541,
+								["name"] = "Ground-9",
+								["start_time"] = 0,
+								["hiddenOnPlanner"] = true,
 							}, -- end of [4]
 							[5] = 
 							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
+								["visible"] = true,
+								["lateActivation"] = true,
 								["tasks"] = {},
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
 								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -576,13 +507,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58015.568427234,
-												["x"] = -145023.26340626,
+												["y"] = -58424.367729719,
+												["x"] = -144846.24120335,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58015.568427234,
-												["x"] = -145023.26340626,
+												["y"] = -58424.367729719,
+												["x"] = -144846.24120335,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -590,13 +521,13 @@ staticTemplate =
 									{
 										[1] = 
 										{
-											["alt"] = 1150,
+											["alt"] = 1168.4607331862,
 											["type"] = "Turning Point",
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58015.568427234,
-											["x"] = -145023.26340626,
+											["y"] = -58424.367729719,
+											["x"] = -144846.24120335,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -632,8 +563,9 @@ staticTemplate =
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 16,
+								["groupId"] = 25,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -642,11 +574,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier M4",
-										["unitId"] = 44,
-										["y"] = -58015.568427234,
-										["x"] = -145023.26340626,
-										["name"] = "primary destroyed 1-7-1",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 65,
+										["y"] = -58424.367729719,
+										["x"] = -144846.24120335,
+										["name"] = "INF Squad 1-3-1",
+										["heading"] = 3.7297686115119,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -654,11 +586,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier M4",
-										["unitId"] = 45,
-										["y"] = -58009.070871311,
-										["x"] = -145020.43607988,
-										["name"] = "primary destroyed 1-7-2",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 66,
+										["y"] = -58418.529031511,
+										["x"] = -144842.2260308,
+										["name"] = "INF Squad 1-3-2",
+										["heading"] = 3.7297686115119,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -666,11 +598,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier M249",
-										["unitId"] = 46,
-										["y"] = -58004.935729213,
-										["x"] = -145025.50357993,
-										["name"] = "primary destroyed 1-7-3",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 67,
+										["y"] = -58413.50293902,
+										["x"] = -144846.41140429,
+										["name"] = "INF Squad 1-3-3",
+										["heading"] = 3.7297686115119,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -678,11 +610,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier M4",
-										["unitId"] = 47,
-										["y"] = -58008.239483639,
-										["x"] = -145031.91532384,
-										["name"] = "primary destroyed 1-7-4",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 68,
+										["y"] = -58415.874393384,
+										["x"] = -144853.62937458,
+										["name"] = "INF Squad 1-3-4",
+										["heading"] = 3.7297686115119,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -690,27 +622,245 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier M249",
-										["unitId"] = 48,
-										["y"] = -58015.459334026,
-										["x"] = -145031.11895586,
-										["name"] = "primary destroyed 1-7-5",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 69,
+										["y"] = -58422.761731336,
+										["x"] = -144853.93160841,
+										["name"] = "INF Squad 1-3-5",
+										["heading"] = 3.7297686115119,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 								}, -- end of ["units"]
-								["y"] = -58015.568427234,
-								["x"] = -145023.26340626,
-								["name"] = "primary destroyed 1-7",
+								["y"] = -58424.367729719,
+								["x"] = -144846.24120335,
+								["name"] = "INF Squad 1-3",
 								["start_time"] = 0,
+								["hiddenOnPlanner"] = true,
 							}, -- end of [5]
 							[6] = 
 							{
-								["visible"] = false,
+								["visible"] = true,
+								["lateActivation"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["hiddenOnMFD"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1160.983430787,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58204.383248706,
+											["x"] = -145039.99691706,
+											["ETA_locked"] = true,
+											["speed"] = 4,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
+								}, -- end of ["route"]
+								["groupId"] = 29,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 77,
+										["y"] = -58204.383248706,
+										["x"] = -145039.99691706,
+										["name"] = "INF Squad 1-4-1",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 78,
+										["y"] = -58201.868753282,
+										["x"] = -145033.37201554,
+										["name"] = "INF Squad 1-4-2",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 79,
+										["y"] = -58195.353933866,
+										["x"] = -145033.95174388,
+										["name"] = "INF Squad 1-4-3",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 80,
+										["y"] = -58193.194568252,
+										["x"] = -145041.23597555,
+										["name"] = "INF Squad 1-4-4",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 81,
+										["y"] = -58198.684896579,
+										["x"] = -145045.40527576,
+										["name"] = "INF Squad 1-4-5",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -58204.383248706,
+								["x"] = -145039.99691706,
+								["name"] = "INF Squad 1-4",
+								["start_time"] = 0,
 								["hiddenOnPlanner"] = true,
+							}, -- end of [6]
+							[7] = 
+							{
+								["visible"] = true,
+								["lateActivation"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["hiddenOnMFD"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1164.2718862239,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58219.3372026,
+											["x"] = -144853.28572143,
+											["ETA_locked"] = true,
+											["speed"] = 4,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
+								}, -- end of ["route"]
+								["groupId"] = 32,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 88,
+										["y"] = -58219.3372026,
+										["x"] = -144853.28572143,
+										["name"] = "INF Squad 1-5-1",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 89,
+										["y"] = -58216.822707176,
+										["x"] = -144846.66081991,
+										["name"] = "INF Squad 1-5-2",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 90,
+										["y"] = -58210.307887759,
+										["x"] = -144847.24054825,
+										["name"] = "INF Squad 1-5-3",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 91,
+										["y"] = -58208.148522146,
+										["x"] = -144854.52477992,
+										["name"] = "INF Squad 1-5-4",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 92,
+										["y"] = -58213.638850473,
+										["x"] = -144858.69408013,
+										["name"] = "INF Squad 1-5-5",
+										["heading"] = 3.1241393610699,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -58219.3372026,
+								["x"] = -144853.28572143,
+								["name"] = "INF Squad 1-5",
+								["start_time"] = 0,
+								["hiddenOnPlanner"] = true,
+							}, -- end of [7]
+							[8] = 
+							{
+								["visible"] = true,
+								["lateActivation"] = true,
 								["tasks"] = {},
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
+								["hiddenOnMFD"] = false,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -719,13 +869,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58265.028930074,
-												["x"] = -144719.75491619,
+												["y"] = -58328.026471587,
+												["x"] = -144895.82737645,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58265.028930074,
-												["x"] = -144719.75491619,
+												["y"] = -58328.026471587,
+												["x"] = -144895.82737645,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -733,13 +883,13 @@ staticTemplate =
 									{
 										[1] = 
 										{
-											["alt"] = 1138,
+											["alt"] = 1135,
 											["type"] = "Turning Point",
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58265.028930074,
-											["x"] = -144719.75491619,
+											["y"] = -58328.026471587,
+											["x"] = -144895.82737645,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -753,6 +903,25 @@ staticTemplate =
 														[1] = 
 														{
 															["number"] = 1,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "EPLRS",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["groupId"] = 1,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
 															["auto"] = false,
 															["id"] = "WrappedAction",
 															["enabled"] = true,
@@ -763,20 +932,21 @@ staticTemplate =
 																	["id"] = "Option",
 																	["params"] = 
 																	{
-																		["name"] = 0,
 																		["value"] = 4,
+																		["name"] = 0,
 																	}, -- end of ["params"]
 																}, -- end of ["action"]
 															}, -- end of ["params"]
-														}, -- end of [1]
+														}, -- end of [2]
 													}, -- end of ["tasks"]
 												}, -- end of ["params"]
 											}, -- end of ["task"]
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
+									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 17,
+								["groupId"] = 34,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -784,78 +954,27 @@ staticTemplate =
 									{
 										["skill"] = "Average",
 										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 49,
-										["y"] = -58265.028930074,
-										["x"] = -144719.75491619,
-										["name"] = "primary destroyed 1-8-1",
-										["heading"] = 3.9217548292313,
+										["type"] = "MaxxPro_MRAP",
+										["unitId"] = 98,
+										["y"] = -58328.026471587,
+										["x"] = -144895.82737645,
+										["name"] = "Ground-1-1",
+										["heading"] = 4.1364303272266,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 50,
-										["y"] = -58258.531374151,
-										["x"] = -144716.92758981,
-										["name"] = "primary destroyed 1-8-2",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 51,
-										["y"] = -58254.396232053,
-										["x"] = -144721.99508986,
-										["name"] = "primary destroyed 1-8-3",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M4",
-										["unitId"] = 52,
-										["y"] = -58258.101369782,
-										["x"] = -144728.62795088,
-										["name"] = "primary destroyed 1-8-4",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier M249",
-										["unitId"] = 53,
-										["y"] = -58264.919836866,
-										["x"] = -144727.61046578,
-										["name"] = "primary destroyed 1-8-5",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
 								}, -- end of ["units"]
-								["y"] = -58265.028930074,
-								["x"] = -144719.75491619,
-								["name"] = "primary destroyed 1-8",
+								["y"] = -58328.026471587,
+								["x"] = -144895.82737645,
+								["name"] = "Ground-1",
 								["start_time"] = 0,
-							}, -- end of [6]
+								["hiddenOnPlanner"] = false,
+							}, -- end of [8]
 						}, -- end of ["group"]
 					}, -- end of ["vehicle"]
-				}, -- end of [21]
+					["name"] = "USA",
+				}, -- end of [18]
 			}, -- end of ["country"]
 		}, -- end of ["blue"]
-		["neutrals"] = 
-		{
-			["name"] = "neutrals",
-			["country"] = {},
-		}, -- end of ["neutrals"]
 		["red"] = 
 		{
 			["name"] = "red",
@@ -876,6 +995,7 @@ staticTemplate =
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
 								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -884,13 +1004,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58828.473456539,
-												["x"] = -145138.4279722,
+												["y"] = -58910.495324299,
+												["x"] = -144987.66880216,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58828.473456539,
-												["x"] = -145138.4279722,
+												["y"] = -58910.495324299,
+												["x"] = -144987.66880216,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -898,13 +1018,13 @@ staticTemplate =
 									{
 										[1] = 
 										{
-											["alt"] = 1125,
+											["alt"] = 1142,
 											["type"] = "Turning Point",
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58828.473456539,
-											["x"] = -145138.4279722,
+											["y"] = -58910.495324299,
+											["x"] = -144987.66880216,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -913,35 +1033,14 @@ staticTemplate =
 												["id"] = "ComboTask",
 												["params"] = 
 												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
+													["tasks"] = {},
 												}, -- end of ["params"]
 											}, -- end of ["task"]
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 9,
+								["groupId"] = 27,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -950,11 +1049,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier RPG",
-										["unitId"] = 17,
-										["y"] = -58828.473456539,
-										["x"] = -145138.4279722,
-										["name"] = "Ground-8-1",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 71,
+										["y"] = -58910.495324299,
+										["x"] = -144987.66880216,
+										["name"] = "SECONDARY INCAPACITATED 2-3-1",
+										["heading"] = 0.44854961776254,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 									[2] = 
@@ -962,11 +1061,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier AK",
-										["unitId"] = 18,
-										["y"] = -58821.975900616,
-										["x"] = -145135.60064582,
-										["name"] = "Ground-8-2",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 72,
+										["y"] = -58904.500193703,
+										["x"] = -144983.89118168,
+										["name"] = "SECONDARY INCAPACITATED 2-3-2",
+										["heading"] = 3.7699111843078,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 									[3] = 
@@ -974,11 +1073,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier AK",
-										["unitId"] = 19,
-										["y"] = -58817.840758518,
-										["x"] = -145140.66814587,
-										["name"] = "Ground-8-3",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 73,
+										["y"] = -58899.646116798,
+										["x"] = -144988.27488951,
+										["name"] = "SECONDARY INCAPACITATED 2-3-3",
+										["heading"] = 3.7699111843078,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 									[4] = 
@@ -986,11 +1085,11 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier RPG",
-										["unitId"] = 20,
-										["y"] = -58821.545896247,
-										["x"] = -145147.3010069,
-										["name"] = "Ground-8-4",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 74,
+										["y"] = -58902.305330793,
+										["x"] = -144995.39187426,
+										["name"] = "SECONDARY INCAPACITATED 2-3-4",
+										["heading"] = 3.7699111843078,
 										["playerCanDrive"] = false,
 									}, -- end of [4]
 									[5] = 
@@ -998,17 +1097,17 @@ staticTemplate =
 										["skill"] = "Average",
 										["coldAtStart"] = false,
 										["type"] = "Soldier AK",
-										["unitId"] = 21,
-										["y"] = -58827.771105913,
-										["x"] = -145145.43132198,
-										["name"] = "Ground-8-5",
-										["heading"] = 3.9217548292313,
+										["unitId"] = 75,
+										["y"] = -58908.699277144,
+										["x"] = -144994.40552434,
+										["name"] = "SECONDARY INCAPACITATED 2-3-5",
+										["heading"] = 3.7699111843078,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 								}, -- end of ["units"]
-								["y"] = -58828.473456539,
-								["x"] = -145138.4279722,
-								["name"] = "primary destroyed 1",
+								["y"] = -58910.495324299,
+								["x"] = -144987.66880216,
+								["name"] = "SECONDARY INCAPACITATED 2-3",
 								["start_time"] = 0,
 							}, -- end of [1]
 							[2] = 
@@ -1019,6 +1118,7 @@ staticTemplate =
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
 								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -1027,13 +1127,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58862.860824329,
-												["x"] = -144910.45820547,
+												["y"] = -58842.158748047,
+												["x"] = -144987.12544264,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58862.860824329,
-												["x"] = -144910.45820547,
+												["y"] = -58842.158748047,
+												["x"] = -144987.12544264,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1041,13 +1141,13 @@ staticTemplate =
 									{
 										[1] = 
 										{
-											["alt"] = 1152,
+											["alt"] = 1144,
 											["type"] = "Turning Point",
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58862.860824329,
-											["x"] = -144910.45820547,
+											["y"] = -58842.158748047,
+											["x"] = -144987.12544264,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -1056,35 +1156,14 @@ staticTemplate =
 												["id"] = "ComboTask",
 												["params"] = 
 												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
+													["tasks"] = {},
 												}, -- end of ["params"]
 											}, -- end of ["task"]
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 10,
+								["groupId"] = 28,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1092,66 +1171,18 @@ staticTemplate =
 									{
 										["skill"] = "Average",
 										["coldAtStart"] = false,
-										["type"] = "Soldier RPG",
-										["unitId"] = 22,
-										["y"] = -58862.860824329,
-										["x"] = -144910.45820547,
-										["name"] = "primary destroyed 1-1-1",
-										["heading"] = 3.9217548292313,
+										["type"] = "tt_DSHK",
+										["unitId"] = 76,
+										["y"] = -58842.158748047,
+										["x"] = -144987.12544264,
+										["name"] = "PRIMARY INCAPACITATED 1-2-1",
+										["heading"] = 2.146754979953,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 23,
-										["y"] = -58856.363268406,
-										["x"] = -144907.63087909,
-										["name"] = "primary destroyed 1-1-2",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 24,
-										["y"] = -58852.228126308,
-										["x"] = -144912.69837914,
-										["name"] = "primary destroyed 1-1-3",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier RPG",
-										["unitId"] = 25,
-										["y"] = -58855.933264037,
-										["x"] = -144919.33124016,
-										["name"] = "primary destroyed 1-1-4",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 26,
-										["y"] = -58862.751731121,
-										["x"] = -144918.31375506,
-										["name"] = "primary destroyed 1-1-5",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
 								}, -- end of ["units"]
-								["y"] = -58862.860824329,
-								["x"] = -144910.45820547,
-								["name"] = "primary destroyed 1-1",
+								["y"] = -58842.158748047,
+								["x"] = -144987.12544264,
+								["name"] = "PRIMARY INCAPACITATED 1-2",
 								["start_time"] = 0,
 							}, -- end of [2]
 							[3] = 
@@ -1162,6 +1193,7 @@ staticTemplate =
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
 								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -1170,394 +1202,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58596.877890544,
-												["x"] = -145131.83275052,
+												["y"] = -58767.852417841,
+												["x"] = -145119.88566685,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58596.877890544,
-												["x"] = -145131.83275052,
-											}, -- end of [2]
-										}, -- end of [1]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1126,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -58596.877890544,
-											["x"] = -145131.83275052,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 11,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier RPG",
-										["unitId"] = 27,
-										["y"] = -58596.877890544,
-										["x"] = -145131.83275052,
-										["name"] = "primary destroyed 1-2-1",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 28,
-										["y"] = -58590.268970513,
-										["x"] = -145130.0797177,
-										["name"] = "primary destroyed 1-2-2",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 29,
-										["y"] = -58586.245192523,
-										["x"] = -145134.07292419,
-										["name"] = "primary destroyed 1-2-3",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier RPG",
-										["unitId"] = 30,
-										["y"] = -58589.950330251,
-										["x"] = -145140.70578521,
-										["name"] = "primary destroyed 1-2-4",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 31,
-										["y"] = -58596.768797335,
-										["x"] = -145139.68830011,
-										["name"] = "primary destroyed 1-2-5",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
-								}, -- end of ["units"]
-								["y"] = -58596.877890544,
-								["x"] = -145131.83275052,
-								["name"] = "primary destroyed 1-2",
-								["start_time"] = 0,
-							}, -- end of [3]
-							[4] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -58808.338310611,
-												["x"] = -145233.83311442,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -58808.338310611,
-												["x"] = -145233.83311442,
-											}, -- end of [2]
-										}, -- end of [1]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1123,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -58808.338310611,
-											["x"] = -145233.83311442,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 4,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 12,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier RPG",
-										["unitId"] = 32,
-										["y"] = -58808.338310611,
-										["x"] = -145233.83311442,
-										["name"] = "primary destroyed 1-3-1",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-									[2] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 33,
-										["y"] = -58800.092572837,
-										["x"] = -145230.91534435,
-										["name"] = "primary destroyed 1-3-2",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [2]
-									[3] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 34,
-										["y"] = -58797.70561259,
-										["x"] = -145236.07328809,
-										["name"] = "primary destroyed 1-3-3",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [3]
-									[4] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier RPG",
-										["unitId"] = 35,
-										["y"] = -58801.410750319,
-										["x"] = -145242.70614911,
-										["name"] = "primary destroyed 1-3-4",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [4]
-									[5] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "Soldier AK",
-										["unitId"] = 36,
-										["y"] = -58808.229217403,
-										["x"] = -145241.68866401,
-										["name"] = "primary destroyed 1-3-5",
-										["heading"] = 3.9217548292313,
-										["playerCanDrive"] = false,
-									}, -- end of [5]
-								}, -- end of ["units"]
-								["y"] = -58808.338310611,
-								["x"] = -145233.83311442,
-								["name"] = "primary destroyed 1-3",
-								["start_time"] = 0,
-							}, -- end of [4]
-							[5] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -58806.360588499,
-												["x"] = -145150.96636207,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -58806.360588499,
-												["x"] = -145150.96636207,
-											}, -- end of [2]
-										}, -- end of [1]
-									}, -- end of ["spans"]
-									["points"] = 
-									{
-										[1] = 
-										{
-											["alt"] = 1124,
-											["type"] = "Turning Point",
-											["ETA"] = 0,
-											["alt_type"] = "BARO",
-											["formation_template"] = "",
-											["y"] = -58806.360588499,
-											["x"] = -145150.96636207,
-											["ETA_locked"] = true,
-											["speed"] = 0,
-											["action"] = "Off Road",
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 3,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["speed_locked"] = true,
-										}, -- end of [1]
-									}, -- end of ["points"]
-								}, -- end of ["route"]
-								["groupId"] = 13,
-								["hidden"] = false,
-								["units"] = 
-								{
-									[1] = 
-									{
-										["skill"] = "Average",
-										["coldAtStart"] = false,
-										["type"] = "tt_DSHK",
-										["unitId"] = 41,
-										["y"] = -58806.360588499,
-										["x"] = -145150.96636207,
-										["name"] = "primary destroyed 1-4-5",
-										["heading"] = 0.97738438111682,
-										["playerCanDrive"] = false,
-									}, -- end of [1]
-								}, -- end of ["units"]
-								["y"] = -58806.360588499,
-								["x"] = -145150.96636207,
-								["name"] = "primary destroyed 1-4",
-								["start_time"] = 0,
-							}, -- end of [5]
-							[6] = 
-							{
-								["visible"] = false,
-								["hiddenOnPlanner"] = true,
-								["tasks"] = {},
-								["uncontrollable"] = false,
-								["task"] = "Без задачи",
-								["hiddenOnMFD"] = true,
-								["route"] = 
-								{
-									["spans"] = 
-									{
-										[1] = 
-										{
-											[1] = 
-											{
-												["y"] = -58810.671981633,
-												["x"] = -145135.61507939,
-											}, -- end of [1]
-											[2] = 
-											{
-												["y"] = -58810.671981633,
-												["x"] = -145135.61507939,
+												["y"] = -58767.852417841,
+												["x"] = -145119.88566685,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1570,8 +1221,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58810.671981633,
-											["x"] = -145135.61507939,
+											["y"] = -58767.852417841,
+											["x"] = -145119.88566685,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -1580,35 +1231,14 @@ staticTemplate =
 												["id"] = "ComboTask",
 												["params"] = 
 												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 3,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
+													["tasks"] = {},
 												}, -- end of ["params"]
 											}, -- end of ["task"]
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 14,
+								["groupId"] = 30,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1616,21 +1246,21 @@ staticTemplate =
 									{
 										["skill"] = "Average",
 										["coldAtStart"] = false,
-										["type"] = "HL_DSHK",
-										["unitId"] = 42,
-										["y"] = -58810.671981633,
-										["x"] = -145135.61507939,
-										["name"] = "primary destroyed 1-5-1",
-										["heading"] = 1.4660765716752,
+										["type"] = "tt_DSHK",
+										["unitId"] = 82,
+										["y"] = -58767.852417841,
+										["x"] = -145119.88566685,
+										["name"] = "PRIMARY INCAPACITATED 1-3-1",
+										["heading"] = 0.71034900556169,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -58810.671981633,
-								["x"] = -145135.61507939,
-								["name"] = "primary destroyed 1-5",
+								["y"] = -58767.852417841,
+								["x"] = -145119.88566685,
+								["name"] = "PRIMARY INCAPACITATED 1-3",
 								["start_time"] = 0,
-							}, -- end of [6]
-							[7] = 
+							}, -- end of [3]
+							[4] = 
 							{
 								["visible"] = false,
 								["hiddenOnPlanner"] = true,
@@ -1638,6 +1268,7 @@ staticTemplate =
 								["uncontrollable"] = false,
 								["task"] = "Без задачи",
 								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
 								["route"] = 
 								{
 									["spans"] = 
@@ -1646,13 +1277,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -58866.620997689,
-												["x"] = -144937.40611455,
+												["y"] = -58877.125925008,
+												["x"] = -144913.22937297,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -58866.620997689,
-												["x"] = -144937.40611455,
+												["y"] = -58877.125925008,
+												["x"] = -144913.22937297,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1665,8 +1296,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -58866.620997689,
-											["x"] = -144937.40611455,
+											["y"] = -58877.125925008,
+											["x"] = -144913.22937297,
 											["ETA_locked"] = true,
 											["speed"] = 0,
 											["action"] = "Off Road",
@@ -1675,35 +1306,14 @@ staticTemplate =
 												["id"] = "ComboTask",
 												["params"] = 
 												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["auto"] = false,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["name"] = 0,
-																		["value"] = 3,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
+													["tasks"] = {},
 												}, -- end of ["params"]
 											}, -- end of ["task"]
 											["speed_locked"] = true,
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 15,
+								["groupId"] = 31,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1711,20 +1321,266 @@ staticTemplate =
 									{
 										["skill"] = "Average",
 										["coldAtStart"] = false,
-										["type"] = "HL_DSHK",
-										["unitId"] = 43,
-										["y"] = -58866.620997689,
-										["x"] = -144937.40611455,
-										["name"] = "primary destroyed 1-6-1",
-										["heading"] = 0.76270888312153,
+										["type"] = "Soldier RPG",
+										["unitId"] = 83,
+										["y"] = -58877.125925008,
+										["x"] = -144913.22937297,
+										["name"] = "SECONDARY INCAPACITATED 2-4-1",
+										["heading"] = 0.44854961776254,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier AK",
+										["unitId"] = 84,
+										["y"] = -58871.130794412,
+										["x"] = -144909.45175249,
+										["name"] = "SECONDARY INCAPACITATED 2-4-2",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier AK",
+										["unitId"] = 85,
+										["y"] = -58866.276717507,
+										["x"] = -144913.83546033,
+										["name"] = "SECONDARY INCAPACITATED 2-4-3",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier RPG",
+										["unitId"] = 86,
+										["y"] = -58868.935931502,
+										["x"] = -144920.95244507,
+										["name"] = "SECONDARY INCAPACITATED 2-4-4",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier AK",
+										["unitId"] = 87,
+										["y"] = -58875.329877853,
+										["x"] = -144919.96609515,
+										["name"] = "SECONDARY INCAPACITATED 2-4-5",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -58877.125925008,
+								["x"] = -144913.22937297,
+								["name"] = "SECONDARY INCAPACITATED 2-4",
+								["start_time"] = 0,
+							}, -- end of [4]
+							[5] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -58793.842670346,
+												["x"] = -145104.84129143,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -58793.842670346,
+												["x"] = -145104.84129143,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1127,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58793.842670346,
+											["x"] = -145104.84129143,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 33,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier RPG",
+										["unitId"] = 93,
+										["y"] = -58793.842670346,
+										["x"] = -145104.84129143,
+										["name"] = "SECONDARY INCAPACITATED 2-5-1",
+										["heading"] = 0.44854961776254,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier AK",
+										["unitId"] = 94,
+										["y"] = -58787.84753975,
+										["x"] = -145101.06367095,
+										["name"] = "SECONDARY INCAPACITATED 2-5-2",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier AK",
+										["unitId"] = 95,
+										["y"] = -58782.993462844,
+										["x"] = -145105.44737878,
+										["name"] = "SECONDARY INCAPACITATED 2-5-3",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier RPG",
+										["unitId"] = 96,
+										["y"] = -58785.65267684,
+										["x"] = -145112.56436353,
+										["name"] = "SECONDARY INCAPACITATED 2-5-4",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier AK",
+										["unitId"] = 97,
+										["y"] = -58792.04662319,
+										["x"] = -145111.57801361,
+										["name"] = "SECONDARY INCAPACITATED 2-5-5",
+										["heading"] = 3.7699111843078,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+								}, -- end of ["units"]
+								["y"] = -58793.842670346,
+								["x"] = -145104.84129143,
+								["name"] = "SECONDARY INCAPACITATED 2-5",
+								["start_time"] = 0,
+							}, -- end of [5]
+							[6] = 
+							{
+								["visible"] = false,
+								["hiddenOnPlanner"] = true,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Без задачи",
+								["hiddenOnMFD"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -58775.359021106,
+												["x"] = -145144.61769925,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -58775.359021106,
+												["x"] = -145144.61769925,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 1124,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -58775.359021106,
+											["x"] = -145144.61769925,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 35,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "tt_DSHK",
+										["unitId"] = 99,
+										["y"] = -58775.359021106,
+										["x"] = -145144.61769925,
+										["name"] = "PRIMARY INCAPACITATED 1-1-1",
+										["heading"] = 1.535889741755,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -58866.620997689,
-								["x"] = -144937.40611455,
-								["name"] = "primary destroyed 1-6",
+								["y"] = -58775.359021106,
+								["x"] = -145144.61769925,
+								["name"] = "PRIMARY INCAPACITATED 1-1",
 								["start_time"] = 0,
-							}, -- end of [7]
+							}, -- end of [6]
 						}, -- end of ["group"]
 					}, -- end of ["vehicle"]
 					["name"] = "Syria",
@@ -1732,7 +1588,7 @@ staticTemplate =
 			}, -- end of ["country"]
 		}, -- end of ["red"]
 	}, -- end of ["coalition"]
-	["name"] = "cas_3",
+	["name"] = "cas_uruzgan_3",
 	["requiredModules"] = {},
 	["localization"] = 
 	{

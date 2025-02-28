@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "Bagram"
+desc = "Bagram Air Base"
+coalition = 2
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "Jalalabad"
+desc = "Jalalabad Fenty"
+coalition = 2
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

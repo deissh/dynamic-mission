@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "Camp Bastion"
+desc = "Camp Bastion Leatherneck"
+coalition = 2
+
+capturable = false
+cost = 20
+recoverytype = "land"
+takeofftype = "runway"
+subordinates = {}

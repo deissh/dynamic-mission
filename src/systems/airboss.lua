@@ -1,7 +1,7 @@
 local function setup_airboss()
-    local carriername = "CVN-75"
+    local carriername = "CVN"
 
-    local airboss = AIRBOSS:New(carriername, "Truman")
+    local airboss = AIRBOSS:New(carriername, "CVN-75 Truman")
 
     airboss:SetMenuSingleCarrier(true)
     airboss:SetMenuRecovery(30, 20, false)
