@@ -37,7 +37,6 @@ local function setup_airboss()
         airboss:SetRadioRelayLSO(self:GetUnitName())
     end
 
-
     local tanker = RECOVERYTANKER:New(carriername, "Texaco")
     tanker:SetTakeoffHot()
     tanker:SetRadio(250)
@@ -48,10 +47,9 @@ local function setup_airboss()
     tanker:__Start(1)
 
     function tanker:OnAfterStart(From, Event, To)
-        airboss:SetRecoveryTanker(tanker)  
+        airboss:SetRecoveryTanker(tanker)
         airboss:SetRadioRelayLSO(self:GetUnitName())
     end
-
 
     local awacs = RECOVERYTANKER:New(carriername, "Wizard")
     awacs:SetAWACS()

@@ -53,7 +53,8 @@ local function create_plane()
     local manager = RATMANAGER:New(3)
     local zones = {
         "SPAWN_ZONE-1",
-        "SPAWN_ZONE-2"
+        "SPAWN_ZONE-2",
+        "SPAWN_ZONE-3",
     }
 
     for idx, template in ipairs(protos.PLANE) do
